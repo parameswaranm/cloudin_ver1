@@ -8153,6 +8153,18 @@ a.em-active-button:hover {
 .call_bg {
     background-image: url("assets/images/call-bg.png")
 }
+.clientCount_bg {
+    background-image: url("assets/images/slider/slider-4.jpg")
+}
+ 
+
+.year{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+/*Custom*/
 
 .navbar {
     display: flex;
