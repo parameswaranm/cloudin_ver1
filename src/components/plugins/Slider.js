@@ -12,8 +12,8 @@ const Slider = () => {
         autoplay={true}
         nav={true}
         navText={[
-          "<i className='fa fa-long-arrow-left'></i>",
-          "<i className='fa fa-long-arrow-right'></i>",
+          "<i class='fa fa-long-arrow-left'></i>",
+          "<i class='fa fa-long-arrow-right'></i>",
         ]}
       >
         <div
