@@ -8,7 +8,6 @@ const Navbar = () => {
       if ($(window).scrollTop() > 50) {
         $('#sticky-header').addClass('sticky');
       } else {
-        
         $('#sticky-header').removeClass('sticky');
       }
     });
@@ -178,113 +177,60 @@ const Navbar = () => {
                       </ul>
                     </li>
                     <li>
-                      <a href="#solution.html">IT Solution</a>
+                      <a href="#solution.html">Products</a>
                       <ul className="sub-menu">
                         <li>
-                          <a href="managed-service.html">Managed IT Service</a>
+                          <NavLink activeClassName="active" to="/ai">
+                            Inventory
+                          </NavLink>
                         </li>
                         <li>
-                          <a href="it-service.html">IT Service</a>
+                          <NavLink activeClassName="active" to="/ai">
+                            Mr.Business
+                          </NavLink>
                         </li>
                         <li>
-                          <a href="industries.html">Industries</a>
+                          <NavLink activeClassName="active" to="/ai">
+                            Finjo
+                          </NavLink>
                         </li>
                         <li>
-                          <a href="business-solution.html">Business Solution</a>
-                        </li>
-                        <li>
-                          <a href="product-design.html">Product Design</a>
-                        </li>
-                        <li>
-                          <a href="service-details.html">IT Service Details</a>
+                          <NavLink activeClassName="active" to="/ai">
+                            E-Camp
+                          </NavLink>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="#elements.html">Element</a>
+                      <a href="#elements.html">Policies</a>
                       <ul className="sub-menu">
                         <li>
-                          <a href="service-element.html">Service Box</a>
+                          <NavLink activeClassName="active" to="/ai">
+                            Privacy Policy
+                          </NavLink>
                         </li>
                         <li>
-                          <a href="info-box-element.html">Info Box</a>
+                          <NavLink activeClassName="active" to="/ai">
+                            Pricing Policy
+                          </NavLink>
                         </li>
                         <li>
-                          <a href="team-element.html">Teams</a>
+                          <NavLink activeClassName="active" to="/ai">
+                            Refund Policy
+                          </NavLink>
                         </li>
                         <li>
-                          <a href="case-study-element.html">Case Study</a>
-                        </li>
-                        <li>
-                          <a href="process-element.html">Process</a>
-                        </li>
-                        <li>
-                          <a href="testimonial-element.html">Testimonials</a>
-                        </li>
-                        <li>
-                          <a href="pricing-element.html">Pricing</a>
-                        </li>
-                        <li>
-                          <a href="counter-element.html">Counters</a>
-                        </li>
-                        <li>
-                          <a href="call-do-action-element.html">
-                            Call Do Action
-                          </a>
-                        </li>
-                        <li>
-                          <a href="brand-element.html">Brands</a>
-                        </li>
-                        <li>
-                          <a href="blog-element.html">Blogs</a>
+                          <NavLink activeClassName="active" to="/ai">
+                            Terms & Conditions
+                          </NavLink>
                         </li>
                       </ul>
                     </li>
-                    <li>
-                      <a href="#blog">Blog </a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="blog-gird.html">Blog Gird</a>
-                        </li>
-                        <li>
-                          <a href="blog-list.html">Blog List</a>
-                        </li>
-                        <li>
-                          <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-right-sidebar.html">
-                            Blog Right Sidebar
-                          </a>
-                        </li>
-                        <li>
-                          <a href="blog-details.html">Blog Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#contact">Contact</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="contact.html">Contact One</a>
-                        </li>
-                        <li>
-                          <a href="contact-2.html">Contact Two New</a>
-                        </li>
-                        <li>
-                          <a href="contact-3.html">Contact Three New</a>
-                        </li>
-                        <li>
-                          <a href="contact-4.html">Contact Four New</a>
-                        </li>
-                        <li>
-                          <a href="contact-5.html">Contact Five New</a>
-                        </li>
-                        <li>
-                          <a href="contact-6.html">Contact Six New</a>
-                        </li>
-                      </ul>
-                    </li>
+                     <li>
+                     <NavLink activeClassName="active" to="/ai">
+                            Contact us
+                          </NavLink>
+                       </li>
                   </ul>
                   <div className="donate-btn-header">
                     <a className="dtbtn" href="#">
