@@ -9,7 +9,7 @@ const Services = () => {
             <div className="col-lg-12">
               <div className="breatcome_title">
                 <div className="breatcome_title_inner pb-2">
-                  <h2>Service One</h2>
+                  <h2>Services</h2>
                 </div>
                 <div className="breatcome_content">
                   <ul>
