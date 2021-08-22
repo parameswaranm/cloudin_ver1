@@ -8156,6 +8156,23 @@ a.em-active-button:hover {
 .clientCount_bg {
     background-image: url("assets/images/slider/slider-4.jpg")
 }
+.services_bg1 {
+    background-image: url("assets/images/feature3.jpg")
+}
+ 
+.services_bg2 {
+    background-image: url("assets/images/feature2.jpg")
+}
+ 
+.services_bg3{
+    background-image: url("assets/images/feature1.jpg")
+}
+ 
+.services_bg4 {
+    background-image: url("assets/images/feature2.jpg")
+}
+ 
+style="background-image:url(assets/images/);"
  
 
 .year{

@@ -1,6 +1,6 @@
+import $ from 'jquery';
 import React, { Fragment, useEffect, useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import $ from 'jquery';
 
 const Navbar = () => {
   useEffect(() => {
@@ -122,7 +122,9 @@ const Navbar = () => {
                       </ul>
                     </li>
                     <li>
-                      <a href="#service.html">Services</a>
+                        <NavLink activeClassName="active" to="/services">
+                            Services
+                          </NavLink>
                       <ul className="sub-menu">
                         <li>
                           <NavLink activeClassName="active" to="/ai">

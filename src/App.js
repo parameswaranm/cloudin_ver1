@@ -14,6 +14,7 @@ import ChatBot from './components/pages/services/ChatBot';
 import ITConsulting from './components/pages/services/ITConsulting';
 import MLnNLP from './components/pages/services/MLnNLP';
 import MobileApp from './components/pages/services/MobileApp';
+import Services from './components/pages/services/Services';
 import UxUi from './components/pages/services/UxUi';
 import WebDevelopment from './components/pages/services/WebDevelopment';
 import Layout from './components/plugins/Layout';
@@ -41,6 +42,9 @@ function App() {
         </Route>
         <Route path="/portfolio" exact>
           <Portfolio />
+        </Route>
+        <Route path="/services" exact>
+          <Services />
         </Route>
         <Route path="/ai" exact>
           <ArtificialIntelligence />
