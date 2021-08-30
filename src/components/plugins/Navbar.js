@@ -207,22 +207,22 @@ const Navbar = () => {
                       <a href="#elements.html">Policies</a>
                       <ul className="sub-menu">
                         <li>
-                          <NavLink activeClassName="active" to="/ai">
+                          <NavLink activeClassName="active" to="/privacy">
                             Privacy Policy
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink activeClassName="active" to="/ai">
+                          <NavLink activeClassName="active" to="/pricing">
                             Pricing Policy
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink activeClassName="active" to="/ai">
+                          <NavLink activeClassName="active" to="/refund">
                             Refund Policy
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink activeClassName="active" to="/ai">
+                          <NavLink activeClassName="active" to="/tc">
                             Terms & Conditions
                           </NavLink>
                         </li>

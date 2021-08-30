@@ -7,6 +7,10 @@ import Investor from './components/pages/company/Investor';
 import OurTeam from './components/pages/company/OurTeam';
 import Portfolio from './components/pages/company/Portfolio';
 import NotFound from './components/pages/PageNotFound';
+import Pricing from './components/pages/policies/Pricing';
+import Privacy from './components/pages/policies/Privacy';
+import Refund from './components/pages/policies/Refund';
+import TnC from './components/pages/policies/TnC';
 import ArtificialIntelligence from './components/pages/services/ArtificialIntelligence';
 import AWSnAzure from './components/pages/services/AWSnAzure';
 import Blockchain from './components/pages/services/Blockchain';
@@ -76,6 +80,18 @@ function App() {
         </Route>
         <Route path="/uiux" exact>
           <UxUi />
+        </Route>
+        <Route path="/tc" exact>
+          <TnC />
+        </Route>
+        <Route path="/refund" exact>
+          <Refund />
+        </Route>
+        <Route path="/privacy" exact>
+          <Privacy />
+        </Route>
+        <Route path="/pricing" exact>
+          <Pricing />
         </Route>
         <Route path="*">
           <NotFound />
