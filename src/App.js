@@ -14,6 +14,7 @@ import ChatBot from './components/pages/services/ChatBot';
 import ITConsulting from './components/pages/services/ITConsulting';
 import MLnNLP from './components/pages/services/MLnNLP';
 import MobileApp from './components/pages/services/MobileApp';
+import ReactDev from './components/pages/services/React';
 import Services from './components/pages/services/Services';
 import UxUi from './components/pages/services/UxUi';
 import WebDevelopment from './components/pages/services/WebDevelopment';
@@ -60,6 +61,9 @@ function App() {
         </Route>
         <Route path="/aWSnAzure" exact>
           <AWSnAzure />
+        </Route>
+        <Route path="/react" exact>
+          <ReactDev />
         </Route>
         <Route path="/iTConsulting" exact>
           <ITConsulting />

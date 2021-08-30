@@ -11,20 +11,36 @@ const ArtificialIntelligence = () => {
                 <div className="single_banner_content">
                   <div className="banner_text_content white">
                     <h5 className="mb-3 wow fadeInUp" data-wow-delay="0.5s">
-                      Welcome To Techno
+                      Welcome To Cloudin
                     </h5>
                     <h1 className="wow fadeInUp" data-wow-delay="0.4s">
-                      Affiliate Intelligent
-                    </h1>
-                    <h1 className="wow fadeInUp" data-wow-delay="0.4s">
-                      Products Creators
+                      Artificial Intelligence
                     </h1>
                   </div>
                   <div className="banner_content_text white pt-30">
                     <p className="wow fadeInUp" data-wow-delay="0.5s">
-                      Techno real-time data management technologies, global data
-                      science, and award-winning customer service make our
-                      unstacked data solutions dreamit authors team member.
+                      Cloudin has the expertise to embed AI capabilities in
+                      applications to deliver intelligent and automated
+                      solutions that help clients boost business productivity
+                      and unlock doors to new possibilities. From the machine
+                      learning to a virtual assistant, to natural language
+                      processing, to visual technology, to forecasting and
+                      optimization, we provide solutions and technologies
+                      supporting diverse business environments.
+                    </p>
+                    <p className="wow fadeInUp" data-wow-delay="0.5s">
+                      The technology of Artificial Intelligence (AI) is ready to
+                      touch our lives immensely. It’s has evolved to a level
+                      where it can redefine a business, reshape it innovatively,
+                      and turn it into an intelligently driven organization.
+                    </p>
+                    <p className="wow fadeInUp" data-wow-delay="0.5s">
+                      At Cloudin, we are constantly digging into finding as well
+                      as creating solutions, such as mobile apps, and infusing
+                      them with the high-end AI capabilities. We create AI
+                      solutions that aren’t just smarter but are also self-aware
+                      of boosting up the operational efficiency and growth in an
+                      organization.
                     </p>
                   </div>
                   <div className="slider_button pt-25 d-flex">
@@ -109,10 +125,7 @@ const ArtificialIntelligence = () => {
                   <h6>Our Working Process</h6>
                 </div>
                 <div className="section_main_title">
-                  <h1>Software Testing Process</h1>
-                  <h1>
-                    For My <span>Company</span>
-                  </h1>
+                  <h1>Areas focused by Cloudin</h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
@@ -120,10 +133,10 @@ const ArtificialIntelligence = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="row justify-content-md-center">
+            <div className="col-lg-5 col-md-6 col-sm-12">
               <div
-                className="process_style_two text-center mb-30 wow fadeInUp"
+                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
                 <div className="process_style_two_thumb">
@@ -131,12 +144,15 @@ const ArtificialIntelligence = () => {
                 </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5>Company Planning</h5>
+                    <h5>Machine Learning</h5>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
+                      Our AI application development is focused on Machine
+                      Learning enabling machines to be applied for self-learning
+                      and decision making. Our solutions interpret important
+                      data, identify trends, and identify similar patterns that
+                      help businesses make better decisions.
                     </p>
                   </div>
                   <div className="process_style_two_content_button">
@@ -145,9 +161,9 @@ const ArtificialIntelligence = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-5 col-md-6 col-sm-12">
               <div
-                className="process_style_two text-center mb-30 wow fadeInUp"
+                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
                 <div className="process_style_two_thumb">
@@ -155,12 +171,15 @@ const ArtificialIntelligence = () => {
                 </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5>Design & Execution</h5>
+                    <h5>Virtual Assistants </h5>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
+                      Our AI application development service aims to deliver
+                      rich customer experience and extensive support through
+                      chatbots and voice-enabled interfaces that can understand
+                      and interpret human behavior, languages, and even
+                      sentiments.
                     </p>
                   </div>
                   <div className="process_style_two_content_button">
@@ -169,9 +188,11 @@ const ArtificialIntelligence = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
+          </div>
+          <div className="row mt-25 justify-content-md-center">
+            <div className="col-lg-5 col-md-6 col-sm-12">
               <div
-                className="process_style_two text-center mb-30 wow fadeInUp"
+                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
                 <div className="process_style_two_thumb">
@@ -179,12 +200,39 @@ const ArtificialIntelligence = () => {
                 </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5>Analytics Projects</h5>
+                    <h5>Natural Language Processing </h5>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
+                      We have a strong team that offers end-to-end windows
+                      application development services. Be it desktop, mobile or
+                      tablet we design apps with effortless navigation and
+                      high-quality customer experience along with 24×7 Support.
+                    </p>
+                  </div>
+                  <div className="process_style_two_content_button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-6 col-sm-12">
+              <div
+                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                data-wow-delay="0.3s"
+              >
+                <div className="process_style_two_thumb">
+                  <img src="assets/images/new/pr3.png" alt="" />
+                </div>
+                <div className="process_style_two_content">
+                  <div className="process_style_two_content_title pt-3 pb-2">
+                    <h5>Visual Technology </h5>
+                  </div>
+                  <div className="process_style_two_content_text">
+                    <p>
+                      Cloudin also develops ultra-modern visual apps that
+                      obtain, analyze, and synthesize images and recognize
+                      patterns in them.
                     </p>
                   </div>
                   <div className="process_style_two_content_button">
@@ -197,192 +245,77 @@ const ArtificialIntelligence = () => {
         </div>
       </div>
 
-      <div className="service_area pt-80 pb-70">
+      <div className="about_area pt-80 pb-70">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
               <div
-                className="section_title text-center mb-50 wow fadeInDown"
-                data-wow-delay="0.5s"
+                className="single_about_thumb wow fadeInLeft"
+                data-wow-delay="0.3s"
               >
-                <div className="section_sub_title uppercase mb-3">
-                  <h6>Our Services</h6>
+                <div className="single_about_thumb_inner">
+                  <img src="assets/images/new/ab3.png" alt="" />
                 </div>
-                <div className="section_main_title">
-                  <h1>Explore Our Machine Learning</h1>
-                  <h1>For Your Best Service</h1>
+                <div className="shape_thumb">
+                  <div className="about_shape_thumb_affiliate1 bounce-animate">
+                    <img src="assets/images/shape/3.png" alt="" />
+                  </div>
+                  <div className="about_shape_thumb_affiliate2 rotateme">
+                    <img src="assets/images/shape/rt2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+              <div className="section_title text_left mb-40">
+                <div
+                  className="section_sub_title uppercase mb-3 wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <h6> Our service offerings</h6>
+                </div>
+                <div
+                  className="section_main_title wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <h1>Cloudin Provides Realtime</h1>
+                  <h1>
+                    Best Data <span>Solutions.</span>
+                  </h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div
-                className="service_style_eleven  wow flipInY"
-                data-wow-delay="0ms"
-                data-wow-duration="2500ms"
-              >
-                <div className="single_service_style_eleven">
-                  <div className="service_style_eleven_icon">
-                    <div className="icon">
-                      <i className="flaticon-data"></i>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div
+                    className="about_icon_box wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Process
+                        Automation
+                      </span>
+                      <p>
+                        With the AI solution, we help our customers reduce their
+                        operating costs, achieve more efficiency compared to
+                        what breakthrough time and human resources can do.
+                      </p>
                     </div>
-                  </div>
-                  <div className="service_style_eleven_title pb-4">
-                    <h4>Big Data</h4>
-                  </div>
-                  <div className="service_style_eleven_text pt-2">
-                    <p>
-                      Lorem ipsum dolor amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum
-                    </p>
-                  </div>
-                  <div className="servic_style_eleven_button">
-                    <a href="service-1.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div
-                className="service_style_eleven  wow flipInY"
-                data-wow-delay="0ms"
-                data-wow-duration="2500ms"
-              >
-                <div className="single_service_style_eleven">
-                  <div className="service_style_eleven_icon">
-                    <div className="icon">
-                      <i className="flaticon-system"></i>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Team
+                        Augmentation
+                      </span>
+                      <p>
+                        Expand your team or build your own Virtual Development
+                        Center by hiring real-life native AI application
+                        developers who enjoy solving business challenges using
+                        AI technology.
+                      </p>
                     </div>
-                  </div>
-                  <div className="service_style_eleven_title pb-4">
-                    <h4>Data Analytics</h4>
-                  </div>
-                  <div className="service_style_eleven_text pt-2">
-                    <p>
-                      Lorem ipsum dolor amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum
-                    </p>
-                  </div>
-                  <div className="servic_style_eleven_button">
-                    <a href="service-1.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div
-                className="service_style_eleven  wow flipInY"
-                data-wow-delay="0ms"
-                data-wow-duration="2500ms"
-              >
-                <div className="single_service_style_eleven">
-                  <div className="service_style_eleven_icon">
-                    <div className="icon">
-                      <i className="flaticon-padlock"></i>
-                    </div>
-                  </div>
-                  <div className="service_style_eleven_title pb-4">
-                    <h4>Managed Analytics</h4>
-                  </div>
-                  <div className="service_style_eleven_text pt-2">
-                    <p>
-                      Lorem ipsum dolor amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum
-                    </p>
-                  </div>
-                  <div className="servic_style_eleven_button">
-                    <a href="service-1.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div
-                className="service_style_eleven  wow flipInY"
-                data-wow-delay="0ms"
-                data-wow-duration="2500ms"
-              >
-                <div className="single_service_style_eleven">
-                  <div className="service_style_eleven_icon">
-                    <div className="icon">
-                      <i className="flaticon-process-1"></i>
-                    </div>
-                  </div>
-                  <div className="service_style_eleven_title pb-4">
-                    <h4>Business Intelligence</h4>
-                  </div>
-                  <div className="service_style_eleven_text pt-2">
-                    <p>
-                      Lorem ipsum dolor amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum
-                    </p>
-                  </div>
-                  <div className="servic_style_eleven_button">
-                    <a href="service-1.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div
-                className="service_style_eleven  wow flipInY"
-                data-wow-delay="0ms"
-                data-wow-duration="2500ms"
-              >
-                <div className="single_service_style_eleven">
-                  <div className="service_style_eleven_icon">
-                    <div className="icon">
-                      <i className="flaticon-chart"></i>
-                    </div>
-                  </div>
-                  <div className="service_style_eleven_title pb-4">
-                    <h4>Data Science</h4>
-                  </div>
-                  <div className="service_style_eleven_text pt-2">
-                    <p>
-                      Lorem ipsum dolor amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum
-                    </p>
-                  </div>
-                  <div className="servic_style_eleven_button">
-                    <a href="service-1.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div
-                className="service_style_eleven  wow flipInY"
-                data-wow-delay="0ms"
-                data-wow-duration="2500ms"
-              >
-                <div className="single_service_style_eleven">
-                  <div className="service_style_eleven_icon">
-                    <div className="icon">
-                      <i className="flaticon-data-2"></i>
-                    </div>
-                  </div>
-                  <div className="service_style_eleven_title pb-4">
-                    <h4>Data Management</h4>
-                  </div>
-                  <div className="service_style_eleven_text pt-2">
-                    <p>
-                      Lorem ipsum dolor amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum
-                    </p>
-                  </div>
-                  <div className="servic_style_eleven_button">
-                    <a href="service-1.html">Read More</a>
                   </div>
                 </div>
               </div>
