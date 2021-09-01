@@ -81,12 +81,12 @@ const Navbar = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-3">
-                <div className="logo mt-4">
-                  <a className="logo_img" href="index.html" title="techno">
-                    <img src="assets/images/1.png" alt="" />
+                <div className="logo mt-1">
+                  <a className="logo_img" href="index.html" title="Cloudin">
+                    <img src="assets/images/cloudin_logo.png" alt="Cloudin" />
                   </a>
-                  <a className="main_sticky" href="index.html" title="techno">
-                    <img src="assets/images/logo.png" alt="astute" />
+                  <a className="main_sticky" href="index.html" title="Cloudin">
+                    <img src="assets/images/cloudin_logo_hover.png" alt="Cloudin" />
                   </a>
                 </div>
               </div>

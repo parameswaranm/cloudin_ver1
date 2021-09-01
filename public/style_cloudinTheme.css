@@ -1,0 +1,99 @@
+.bg_color {
+    background: #01A5A7;
+}
+
+.border_grey1 {
+    border: 1px solid #B8B8B8 !important;
+}
+
+.color_white {
+    color: #fff;
+}
+
+.color_yellow {
+    color: #ffb300;
+}
+
+.color_pink {
+    color: #ff0000;
+}
+
+.countries img {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.countries .active {
+    border-bottom: #fff 2px solid;
+}
+
+.border_bottom_dotted {
+    border-bottom: #fff 1px dotted;
+}
+
+.bgYellow {
+    background: #FFB300 !important;
+}
+
+.bgDrkblue {
+    background: #030065 !important;
+}
+
+.bgDrkPink {
+    background: #B20768 !important;
+}
+
+.bgBusiGreen {
+    background: #00A650 !important;
+}
+
+.bgDrkGrey {
+    background: #333333 !important;
+}
+.bgOrange {
+    background: #E07400 !important;
+}
+.bgSharPink {
+    background: #F30B52 !important;
+}
+.bgRed {
+    background: #FF3900 !important;
+}
+.section_sub_title h6 {
+    color: #01A5A7 !important;
+}
+
+.em_bar_bg:before {
+    background: #B20768 !important;
+}
+
+element.style {
+    position: fixed;
+    z-index: 2147483647;
+}
+
+#scrollUp {
+    background: #FFB300 !important;
+}
+
+.slider_text_inner h5 {
+    color: #FFB300 !important;
+}
+
+.owl-next i, .owl-prev i {
+    opacity: 0.6;
+}
+
+.techno_menu>ul>li:hover {
+    background: #01A5A7 !important;
+}
+
+.techno_menu>ul>li:hover a {
+    color: #fff !important;
+}
+
+.techno_menu ul .sub-menu li a {
+    color: #000 !important;
+}
+.slider_text_inner h1 {
+    font-size: 38px!important;}
