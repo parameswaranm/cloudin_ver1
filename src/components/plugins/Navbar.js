@@ -25,18 +25,13 @@ const Navbar = () => {
                     <ul>
                       <li>
                         <a href="#">
-                          <i className="fa fa-envelope-o"></i>example@gmail.com
+                        <i class="fa fa-life-ring" aria-hidden="true"></i>Do you need an awesome virtual assistant?
                         </a>
                       </li>
+                      
                       <li>
                         <a href="#">
-                          <i className="fa fa-map-marker"></i>24/5, 1st Floor,
-                          Kurigram
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-phone"></i>+ (1800) 456 7890
+                         to know all the best tools to get things done quickly.
                         </a>
                       </li>
                     </ul>

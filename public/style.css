@@ -8132,8 +8132,8 @@ a.em-active-button:hover {
 }
 
 .service_bg1 {
-    background-image: url("assets/images/slider/19682.jpg");
-    background-size: inherit;
+    background-image: url("assets/images/slider/61764.jpg");
+    background-size: cover; 
 }
 
 .service_bg2 {
