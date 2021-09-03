@@ -209,9 +209,9 @@ const ArtificialIntelligence = () => {
             </div>
           </div>
           <div className="row justify-content-md-center">
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 ai_box_minheight">
               <div
-                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
                 <div className="process_style_two_thumb">
@@ -236,7 +236,7 @@ const ArtificialIntelligence = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div
-                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
                 <div className="process_style_two_thumb">
@@ -261,7 +261,7 @@ const ArtificialIntelligence = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div
-                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
                 <div className="process_style_two_thumb">
@@ -288,7 +288,7 @@ const ArtificialIntelligence = () => {
           <div className="row mt-25 justify-content-md-center">
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div
-                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
                 <div className="process_style_two_thumb">
@@ -313,7 +313,7 @@ const ArtificialIntelligence = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div
-                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
                 <div className="process_style_two_thumb">
@@ -337,7 +337,7 @@ const ArtificialIntelligence = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div
-                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
                 <div className="process_style_two_thumb">

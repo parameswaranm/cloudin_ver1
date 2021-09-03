@@ -113,7 +113,7 @@ const ReactDev = () => {
           <div className="container">
             <div className="row nagative_margin4">
               <div className="col-lg-4 col-md-6">
-                <div className="service_style_eight bgDrkGrey">
+                <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
                       <i className="flaticon-data"></i>
@@ -130,7 +130,7 @@ const ReactDev = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="service_style_eight bgDrkGrey">
+                <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
                       <i className="flaticon-code"></i>
@@ -147,7 +147,7 @@ const ReactDev = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="service_style_eight bgDrkGrey">
+                <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
                       <i className="flaticon-analysis"></i>
@@ -166,7 +166,7 @@ const ReactDev = () => {
 
             <div className="row justify-content-md-center">
               <div className="col-lg-4 col-md-6">
-                <div className="service_style_eight bgDrkGrey">
+                <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
                       <i className="flaticon-global"></i>

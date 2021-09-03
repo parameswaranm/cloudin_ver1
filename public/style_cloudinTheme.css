@@ -138,4 +138,28 @@ color: #fff !important;
 .leftAlign{
     left:0;
 }
- 
+.ai_box_minheight{
+    min-height:505px!important;
+
+}
+.blockChain_Box_minHeight{
+    min-height:405px!important;
+}
+.blockChain_Box_minHeight2{
+    min-height:305px!important;
+}
+.aws_Box_minHeight{
+    min-height:385px!important;
+}
+.react_Box_minHeight{
+    min-height:385px!important;
+}
+.itCons_Box_minHeight{
+    min-height:335px!important;
+}
+.mobiApp_Box_minHeight{
+    min-height:335px!important;
+}
+.webApp_Box_minHeight{
+    min-height:335px!important;
+}

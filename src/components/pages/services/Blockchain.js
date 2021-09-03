@@ -114,7 +114,7 @@ const Blockchain = () => {
         <div className="container">
           <div className="row nagative_margin4">
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_eight bgDrkGrey">
+              <div className="blockChain_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
                     <i className="flaticon-data"></i>
@@ -131,7 +131,7 @@ const Blockchain = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="service_style_eight bgDrkGrey">
+            <div className="blockChain_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
                     <i className="flaticon-data"></i>
@@ -150,7 +150,7 @@ const Blockchain = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="service_style_eight bgDrkGrey">
+            <div className="blockChain_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
                     <i className="flaticon-data"></i>
@@ -166,7 +166,7 @@ const Blockchain = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="service_style_eight bgDrkGrey">
+            <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
                     <i className="flaticon-data"></i>
@@ -182,7 +182,7 @@ const Blockchain = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="service_style_eight bgDrkGrey">
+            <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
                     <i className="flaticon-data"></i>
@@ -198,7 +198,7 @@ const Blockchain = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="service_style_eight bgDrkGrey">
+            <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
                     <i className="flaticon-data"></i>
@@ -215,7 +215,7 @@ const Blockchain = () => {
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="service_style_eight bgDrkGrey">
+            <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
                     <i className="flaticon-data"></i>
@@ -232,7 +232,7 @@ const Blockchain = () => {
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="service_style_eight bgDrkGrey">
+            <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
                     <i className="flaticon-data"></i>

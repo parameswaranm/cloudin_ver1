@@ -111,7 +111,7 @@ const WebDevelopment = () => {
           <div className="container">
             <div className="row nagative_margin4">
               <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service_style_eight bgDrkGrey">
+                <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
                       <i className="flaticon-data"></i>
@@ -128,7 +128,7 @@ const WebDevelopment = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service_style_eight bgDrkGrey">
+                <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
                       <i className="flaticon-data"></i>
@@ -144,7 +144,7 @@ const WebDevelopment = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service_style_eight bgDrkGrey">
+                <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
                       <i className="flaticon-data"></i>
@@ -162,7 +162,7 @@ const WebDevelopment = () => {
             </div>
             <div className="row justify-content-md-center">
               <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service_style_eight bgDrkGrey">
+                <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
                       <i className="flaticon-data"></i>
@@ -179,7 +179,7 @@ const WebDevelopment = () => {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service_style_eight bgDrkGrey">
+                <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
                       <i className="flaticon-data"></i>
