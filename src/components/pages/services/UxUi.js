@@ -38,11 +38,12 @@ const UxUi = () => {
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
               <div className="section_title text_left mb-40 mt-3">
                 <div className="section_sub_title uppercase mb-3">
-                  <h6>UI / UX design at Cloudin </h6>
+                  <h6>Captivate your </h6>
                 </div>
                 <div className="section_main_title">
                   <h1>
-                    for a smarter and efficient <span>workflow</span>
+                    Users with our elegant UI/UX designs
+                    <span> Our Graceful UI/UX </span>
                   </h1>
                 </div>
                 <div className="em_bar">
@@ -53,26 +54,26 @@ const UxUi = () => {
                 <div className="singel_about_left_inner mb-3">
                   <div className="singel-about-content boder pl-4">
                     <p>
-                      Cloudin is the best web and mobile app design
-                      concentrating on making user experienced design company.
-                      our services for small business, Startup and Enterprise
-                      business. Our expert UI / UX Designer design is great for
-                      users and easy to understand. We report external
-                      arrangements such as the present, offset, implied
-                      motivation and future confirmation. Our User interface
-                      designer will team up with you to make connecting with
-                      visuals that truly resound with your intended interest
-                      group for intense client encounters.
+                      In the current era of Web & Mobile, design goes beyond
+                      creating visual elements. There are several frameworks
+                      having a different set of pre-defined controls and we need
+                      to incorporate those controls into the design and at the
+                      same time need to keep it consistent, purposeful and
+                      efficient.
                     </p>
-                    <h2>Our Approach</h2>
                     <p>
-                      We focus on improving the overall usability and
-                      adaptability of the solutions. We leverage our knowledge
-                      of UI/UX principles, goals, and constraints to fulfill the
-                      complete design/development cycle so that we can satisfy
-                      our customers. Our design architects render the solutions
-                      such that they meet the objectives of both the business as
-                      well as the end-users.
+                      At Cloudin, we take into accountability each and every
+                      minutest aspect of this design variant to provide
+                      compelling and intuitive user experience. We offer mobile
+                      UX design, UX design for SAAS, Product UX design for
+                      startups and more, while ensuring that the end user enjoys
+                      a great value-added experience.
+                    </p>
+                    <p>
+                      Our approach to transforming user experiences build better
+                      products and applications, strengthen engagement with
+                      customers, increase user adoption, boost productivity and
+                      increase revenue footprint with customers.
                     </p>
                   </div>
                 </div>
@@ -87,110 +88,131 @@ const UxUi = () => {
         </div>
       </div>
 
-      <div className="service_area pt-80 pb-70">
+      <div className="call_do_action bg_color2 pt-20 blockcahin_threeBlockAlign blockChain_gloBg">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section_title text_center mb-60 mt-3">
+          <div className="row d-flex align-items-center">
+            <div className="col-lg-6">
+              <div className="section_title text_left mb-40 mt-3">
                 <div className="section_sub_title uppercase mb-3">
-                  <h6>Our UI/UX Process</h6>
+                  <h6> Engage and enhance the customer </h6>
                 </div>
                 <div className="section_main_title">
-                  <h1>
-                    We offer our services in all the areas of
-                    <span>UI /UX Design</span>
-                  </h1>
+                  <h1>experience with Cloudin UI/UX services</h1>
                 </div>
-                <div className="em_bar">
-                  <div className="em_bar_bg"></div>
-                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="acction_thumb">
+                <img src="assets/images/shape2.png" alt="" />
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30">
-                <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-desktop"></i>
-                </div>
-                <div className="service_style_seven_content ">
-                  <div className="service_style_seven_title pb-3">
-                    <h4>UI/UX Design</h4>
+        </div>
+      </div>
+
+      <div className="feature_area pb-2">
+        <div className="feature_area pb-2">
+          <div className="container">
+            <div className="row nagative_margin4">
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
                   </div>
-                  <div className="service_style_seven_text">
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Interaction Designs</h5>
                     <p>
-                      At Cloudin, provide you with services involving unique
-                      user experience that helps in differentiating your
-                      products and services from that of your competitors.
-                      During this process, we explore new and innovative design
-                      ideas, which present the user experience of digital
-                      products/services in a refined manner.
+                      Offer beautiful interaction processes that are driven by
+                      the most modern technologies to offer a great interactive
+                      experience for your users
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30">
-                <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-share-square-o"></i>
-                </div>
-                <div className="service_style_seven_content ">
-                  <div className="service_style_seven_title pb-3">
-                    <h4> Wireframing And Prototyping</h4>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
                   </div>
-                  <div className="service_style_seven_text">
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Information Architecture </h5>
                     <p>
-                      We put together all the information extracted to draft the
-                      right plan. A site map is developed where all the major
-                      sections of the site are laid down. The sitemap works as a
-                      guide to create wireframes and prototypes. The prototype
-                      gives a clear picture of the graphics and the elements
-                      that are to be used.
+                      Collaborating new technologies, design methods and
+                      business processes to formulate digital products that mark
+                      a new beginning
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30">
-                <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-clock-o"></i>
-                </div>
-                <div className="service_style_seven_content ">
-                  <div className="service_style_seven_title pb-3">
-                    <h4>Visual Design</h4>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
                   </div>
-                  <div className="service_style_seven_text">
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Mobile UX</h5>
                     <p>
-                      We develop visual inducement through designing by
-                      imparting a suitable look and feel of your services and
-                      digital products. We apply visual principles, visual
-                      ergonomics, color theory and then add various design
-                      elements, thereby maintaining the visual balance.
+                      Define and design mobile UX strategies that create
+                      excellent B2B and B2C functional enterprise mobile apps
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30">
-                <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-circle-o-notch"></i>
-                </div>
-                <div className="service_style_seven_content ">
-                  <div className="service_style_seven_title pb-3">
-                    <h4>Development</h4>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
                   </div>
-                  <div className="service_style_seven_text">
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> UI/UX Testing</h5>
                     <p>
-                      Once the design is finalized, we go ahead with the
-                      development process after your approval. All the elements
-                      are developed keeping the prototype as a reference. We use
-                      all the graphic elements used in the prototype of the
-                      original mobile application and website and continuously
-                      demonstrate the work in progress through our live
-                      demo-server.
+                      Starting from conceptualizing, analysing, researching,
+                      prototyping, designing to the final stage of UX testing
+                      all under one roof
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
+                  </div>
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Research</h5>
+                    <p>
+                      Team of research analysts brainstorm and integrate their
+                      ideas from the UX research that they have done
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
+                  </div>
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Wireframes</h5>
+                    <p>
+                      Finalization of your design happens only when you have
+                      gone through the design wireframes, which is the skeleton
+                      of your real-working model
                     </p>
                   </div>
                 </div>
@@ -200,66 +222,104 @@ const UxUi = () => {
         </div>
       </div>
 
-      <div className="service_area pt-85 pb-130 blockChain_gloBg2">
+      <div className="about_area pt-80 pb-70">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section_title text_center white mb-55">
-                <div className="section_sub_title uppercase mb-3">
-                  <h6> Why Cloudin for UI & UX</h6>
+          <div className="row align-items-center">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+              <div
+                className="single_about_thumb wow fadeInLeft"
+                data-wow-delay="0.3s"
+              >
+                <div className="single_about_thumb_inner">
+                  <img src="assets/images/new/ab3.png" alt="" />
                 </div>
-
+                <div className="shape_thumb">
+                  <div className="about_shape_thumb_affiliate1 bounce-animate">
+                    <img src="assets/images/shape/3.png" alt="" />
+                  </div>
+                  <div className="about_shape_thumb_affiliate2 rotateme">
+                    <img src="assets/images/shape/rt2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-8 col-md-6 col-sm-12 col-xs-6">
+              <div className="section_title text_left mb-40">
+                <div
+                  className="section_sub_title uppercase mb-3 wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <h6> Our visually and emotionally </h6>
+                </div>
+                <div
+                  className="section_main_title wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <h1>appealing designs with amazing benefits</h1>
+                </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-6 col-md-6">
-              <div className="service_style_eight">
-                <div className="service_style_eight_icon">
-                  <div className="icon">
-                    <i className="flaticon-data"></i>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div
+                    className="about_icon_box wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> o
+                        Touch-friendly navigation options for enhanced user
+                        experience
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> o Ensure a
+                        simplified design layouts to provide a pleasant mobile
+                        experience
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Engage with
+                        users, to ensure they do not abandon the sit
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Using
+                        Consistency and Common UI elements
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Compatibility
+                        with all mobile web browsers: iPhone, Android, iPad
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Easily
+                        accessible and recognizable graphics
+                      </span>
+                    </div>
+
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Fluid Design
+                        which fits with any screen resolution
+                      </span>
+                    </div>
+
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Image
+                        optimization for quick web pages loading
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <div className="service_style_eight_content white pt-4">
-                  <h4>Design & Development</h4>
-                  <p>
-                    We follow the latest UX trends to define user experiences
-                    based on the target audience.
-                  </p>
-                  <a href="#">
-                    Read More{' '}
-                    <i
-                      className="fa fa-long-arrow-right"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="service_style_eight">
-                <div className="service_style_eight_icon">
-                  <div className="icon">
-                    <i className="flaticon-code"></i>
-                  </div>
-                </div>
-                <div className="service_style_eight_content white pt-4">
-                  <h4>Testing And Support</h4>
-                  <p>
-                    Each element of the mobile application and website is
-                    tested, to ensure that the site is optimized and works
-                    properly in all browser versions and devices.
-                  </p>
-                  <a href="#">
-                    Read More{' '}
-                    <i
-                      className="fa fa-long-arrow-right"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
                 </div>
               </div>
             </div>

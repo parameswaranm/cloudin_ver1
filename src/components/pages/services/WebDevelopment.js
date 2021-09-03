@@ -39,11 +39,13 @@ const WebDevelopment = () => {
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
               <div className="section_title text_left mb-40 mt-3">
                 <div className="section_sub_title uppercase mb-3">
-                  <h6>Our Web Application Services</h6>
+                  <h6>End-to-end </h6>
                 </div>
                 <div className="section_main_title">
                   <h1>
-                    What we <span>offer?</span>
+                    Ground-up bespoke web development solutions
+                    <br />
+                    <span> Our Custom Solutions</span>
                   </h1>
                 </div>
                 <div className="em_bar">
@@ -54,41 +56,20 @@ const WebDevelopment = () => {
                 <div className="singel_about_left_inner mb-3">
                   <div className="singel-about-content boder pl-4">
                     <p>
-                      Our team comprises of professional and skilled developers.
-                      With the help of our team, we have emerged as a leading
-                      website development company and possess a huge client-
-                      base across the world.
+                      Modern web applications nowadays ought to provide a
+                      native-app-like user experience on the web.The richer and
+                      snappier your app is, the better edge you have in this
+                      competitive market. And as an expert web development
+                      company, Cloudin provides web application development
+                      service that makes your web solutions superior.
                     </p>
                     <p>
-                      We build your website with optimal designs, short-code
-                      coding and all the latest practices that guarantee success
-                      on the network. Our websites run smoothly on all platforms
-                      and devices as they are very flexible, reliable and
-                      efficient.
-                    </p>
-                    <h2>One-Stop Solution For Your Needs</h2>
-                    <h5>Development Process</h5>
-                    <p>
-                      Our team of Android developers work smartly to deliver a
-                      robust and secure application. We ideate, create excellent
-                      designs, develop and test to deliver bug-free apps.
-                    </p>
-                    <p>
-                      <h2>Why Choose Cloudin?</h2>
-                    </p>
-                    <p>
-                      We offer innovative web designs and developmental
-                      solutions that meet the highest quality standards. We
-                      create a strategy that streamlines your website’s theme.
-                      Our high-quality and efficient services leverage the
-                      capabilities to build scalable & robust websites for our
-                      clients that can escalate their brand value up to a great
-                      extent. Not only do incorporate responsive designs into
-                      new website projects, we also update running websites with
-                      our sophisticated designs. If you’re looking for
-                      responsive web design services, we are here to serve you
-                      with our experienced and highly knowledgeable development
-                      team.
+                      We here at Cloudin help you build tailored web application
+                      for your specific business needs. We design contextual
+                      UI/UX for better usability, select the appropriate
+                      architecture for best performance and write custom code to
+                      incorporate your complex and unique business logic in your
+                      web application.
                     </p>
                   </div>
                 </div>
@@ -103,253 +84,242 @@ const WebDevelopment = () => {
         </div>
       </div>
 
-      <div className="service_area bg_color2 pt-85 pb-70">
+      <div className="call_do_action bg_color2 pt-20 blockcahin_threeBlockAlign blockChain_gloBg">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section_title text_center mb-55">
+          <div className="row d-flex align-items-center">
+            <div className="col-lg-6">
+              <div className="section_title text_left mb-40 mt-3">
                 <div className="section_sub_title uppercase mb-3">
-                  <h6>Web Application at Cloudin</h6>
+                  <h6> Our Full-stack </h6>
                 </div>
                 <div className="section_main_title">
-                  <h1>
-                    Highly <span>Creative Design</span>
-                  </h1>
+                  <h1>Web application development services</h1>
                 </div>
-                <p>
-                  Cloudin has been working on a lot of forms of web
-                  technologies, from simple to complex ones. The web
-                  technologies, developed by Cloudin, have truly inspired
-                  businesses. From education to entertainment, news,
-                  information, business, retail, health and agriculture.
-                </p>
-                <p>We have planned, conceived and executed web technologies for most of the online domains.</p>
-                <h5>Technologies we use</h5>
-                <div className="em_bar">
-                  <div className="em_bar_bg"></div>
-                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="acction_thumb">
+                <img src="assets/images/shape2.png" alt="" />
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>01</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                      <h4>Inventory</h4>
-                    </div> */}
-                  <div className="service_style_two_text">
-                    <p><b>Front-end :</b>
-                    Angular, React , HTML5 , CSS3 and Java Script.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>02</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>Mr.Business</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p><b>Back-end :</b>
-                    MSSQL, MySQL, MongoDB, SQLite, Big Data, SQL and NoSQL.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>03</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>Inventory</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p><b>Framework :</b>
-                    .Net, Jquery, Bootstrap, Materialize, Laravel, Nodejs and Zend.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>04</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>Mr.Business</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p><b>Mobile-apps :</b>
-                    Android, Ionic, Swift and React Native.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>05</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>E-Camp</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                      Chatbots are more human and can be programmed to serve
-                      different languages.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>06</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>FINJO</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                    <b>Technology :</b>
-                    Artificial Intelligence, Machine Learning, IoT, Cloud and Optical Character Recognition.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-            <div className="row justify-content-md-center">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>07</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>FINJO</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                    <b>General purpose programming languages :</b>
-                    Java, PHP, Python and C#.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-             
-            </div>
         </div>
       </div>
 
-      <div className="service_area pt-85 pb-130 blockChain_gloBg2">
+      <div className="feature_area pb-2">
+        <div className="feature_area pb-2">
+          <div className="container">
+            <div className="row nagative_margin4">
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
+                  </div>
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Custom web application development</h5>
+                    <p>
+                       From basic landing pages to customized web development
+                      India, we offer custom web application development
+                      services
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
+                  </div>
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Technology Consulting</h5>
+                    <p>
+                      we are focused to become your reliable IT partner with the
+                      functional know-how,resources, and domain expertise
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
+                  </div>
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Dedicated Web App Development</h5>
+                    <p>
+                      Reduce your overhead cost, ensure high-quality websites
+                      and offer better time to market
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row justify-content-md-center">
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
+                  </div>
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Full stack Development</h5>
+                    <p>
+                      Provide full-stack development on MEAN, MERN, PHP +
+                      Vue.js, .Net + JS, to name a few.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
+                  </div>
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Third Part Integration</h5>
+                    <p>
+                      Creates APIs custom data connectors, web services, and
+                      middleware for secure integration with third-party
+                      solutions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="about_area pt-80 pb-70">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section_title text_center white mb-55">
-                <div className="section_sub_title uppercase mb-3">
-                  <h6> Why Cloudin for Web application </h6>
+          <div className="row align-items-center">
+            <div className="col-lg-8 col-md-6 col-sm-12 col-xs-6 ">
+              <div className="section_title text_left mb-40">
+                <div
+                  className="section_sub_title uppercase mb-3 wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <h6> Technologies we are using</h6>
                 </div>
 
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="service_style_eight">
-                <div className="service_style_eight_icon">
-                  <div className="icon">
-                    <i className="flaticon-data"></i>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div
+                    className="about_icon_box wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i>
+                        Angular, React , HTML5 , CSS3 and Java Script.
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i>
+                        MSSQL, MySQL, MongoDB, SQLite, Big Data, SQL and NoSQL.
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i>
+                        .Net, Jquery, Bootstrap, Materialize, Laravel, Nodejs
+                        and Zend.
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i>
+                        Android, Ionic, Swift and React Native.
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i>
+                        Artificial Intelligence, Machine Learning, IoT, Cloud
+                        and Optical Character Recognition.
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> General purpose
+                        programming languages: Java, PHP, Python and C#.
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <div className="service_style_eight_content white pt-4">
-                  <h4>Meeting Deadlines</h4>
-                  <p>
-                    Our passionate and skilled web development team is very
-                    focused and dedicated to delivering advanced products within
-                    specified deadlines. We strive hard to deliver cutting edge
-                    design services to our clients within the specified time
-                    frame.
-                  </p>
-                  <a href="#">
-                    Read More{' '}
-                    <i
-                      className="fa fa-long-arrow-right"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="service_style_eight">
-                <div className="service_style_eight_icon">
-                  <div className="icon">
-                    <i className="flaticon-code"></i>
-                  </div>
+            <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+              <div className="section_title text_left mb-40">
+                <div
+                  className="section_sub_title uppercase mb-3 wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <h6> Avail the benefits from Cloudin</h6>
                 </div>
-                <div className="service_style_eight_content white pt-4">
-                  <h4>Customer Support </h4>
-                  <p>
-                    We offer 24X7 customer support to our clients and try to
-                    solve all their queries and concerns.
-                  </p>
-                  <a href="#">
-                    Read More{' '}
-                    <i
-                      className="fa fa-long-arrow-right"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
+
+                <div className="em_bar">
+                  <div className="em_bar_bg"></div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="service_style_eight">
-                <div className="service_style_eight_icon">
-                  <div className="icon">
-                    <i className="flaticon-analysis"></i>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div
+                    className="about_icon_box wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Highly creative
+                        & motivated team
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> A technical
+                        supervises the project
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Developers’
+                        talent matches your needs
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> In-depth domain
+                        knowledge
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Integrity &
+                        Transparency
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Enhance user
+                        experience
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <div className="service_style_eight_content white pt-4">
-                  <h4>Technology Process</h4>
-                  <p>
-                    Our web development specialists offer result-oriented web
-                    solutions and services with appropriate resources that match
-                    our client’s requirements. The websites we have developed up
-                    to now, support all major devices and provide a smooth and
-                    pleasant user experience.
-                  </p>
-                  <a href="#">
-                    Read More{' '}
-                    <i
-                      className="fa fa-long-arrow-right"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
                 </div>
               </div>
             </div>

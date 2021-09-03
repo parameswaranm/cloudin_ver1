@@ -113,3 +113,29 @@ color: #fff !important;
     clear:both;
     display:block;
 }
+.vertical_top_it{
+    position: relative;
+    top: -25px;
+}
+
+.vertical_top_mobilApp{
+    position: relative;
+    top: -75px;
+}
+.vertical_top_webApp{
+    position: relative;
+    top: -75px;
+}
+.pos_relative{
+    position: relative;   
+}
+.pos_absolute{
+    position: absolute;     
+}
+.rightAlign{
+    right:0;
+}
+.leftAlign{
+    left:0;
+}
+ 

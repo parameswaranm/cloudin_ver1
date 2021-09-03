@@ -39,11 +39,13 @@ const MobileApp = () => {
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
               <div className="section_title text_left mb-40 mt-3">
                 <div className="section_sub_title uppercase mb-3">
-                  <h6>Mobile App Development</h6>
+                  <h6>Full Spectrum of Mobile Development Services </h6>
                 </div>
                 <div className="section_main_title">
                   <h1>
-                    Highly<span> Creative Design</span>
+                    that you can count on
+                    <br />
+                    <span> Our Cutting-edge technology</span>
                   </h1>
                 </div>
                 <div className="em_bar">
@@ -54,23 +56,20 @@ const MobileApp = () => {
                 <div className="singel_about_left_inner mb-3">
                   <div className="singel-about-content boder pl-4">
                     <p>
-                      App development requires high creativity and technical
-                      knowledge. Being the Top Mobile app developers in
-                      Coimbatore, we just not only build apps but also make sure
-                      that our clients are getting the best digital solutions.
+                      In today’s technological era, mobile app development is no
+                      more an option but a must-have digital strategy for every
+                      business. Mobile apps are the modern day communication
+                      channels of businesses to reach their customers directly.
+                      The demand for high-end android and iOS applications has
+                      escalated in the business sphere.
                     </p>
                     <p>
-                      We focus on blending creativity, skill-set, and Artificial
-                      Intelligence to make the app more user-friendly and
-                      productive. Being the top mobile app development company
-                      worldwide, we have carved out our position among our
-                      clients by constantly offering top-notch services to them.
-                    </p>
-                    <p>
-                      With years of hands-on experience and in-depth knowledge
-                      in the area of mobile technology, we have grown to a
-                      position where the clients can rely upon us without any
-                      second thought.
+                      We at Cloudin develop innovative, stand-out yet
+                      user-friendly apps to drive real outcomes and results in
+                      business performance. From strategy, conceptualization to
+                      custom mobile app development, Cloudin provides a
+                      comprehensive suite of mobile software development
+                      services to meet your project requirements.
                     </p>
                   </div>
                 </div>
@@ -85,104 +84,130 @@ const MobileApp = () => {
         </div>
       </div>
 
-      <div className="service_area pt-80 pb-70">
+      <div className="call_do_action bg_color2 pt-20 blockcahin_threeBlockAlign blockChain_gloBg">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section_title text_center mb-60 mt-3">
+          <div className="row d-flex align-items-center">
+            <div className="col-lg-6">
+              <div className="section_title text_left mb-40 mt-3">
                 <div className="section_sub_title uppercase mb-3">
-                  <h6>Our App Development Services</h6>
+                  <h6> Cloudin offers </h6>
                 </div>
                 <div className="section_main_title">
-                  <h1>
-                    We offer our services in all the areas of{' '}
-                    <span>mobile app development.</span>
-                  </h1>
+                  <h1>Full-cycle mobility solutions</h1>
                 </div>
-                <div className="em_bar">
-                  <div className="em_bar_bg"></div>
-                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="acction_thumb">
+                <img src="assets/images/shape2.png" alt="" />
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30">
-                <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-desktop"></i>
-                </div>
-                <div className="service_style_seven_content ">
-                  <div className="service_style_seven_title pb-3">
-                    <h4>Android App Development</h4>
+        </div>
+      </div>
+
+      <div className="feature_area pb-2">
+        <div className="feature_area pb-2">
+          <div className="container">
+            <div className="row nagative_margin4">
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
                   </div>
-                  <div className="service_style_seven_text">
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Custom Mobile App Development</h5>
                     <p>
-                      Our team of Android developers work smartly to deliver a
-                      robust and secure application. We ideate, create excellent
-                      designs, develop and test to deliver bug-free apps. Our
-                      team ensures that most of the apps we develop are highly
-                      scalable.
+                      Creating feature-packed customized mobile application with
+                      out-of-box custom software development approach
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30">
-                <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-share-square-o"></i>
-                </div>
-                <div className="service_style_seven_content ">
-                  <div className="service_style_seven_title pb-3">
-                    <h4>iOS App Development</h4>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
                   </div>
-                  <div className="service_style_seven_text">
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Technology Consultation</h5>
                     <p>
-                      We have built iPhone & iPad apps from start-ups to Top
-                      companies. Our team has expertise in strategizing,
-                      requirement gathering, seamless designing, development,
-                      rigorous testing, and deployment.
+                      Implement the most appropriate technology stack and
+                      well-thought-out system architecture for your mobile app.
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30">
-                <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-clock-o"></i>
-                </div>
-                <div className="service_style_seven_content ">
-                  <div className="service_style_seven_title pb-3">
-                    <h4>Windows App Development</h4>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
                   </div>
-                  <div className="service_style_seven_text">
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Digital Transformation</h5>
                     <p>
-                      We have a strong team that offers end-to-end windows
-                      application development services. Be it desktop, mobile or
-                      tablet we design apps with effortless navigation and
-                      high-quality customer experience along with 24×7 Support.
+                      Transform digitally with advanced technologies such as AI,
+                      cloud computing, the IoT, and more
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30">
-                <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-circle-o-notch"></i>
-                </div>
-                <div className="service_style_seven_content ">
-                  <div className="service_style_seven_title pb-3">
-                    <h4>React Native Development</h4>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
                   </div>
-                  <div className="service_style_seven_text">
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> App integration</h5>
                     <p>
-                      React native is going to be the future of mobile app
-                      development. React Native is the native version of the
-                      JavaScript library. Our team of developers was fast enough
-                      to adapt to the new technology which made our apps perform
-                      faster and better.
+                      Provides the latest technology integration, payment
+                      gateway integration, and API integration in your existing
+                      mobile app
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
+                  </div>
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> Upgradation & Migration</h5>
+                    <p>
+                      Provides holistic approach to upgrade your existing mobile
+                      app to the latest technology or migrate your app to a
+                      different operating system or platform
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="service_style_eight bgDrkGrey">
+                  <div className="service_style_eight_icon">
+                    <div className="icon">
+                      <i className="flaticon-data"></i>
+                    </div>
+                  </div>
+                  <div className="service_style_eight_content white pt-4">
+                    <h5> QA & Testing Services</h5>
+                    <p>
+                      Puts quality analysts in the loop so that you can make
+                      sure your mobile app runs seamlessly across all devices
+                      and OS.
                     </p>
                   </div>
                 </div>
@@ -192,107 +217,142 @@ const MobileApp = () => {
         </div>
       </div>
 
-      <div className="service_area pt-85 pb-130 blockChain_gloBg2">
+      <div className="about_area pt-80 pb-70">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section_title text_center white mb-55">
-                <div className="section_sub_title uppercase mb-3">
-                  <h6>  Why Cloudin for Mobile app Development </h6>
+          <div className="row align-items-center ">
+            <div className="col-lg-6 col-md-5 col-sm-12 col-xs-6 vertical_top_mobilApp">
+              <div className="section_title text_left mb-40">
+                <div
+                  className="section_sub_title uppercase mb-3 wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <h6> Our Latest Mobile Application Technologies</h6>
                 </div>
 
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-3 col-md-6">
-              <div className="service_style_eight">
-                <div className="service_style_eight_icon">
-                  <div className="icon">
-                    <i className="flaticon-data"></i>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div
+                    className="about_icon_box wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> iOS/iPhone APP
+                        Development
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Xamarin App
+                        Development
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Android App
+                        Development
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> React Native
+                        App Development
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Iconic App
+                        Development
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Flutter Native
+                        App Development
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <div className="service_style_eight_content white pt-4">
-                  <h4>Design & Development</h4>
-                  <p>
-                  We follow the latest UX trends to define user experiences based on the target audience. 
-                  </p>
-                  <a href="#">
-                    Read More{' '}
-                    <i
-                      className="fa fa-long-arrow-right"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="service_style_eight">
-                <div className="service_style_eight_icon">
-                  <div className="icon">
-                    <i className="flaticon-code"></i>
-                  </div>
+            <div className="col-lg-6 col-md-7 col-sm-12 col-xs-6 ">
+              <div className="section_title text_left mb-40">
+                <div
+                  className="section_sub_title uppercase mb-3 wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <h6>
+                    We are industry leaders in custom mobile application with
+                    extensible benefits
+                  </h6>
                 </div>
-                <div className="service_style_eight_content white pt-4">
-                  <h4>The Deployment </h4>
-                  <p>
-                  We deploy the app to the App Store or Enterprise Store along with App store optimization (ASO). 
-                  </p>
-                  <a href="#">
-                    Read More{' '}
-                    <i
-                      className="fa fa-long-arrow-right"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
+
+                <div className="em_bar">
+                  <div className="em_bar_bg"></div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="service_style_eight">
-                <div className="service_style_eight_icon">
-                  <div className="icon">
-                    <i className="flaticon-analysis"></i>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div
+                    className="about_icon_box wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Improved
+                        customer engagement
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Predictive
+                        analysis driven by data analytics
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Reduced cost of
+                        customer acquisition
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Earn trust,
+                        brand loyalty and recognition
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Expand your
+                        business across the world
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Generate more
+                        insight, speed, value and quality
+                      </span>
+                    </div>
+
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Increase
+                        agility and performance of existing business
+                        applications
+                      </span>
+                    </div>
+
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Improve
+                        enterprise’s competitive advantage
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <div className="service_style_eight_content white pt-4">
-                  <h4>Maintenance </h4>
-                  <p>
-                  We provide the best support by addressing the new OS upgradations or version changes or the launch of new devices. 
-                  </p>
-                  <a href="#">
-                    Read More{' '}
-                    <i
-                      className="fa fa-long-arrow-right"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="service_style_eight">
-                <div className="service_style_eight_icon">
-                  <div className="icon">
-                    <i className="flaticon-global"></i>
-                  </div>
-                </div>
-                <div className="service_style_eight_content white pt-4">
-                  <h4>Testing & QA </h4>
-                  <p>
-                  We work on building a Mobile product-specific test plan, test scenarios, and test cases. 
-                  </p>
-                  <a href="#">
-                    Read More{' '}
-                    <i
-                      className="fa fa-long-arrow-right"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
                 </div>
               </div>
             </div>
