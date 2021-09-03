@@ -10,29 +10,29 @@ const MLnNLP = () => {
               <div className="single_banner">
                 <div className="single_banner_content">
                   <div className="banner_text_content white">
-                    <h5 className="mb-3">Welcome To Cloudin</h5>
-                    <h1>Machine Learning and Natural Language Processing </h1>
+                    <h5 className="mb-3">Our Competency</h5>
+                    <h1>
+                      Simplify the creation of Machine Learning Modelswith
+                      powerful NLP algorithm with datasets of any size
+                    </h1>
                   </div>
                   <div className="banner_content_text white pt-30">
                     <p>
-                      Cloudin’s AI application development is focused on Machine
-                      Learning enabling machines to be applied for self-learning
-                      and decision making. Our solutions interpret critical
-                      data, discover trends, and mark similar patterns which
-                      help businesses make better decisions.
+                      Machine Learning and natural language processing entered
+                      the mainstream business, disrupting existing business
+                      models through its predictive capabilities. Over the past
+                      decade, it’s no surprise that with the volume of raw,
+                      unstructured data available today enterprise ML &NLP
+                      solutions are one of the most sought-after services
                     </p>
                     <p>
-                      With AI and Machine Learning application development, we
-                      are also focusing on enabling machines to understand what
-                      people speak and write in their natural styles, how they
-                      interpret the context and various sentiments and then take
-                      related actions.
-                    </p>
-                    <p>
-                      Natural Language Processing (NLP) is a field of Artificial
-                      Intelligence (AI) that helps in processing the natural
-                      language and extract relevant information for the
-                      organization through text analytics.
+                      At Cloudin, we offera broad range of machine learning
+                      algorithms with industry-leading speed and scale. The
+                      workbench and toolkit of ML & NLP simplify creation of AI
+                      model by applying automation to the data science workflow.
+                      Our comprehensive machine learning solutions untangle
+                      complexity and create your end-to-end AI solution, from
+                      the core data centre to the intelligent edge.
                     </p>
                   </div>
                   <div className="slider_button pt-25 d-flex">
@@ -107,10 +107,13 @@ const MLnNLP = () => {
             <div className="col-lg-7 col-md-6 col-sm-12 col-xs-6">
               <div className="section_title text_left mb-40 mt-3">
                 <div className="section_sub_title uppercase mb-3">
-                  <h6>Cloudin About</h6>
+                  <h6>Solutions unleashing </h6>
                 </div>
                 <div className="section_main_title">
-                  <h1>Customized Machine Learning and AI Solutions</h1>
+                  <h1>
+                    Machine Learning capabilities that enables organizations to
+                    increase top-line growth
+                  </h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
@@ -121,35 +124,80 @@ const MLnNLP = () => {
                   <div className="singel-about-content">
                     <ul className="ml_ul">
                       <li>
-                        We design customized AI and ML-enabled solutions that
-                        can easily integrate into the existing working process.
+                        <h5>Natural Language Processing</h5>
+                        Provide your clients with contextual, user-friendly and
+                        meaningful customer service around the clock
                       </li>
                       <li>
-                        Our service focuses on delivering extensive support
-                        through chatbots and voice-enabled interfaces that can
-                        understand and interpret human behavior, languages, and
-                        even sentiments.
+                        <h5>Cybersecurity</h5>
+                        Develop an intelligent and automated cyber defense
+                        system with minimum-skilled cybersecurity force.
                       </li>
                       <li>
-                        We can help you develop Machine learning solutions that
-                        can lead to significant cost and time benefits for your
-                        organization.
+                        <h5>Algorithm Design</h5>
+                        Solve problems pertaining to designing or writing
+                        effective algorithms.
                       </li>
                       <li>
-                        We offer natural language processing services using a
-                        combination of artificial intelligence, machine
-                        learning, and linguistics.
-                      </li>
-                      <li>
-                        Get in touch with our Natural Language Processing (NLP)
-                        Experts to benefit from their expertise in NLP,
-                        Computational Linguistics and Machine Learning. We help
-                        you to build datasets to support your needs. Natural
-                        Language Processing, Machine Learning, Linguistics,
-                        Language understanding, Data Engineering, Data
-                        structuring, and more.
+                        <h5> Data Modelling</h5>
+                        Offer comprehensive data modelling, right from
+                        hypothesizing to physical implementation
                       </li>
                     </ul>
+                  </div>
+                </div>
+
+                <div className="col-lg-12">
+                  <h2 className="mb-30">
+                    Cloudin optimize processes with ML and NLP benefits
+                  </h2>
+                  <div
+                    className="about_icon_box wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Build & deploy
+                        scalable ML models
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Distil huge
+                        volumes of raw data
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Rapid analysis
+                        prediction and processing
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Scale accurate
+                        financial predictions and models
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Integrate
+                        organization’s framework for data preparation
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Reduce time to
+                        answer common queries
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Enable text
+                        classification, named entity recognition & sentiment
+                        analysis
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -169,7 +217,7 @@ const MLnNLP = () => {
                 </div>
               </div>
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font ">
+                <div className="techno_flipbox_font minheight380px">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon">
@@ -177,25 +225,37 @@ const MLnNLP = () => {
                       </div>
                     </div>
                     <div className="flipbox_title color_dGrey">
-                      <h3 className="color_dGrey">Marketing Strategy</h3>
+                      <h3 className="color_dGrey">Cloudin is capable of</h3>
                     </div>
                     <div className="flipbox_desc color_dGrey">
                       <p className="color_dGrey">
-                        Porem asum molor sit amet, consectetur adipiscing do
-                        miusmod tempor.
+                        Reducing turnaround time from data to business insights
+                      </p>
+                      <p className="color_dGrey">
+                        Improving productivity and skills of data science
+                        workforce
+                      </p>
+                      <p className="color_dGrey">
+                        Improving data science process through reusability
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="techno_flipbox_back services_bg1 ">
+                <div className="techno_flipbox_back minheight380px services_bg1 ">
                   <div className="techno_flipbox_inner">
                     <div className="flipbox_title">
-                      <h3>Free Online Course</h3>
+                      <h3>Cloudin is capable of</h3>
                     </div>
                     <div className="flipbox_desc">
-                      <p>
-                        Porem asum molor sit amet, consectetur adipiscing do
-                        miusmod tempor.
+                      <p className="color_dGrey">
+                        Reducing turnaround time from data to business insights
+                      </p>
+                      <p className="color_dGrey">
+                        Improving productivity and skills of data science
+                        workforce
+                      </p>
+                      <p className="color_dGrey">
+                        Improving data science process through reusability
                       </p>
                     </div>
                     <div className="flipbox_button">

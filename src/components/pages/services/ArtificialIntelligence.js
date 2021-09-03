@@ -11,36 +11,32 @@ const ArtificialIntelligence = () => {
                 <div className="single_banner_content">
                   <div className="banner_text_content white">
                     <h5 className="mb-3 wow fadeInUp" data-wow-delay="0.5s">
-                      Welcome To Cloudin
+                      Enhance your digital journey through end-to-end
                     </h5>
                     <h1 className="wow fadeInUp" data-wow-delay="0.4s">
-                      Artificial Intelligence
+                      Artificial Intelligence services
                     </h1>
                   </div>
                   <div className="banner_content_text white pt-30">
                     <p className="wow fadeInUp" data-wow-delay="0.5s">
-                      Cloudin has the expertise to embed AI capabilities in
-                      applications to deliver intelligent and automated
-                      solutions that help clients boost business productivity
-                      and unlock doors to new possibilities. From the machine
-                      learning to a virtual assistant, to natural language
-                      processing, to visual technology, to forecasting and
-                      optimization, we provide solutions and technologies
-                      supporting diverse business environments.
-                    </p>
-                    <p className="wow fadeInUp" data-wow-delay="0.5s">
-                      The technology of Artificial Intelligence (AI) is ready to
-                      touch our lives immensely. It’s has evolved to a level
-                      where it can redefine a business, reshape it innovatively,
-                      and turn it into an intelligently driven organization.
+                      In today’s digital world AI play a key role in
+                      transforming native business operations, creating new
+                      business models and unleashing process improvements.
+                      Cloudin simplifies AI adoption for business and enable
+                      organizations to deliver value across the customers’
+                      journey by supporting end-to-end services from data
+                      management, digitization of document and images, model
+                      development to operationalizing models.
                     </p>
                     <p className="wow fadeInUp" data-wow-delay="0.5s">
                       At Cloudin, we are constantly digging into finding as well
-                      as creating solutions, such as mobile apps, and infusing
-                      them with the high-end AI capabilities. We create AI
-                      solutions that aren’t just smarter but are also self-aware
-                      of boosting up the operational efficiency and growth in an
-                      organization.
+                      as creating solutions and infusing them with the high-end
+                      AI capabilities. We create AI solutions that aren’t just
+                      smarter but are also self-aware of boosting up the
+                      operational efficiency and growth in an organization.
+                      Cloudin empower users with more agile and intuitive
+                      processes andassures fastest time-to-value for your AI
+                      implementation.
                     </p>
                   </div>
                   <div className="slider_button pt-25 d-flex">
@@ -113,6 +109,82 @@ const ArtificialIntelligence = () => {
         </div>
       </div>
 
+      <div class="feature_area pt-80 pb-70">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section_title text_center mb-55">
+                <div class="section_main_title">
+                  <h1>
+                    Cloudin <span>Can</span>
+                  </h1>
+                </div>
+                <div class="em_bar">
+                  <div class="em_bar_bg"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="feature_style_five mb-30">
+                <div class="feature_style_five_cion mb-20">
+                  <i class="fa fa-video-camera"></i>
+                </div>
+
+                <div class="feature_style_five_text">
+                  <p>
+                    Enables organization to move from AI experimentation to
+                    production
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="feature_style_five mb-30">
+                <div class="feature_style_five_cion mb-20">
+                  <i class="fa fa-server"></i>
+                </div>
+
+                <div class="feature_style_five_text">
+                  <p>
+                    Simplify the AI journey to organization’s insights into
+                    digital transformation
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="feature_style_five mb-30">
+                <div class="feature_style_five_cion mb-20">
+                  <i class="fa fa-cloud"></i>
+                </div>
+
+                <div class="feature_style_five_text">
+                  <p>
+                    Digitize and harvest intelligence to manage their siloed
+                    data assets
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="feature_style_five mb-30">
+                <div class="feature_style_five_cion mb-20">
+                  <i class="fa fa-desktop"></i>
+                </div>
+
+                <div class="feature_style_five_text">
+                  <p>
+                    Industrialize AI deployments to accelerate business outcomes
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="process_area bg_color2 pt-90 pb-70">
         <div className="container">
           <div className="row">
@@ -125,7 +197,10 @@ const ArtificialIntelligence = () => {
                   <h6>Our Working Process</h6>
                 </div>
                 <div className="section_main_title">
-                  <h1>Areas focused by Cloudin</h1>
+                  <h1>
+                    Our advanced and easily-integrable capabilities addresses
+                    various business needs
+                  </h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
@@ -134,7 +209,7 @@ const ArtificialIntelligence = () => {
             </div>
           </div>
           <div className="row justify-content-md-center">
-            <div className="col-lg-5 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12">
               <div
                 className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
@@ -144,15 +219,13 @@ const ArtificialIntelligence = () => {
                 </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5>Machine Learning</h5>
+                    <h5>Data Management</h5>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
-                      Our AI application development is focused on Machine
-                      Learning enabling machines to be applied for self-learning
-                      and decision making. Our solutions interpret important
-                      data, identify trends, and identify similar patterns that
-                      help businesses make better decisions.
+                      Our Data provides highly effective tools and frameworks
+                      for complex data workflows to power further ML
+                      experimentation
                     </p>
                   </div>
                   <div className="process_style_two_content_button">
@@ -161,7 +234,7 @@ const ArtificialIntelligence = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12">
               <div
                 className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
@@ -171,15 +244,38 @@ const ArtificialIntelligence = () => {
                 </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5>Virtual Assistants </h5>
+                    <h5> Machine Learning</h5>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
-                      Our AI application development service aims to deliver
-                      rich customer experience and extensive support through
-                      chatbots and voice-enabled interfaces that can understand
-                      and interpret human behavior, languages, and even
-                      sentiments.
+                      Our AI application development is focused on Machine
+                      Learning enabling machines to be applied for self-learning
+                      and decision making.
+                    </p>
+                  </div>
+                  <div className="process_style_two_content_button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                data-wow-delay="0.3s"
+              >
+                <div className="process_style_two_thumb">
+                  <img src="assets/images/new/pr3.png" alt="" />
+                </div>
+                <div className="process_style_two_content">
+                  <div className="process_style_two_content_title pt-3 pb-2">
+                    <h5>Model Operations </h5>
+                  </div>
+                  <div className="process_style_two_content_text">
+                    <p>
+                      Our solutions interpret important data, identify trends,
+                      and identify similar patterns that help businesses make
+                      better decisions.
                     </p>
                   </div>
                   <div className="process_style_two_content_button">
@@ -190,7 +286,7 @@ const ArtificialIntelligence = () => {
             </div>
           </div>
           <div className="row mt-25 justify-content-md-center">
-            <div className="col-lg-5 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12">
               <div
                 className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
@@ -200,14 +296,13 @@ const ArtificialIntelligence = () => {
                 </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5>Natural Language Processing </h5>
+                    <h5> Virtual Assistants </h5>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
-                      We have a strong team that offers end-to-end windows
-                      application development services. Be it desktop, mobile or
-                      tablet we design apps with effortless navigation and
-                      high-quality customer experience along with 24×7 Support.
+                      Our AI application development service aims to deliver the
+                      rich customer experience and extensive support through
+                      chatbots and voice-enabled interfaces
                     </p>
                   </div>
                   <div className="process_style_two_content_button">
@@ -216,7 +311,7 @@ const ArtificialIntelligence = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12">
               <div
                 className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
@@ -226,13 +321,37 @@ const ArtificialIntelligence = () => {
                 </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5>Visual Technology </h5>
+                    <h5> Natural Language Processing </h5>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
-                      Cloudin also develops ultra-modern visual apps that
-                      obtain, analyze, and synthesize images and recognize
-                      patterns in them.
+                      We focus on enabling machines to understand how people
+                      speak and write in their natural styles
+                    </p>
+                  </div>
+                  <div className="process_style_two_content_button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                data-wow-delay="0.3s"
+              >
+                <div className="process_style_two_thumb">
+                  <img src="assets/images/new/pr3.png" alt="" />
+                </div>
+                <div className="process_style_two_content">
+                  <div className="process_style_two_content_title pt-3 pb-2">
+                    <h5> Visual technology </h5>
+                  </div>
+                  <div className="process_style_two_content_text">
+                    <p>
+                       Cloudin Technologies also develops ultra-modern visual
+                      apps that obtain, analyse, and synthesize images and
+                      recognize patterns in them.
                     </p>
                   </div>
                   <div className="process_style_two_content_button">
@@ -272,16 +391,14 @@ const ArtificialIntelligence = () => {
                   className="section_sub_title uppercase mb-3 wow fadeInRight"
                   data-wow-delay="0.3s"
                 >
-                  <h6> Our service offerings</h6>
+                  <h6> Cloudin Simplify </h6>
                 </div>
                 <div
                   className="section_main_title wow fadeInRight"
                   data-wow-delay="0.3s"
                 >
-                  <h1>Cloudin Provides Realtime</h1>
-                  <h1>
-                    Best Data <span>Solutions.</span>
-                  </h1>
+                  <h1>the AI adoption with unleashing benefits</h1>
+                   
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
@@ -295,26 +412,39 @@ const ArtificialIntelligence = () => {
                   >
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i> Process
-                        Automation
+                        <i className="fa fa-check-square-o"></i> Integrates with existing AI infrastructure
                       </span>
-                      <p>
-                        With the AI solution, we help our customers reduce their
-                        operating costs, achieve more efficiency compared to
-                        what breakthrough time and human resources can do.
-                      </p>
+                      
                     </div>
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i> Team
-                        Augmentation
+                        <i className="fa fa-check-square-o"></i> Build complex use-cases easily
                       </span>
-                      <p>
-                        Expand your team or build your own Virtual Development
-                        Center by hiring real-life native AI application
-                        developers who enjoy solving business challenges using
-                        AI technology.
-                      </p>
+                      
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Deliver intelligent and automated solutions
+                      </span>
+                      
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i>  Boost business productivity 
+                      </span>
+                      
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Unlock doors to new possibilities
+                      </span>
+                      
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Enhances and accelerates AI journey
+                      </span>
+                      
                     </div>
                   </div>
                 </div>

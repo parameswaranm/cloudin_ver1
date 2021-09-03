@@ -42,7 +42,8 @@ const ChatBot = () => {
                 </div>
                 <div className="section_main_title">
                   <h1>
-                    for a smarter and efficient <span>workflow</span>
+                    Decoding intelligent man-machine conversations
+                    <span> Our Conversational AI</span>
                   </h1>
                 </div>
                 <div className="em_bar">
@@ -53,32 +54,21 @@ const ChatBot = () => {
                 <div className="singel_about_left_inner mb-3">
                   <div className="singel-about-content boder pl-4">
                     <p>
-                      Powerful, Robust and Smart Chatbot to automate your
-                      Business flows
+                      Chatbots are more than messaging apps, it brings
+                      conversational artificial intelligence capabilities to
+                      existing and new applications.With the integration of AI
+                      and NLP, voice and text-based chatbots are being used by
+                      start-ups and enterprises alike to seamlessly execute and
+                      automate tasks, or even engage with customers
                     </p>
                     <p>
-                      A chatbot selects dialogue instances using machine
-                      learning, which allows a human to respond effectively to
-                      spoken or written requests to provide a service.
-                    </p>
-                    <p>
-                      New Age AI messaging bots are creating another way to
-                      work. They require time, which not only allows you to
-                      perform simple tasks many times but is also very easy to
-                      install. Another reason is that the final release of the
-                      bot development process has better retention compared to
-                      applications.{' '}
-                    </p>
-                    <p>
-                      We focus on delivering a good conversational UX. We help
-                      you build AI bots within a short period without having you
-                      getting bogged down in development complexities. We are
-                      also ready to modify a specific task if the chatbot is to
-                      be built using a specific technology.{' '}
-                    </p>
-                    <p>
-                      The Future Looks Bright for Chat Bot Development! Build
-                      one for your business before it is too late!.{' '}
+                      Chatbot at Cloudin expands the scope of automation beyond
+                      IT simplification and optimization by helping clients to
+                      build smart conversational user interfaces on their core
+                      business systems. It leverages existing enterprise
+                      channels and newer channels such as social, mobile,
+                      devices to provide on-demand access to enterprise
+                      knowledge with ease
                     </p>
                   </div>
                 </div>
@@ -93,221 +83,261 @@ const ChatBot = () => {
         </div>
       </div>
 
-      <div className="service_area bg_color2 pt-85 pb-70">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section_title text_center mb-55">
-                <div className="section_sub_title uppercase mb-3">
-                  <h6>Benefits of using</h6>
-                </div>
-                <div className="section_main_title">
-                  <h1>Chatbot</h1>
-                </div>
-                <div className="em_bar">
-                  <div className="em_bar_bg"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>01</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                      <h4>Inventory</h4>
-                    </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                      Fully dedicated resources for you that provide unmatched
-                      control and transparency in the implementation phase.
-                    </p>
+       
+        <div className="call_do_action bg_color2 pt-20 blockcahin_threeBlockAlign blockChain_gloBg">
+          <div className="container">
+            <div className="row d-flex align-items-center">
+              <div className="col-lg-6">
+                <div className="section_title text_left mb-40 mt-3">
+                  <div className="section_sub_title uppercase mb-3">
+                    <h6>We are capable of adding different types of bots </h6>
+                  </div>
+                  <div className="section_main_title">
+                    <h1>to your business process</h1>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>02</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>Mr.Business</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                      Being able to scale quickly allows you to be a substitute
-                      rather than a part of it.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>03</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>Inventory</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                      They provide an easy to use interface and can be encrypted
-                      to perform automated actions.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>04</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>Mr.Business</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                      ChatBots are comparatively less expensive and easy to
-                      build but with a higher adoption rate
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>05</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>E-Camp</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                      Chatbots are more human and can be programmed to serve
-                      different languages.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>06</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>FINJO</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                      Uncompromised privacy standards Automated transactions and
-                      workflows.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>07</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>FINJO</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                      It improvises mobile marketing efforts and eventually
-                      yields better results for you.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>08</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>E-Camp</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                      They provide personalized contacts, which ultimately
-                      increase customer retention and loyalty
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service_style_two mb-4">
-                <div className="service_style_two_number mr-60">
-                  <h5>09</h5>
-                </div>
-                <div className="service_style_two_content">
-                  {/* <div className="service_style_two_title pb-3">
-                    <h4>FINJO</h4>
-                  </div> */}
-                  <div className="service_style_two_text">
-                    <p>
-                      Friendly and realistic language allows you to communicate
-                      effectively with your users
-                    </p>
-                  </div>
+              <div className="col-lg-6">
+                <div className="acction_thumb">
+                  <img src="assets/images/shape2.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="chatBotAign">
+
+        <div className="feature_area pb-2">
           <div className="feature_area pb-2">
             <div className="container">
-              <div className="row">
-                <div className="col-lg-6 col-md-6 col-sm-12">
-                  <div className="single_feature_six">
-                    <div className="single_feature_six_icon mr-3">
-                      <i className="fa fa-thumbs-o-up" aria-hidden="true"></i>
+              <div className="row nagative_margin4">
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="service_style_eight bgDrkGrey">
+                    <div className="service_style_eight_icon">
+                      <div className="icon">
+                        <i className="flaticon-data"></i>
+                      </div>
                     </div>
-                    <div className="single_feature_six_content white">
-                      <h5>Self Service Portals </h5>
+                    <div className="service_style_eight_content white pt-4">
+                      <h5> Scripted Chatbots</h5>
                       <p>
-                        Your customers are better engaged as an advanced
-                        intelligent bot can answer all their queries related to
-                        your products and services.
+                        Scripted with pre-defined knowledge base and can reply
+                        to specific queries
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 col-md-6 col-sm-12">
-                  <div className="single_feature_six">
-                    <div className="single_feature_six_icon mr-3">
-                      <i className="fa fa-clock-o" aria-hidden="true"></i>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="service_style_eight bgDrkGrey">
+                    <div className="service_style_eight_icon">
+                      <div className="icon">
+                        <i className="flaticon-data"></i>
+                      </div>
                     </div>
-                    <div className="single_feature_six_content white">
-                      <h5>Around Clock Access </h5>
+                    <div className="service_style_eight_content white pt-4">
+                      <h5> Customer Support Bots</h5>
                       <p>
-                        Chatbots respond quickly so customers are happy to
-                        receive an immediate response. Even during a heavy
-                        influx of traffic, the chatbots function smoothly and
-                        are capable of attending to each customer.
+                        Industry wide application, they support customers with
+                        their queries 24/7
                       </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="service_style_eight bgDrkGrey">
+                    <div className="service_style_eight_icon">
+                      <div className="icon">
+                        <i className="flaticon-data"></i>
+                      </div>
+                    </div>
+                    <div className="service_style_eight_content white pt-4">
+                      <h5> Assistant Chatbots </h5>
+                      <p>
+                        For internal processes, to help with queries,
+                        information etc.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="service_style_eight bgDrkGrey">
+                    <div className="service_style_eight_icon">
+                      <div className="icon">
+                        <i className="flaticon-data"></i>
+                      </div>
+                    </div>
+                    <div className="service_style_eight_content white pt-4">
+                      <h5> AI NLP Chatbots</h5>
+                      <p>
+                        I powered, communicates via voice and text, through web
+                        and mobile apps
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="service_style_eight bgDrkGrey">
+                    <div className="service_style_eight_icon">
+                      <div className="icon">
+                        <i className="flaticon-data"></i>
+                      </div>
+                    </div>
+                    <div className="service_style_eight_content white pt-4">
+                      <h5> Transactional Bots</h5>
+                      <p>
+                        Make transactions or take action within the context of a
+                        conversation
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="service_style_eight bgDrkGrey">
+                    <div className="service_style_eight_icon">
+                      <div className="icon">
+                        <i className="flaticon-data"></i>
+                      </div>
+                    </div>
+                    <div className="service_style_eight_content white pt-4">
+                      <h5> Contextual Chatbots</h5>
+                      <p>
+                        A I and Machine Learning enabled, they learn over time
+                        from experience
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="row justify-content-md-center">
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="service_style_eight bgDrkGrey">
+                    <div className="service_style_eight_icon">
+                      <div className="icon">
+                        <i className="flaticon-data"></i>
+                      </div>
+                    </div>
+                    <div className="service_style_eight_content white pt-4">
+                      <h5> Voice Enabled Chatbot</h5>
+                      <p>
+                        Voice based, personalized, answers queries, takes action
+                        (think Alexa/Siri)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="row justify-content-md-center">
+                <h4 className="mt-40 w-75 text-center clr_both">
+                  From offering chatbots services for mobile apps to building
+                  bots for web and independent platforms, and social media
+                  platform, Cloudin Tech Labs is a full-stack company to help
+                  you in building cost-effective chatbot solutions
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+
+      <div className="about_area pt-80 pb-70">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+              <div
+                className="single_about_thumb wow fadeInLeft"
+                data-wow-delay="0.3s"
+              >
+                <div className="single_about_thumb_inner">
+                  <img src="assets/images/new/ab3.png" alt="" />
+                </div>
+                <div className="shape_thumb">
+                  <div className="about_shape_thumb_affiliate1 bounce-animate">
+                    <img src="assets/images/shape/3.png" alt="" />
+                  </div>
+                  <div className="about_shape_thumb_affiliate2 rotateme">
+                    <img src="assets/images/shape/rt2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+              <div className="section_title text_left mb-40">
+                <div
+                  className="section_sub_title uppercase mb-3 wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <h6>From conceptualization to execution</h6>
+                </div>
+                <div
+                  className="section_main_title wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <h1>
+                    Chatbot platform of Cloudin help Organizations to achieve
+                    their goals{' '}
+                  </h1>
+                </div>
+                <div className="em_bar">
+                  <div className="em_bar_bg"></div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div
+                    className="about_icon_box wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Driving faster
+                        resolution
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Lower
+                        turnaround time
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Automating
+                        rule-based processes
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Empowering
+                        employees to tackle strategic responsibilities
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Enabling
+                        consumers to access information on a screen 24*7
+                      </span>
+                    </div>
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Reducing margin
+                        of error significantly
+                      </span>
+                    </div>
+
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Driving down
+                        operational costs
+                      </span>
+                    </div>
+
+                    <div className="about_icon_box_inner mb-20">
+                      <span>
+                        <i className="fa fa-check-square-o"></i> Seamlessly
+                        integrates and deploy everywhere
+                      </span>
                     </div>
                   </div>
                 </div>

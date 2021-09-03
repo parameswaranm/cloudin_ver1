@@ -50,15 +50,19 @@
 .bgDrkGrey {
     background: #333333 !important;
 }
+
 .bgOrange {
     background: #E07400 !important;
 }
+
 .bgSharPink {
     background: #F30B52 !important;
 }
+
 .bgRed {
     background: #FF3900 !important;
 }
+
 .section_sub_title h6 {
     color: #01A5A7 !important;
 }
@@ -95,5 +99,17 @@ element.style {
 .techno_menu ul .sub-menu li a {
     color: #000 !important;
 }
+
 .slider_text_inner h1 {
-    font-size: 38px!important;}
+    font-size: 38px!important;
+}
+.minheight380px{
+    min-height: 380px !important;
+}
+.techno_flipbox_back.minheight380px p{
+color: #fff !important;
+}
+.clr_both{
+    clear:both;
+    display:block;
+}
