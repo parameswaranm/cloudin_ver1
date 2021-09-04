@@ -109,30 +109,30 @@ const ArtificialIntelligence = () => {
         </div>
       </div>
 
-      <div class="feature_area pt-80 pb-70">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="section_title text_center mb-55">
-                <div class="section_main_title">
+      <div className="feature_area pt-80 pb-70">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section_title text_center mb-55">
+                <div className="section_main_title">
                   <h1>
                     Cloudin <span>Can</span>
                   </h1>
                 </div>
-                <div class="em_bar">
-                  <div class="em_bar_bg"></div>
+                <div className="em_bar">
+                  <div className="em_bar_bg"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-3">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-video-camera"></i>
+          <div className="row">
+            <div className="col-lg-3">
+              <div className="ai_box_minheight2 feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-video-camera"></i>
                 </div>
 
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Enables organization to move from AI experimentation to
                     production
@@ -140,13 +140,13 @@ const ArtificialIntelligence = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-server"></i>
+            <div className="col-lg-3">
+              <div className="ai_box_minheight2 feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-server"></i>
                 </div>
 
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Simplify the AI journey to organization’s insights into
                     digital transformation
@@ -154,13 +154,13 @@ const ArtificialIntelligence = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-3">
+              <div className="ai_box_minheight2 feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
 
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Digitize and harvest intelligence to manage their siloed
                     data assets
@@ -168,13 +168,13 @@ const ArtificialIntelligence = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-desktop"></i>
+            <div className="col-lg-3">
+              <div className="ai_box_minheight2 feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-desktop"></i>
                 </div>
 
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Industrialize AI deployments to accelerate business outcomes
                   </p>

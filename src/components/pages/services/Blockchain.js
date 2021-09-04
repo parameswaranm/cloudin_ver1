@@ -214,7 +214,9 @@ const Blockchain = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-12">
+           </div>
+           <div className="row justify-content-md-center">
+           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
@@ -247,7 +249,8 @@ const Blockchain = () => {
                 </div>
               </div>
             </div>
-          </div>
+          
+           </div>
         </div>
       </div>
 

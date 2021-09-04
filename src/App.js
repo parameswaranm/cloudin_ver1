@@ -11,6 +11,10 @@ import Pricing from './components/pages/policies/Pricing';
 import Privacy from './components/pages/policies/Privacy';
 import Refund from './components/pages/policies/Refund';
 import TnC from './components/pages/policies/TnC';
+import ECamp from './components/pages/products/ECamp';
+import Finjo from './components/pages/products/Finjo';
+import Inventory from './components/pages/products/Inventory';
+import MrBusiness from './components/pages/products/MrBusiness';
 import ArtificialIntelligence from './components/pages/services/ArtificialIntelligence';
 import AWSnAzure from './components/pages/services/AWSnAzure';
 import Blockchain from './components/pages/services/Blockchain';
@@ -21,6 +25,7 @@ import MobileApp from './components/pages/services/MobileApp';
 import ReactDev from './components/pages/services/React';
 import Services from './components/pages/services/Services';
 import UxUi from './components/pages/services/UxUi';
+import VirtualAssistant from './components/pages/services/VirtualAssistant';
 import WebDevelopment from './components/pages/services/WebDevelopment';
 import Layout from './components/plugins/Layout';
 
@@ -81,6 +86,9 @@ function App() {
         <Route path="/uiux" exact>
           <UxUi />
         </Route>
+        <Route path="/virtualAssist" exact>
+          <VirtualAssistant />
+        </Route>
         <Route path="/tc" exact>
           <TnC />
         </Route>
@@ -92,6 +100,22 @@ function App() {
         </Route>
         <Route path="/pricing" exact>
           <Pricing />
+        </Route>
+
+        <Route path="/inventory" exact>
+          <Inventory />
+        </Route>
+
+        <Route path="/mrBusiness" exact>
+          <MrBusiness />
+        </Route>
+
+        <Route path="/finjo" exact>
+          <Finjo />
+        </Route>
+
+        <Route path="/eCamp" exact>
+          <ECamp />
         </Route>
         <Route path="*">
           <NotFound />

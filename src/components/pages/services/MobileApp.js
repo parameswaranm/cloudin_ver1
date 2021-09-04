@@ -18,7 +18,7 @@ const MobileApp = () => {
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
-                      <span>Blockchain</span>
+                      <span>Mobile App Development</span>
                     </li>
                   </ul>
                 </div>

@@ -27,30 +27,30 @@ const TnC = () => {
         </div>
       </div>
 
-      <div class="feature_area pt-80 pb-70">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="section_title text_center mb-55">
-                <div class="section_main_title">
+      <div className="feature_area pt-80 pb-70">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section_title text_center mb-55">
+                <div className="section_main_title">
                   <h1>Terms & Conditions</h1>
                 </div>
-                <div class="em_bar">
-                  <div class="em_bar_bg"></div>
+                <div className="em_bar">
+                  <div className="em_bar_bg"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-video-camera"></i>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-video-camera"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Overview</h4>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     {' '}
                     This website is operated by Cloudin. Throughout the site,
@@ -99,16 +99,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-server"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-server"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 1</h4>
                   <h6> Online Store Terms </h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     By agreeing to these Terms of Service, you represent that
                     you are at least the age of majority in your state or
@@ -126,16 +126,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 2</h4>
                   <h6>General Conditions </h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     We reserve the right to refuse service to anyone for any
                     reason at any time. You understand that your content (not
@@ -155,16 +155,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-desktop"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-desktop"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 3</h4>
                   <h6>Accuracy, Completeness & Timeliness of Information</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     We are not responsible if information made available on this
                     site is not accurate, complete or current. The material on
@@ -184,16 +184,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-server"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-server"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 4</h4>
                   <h6>Modification to the Service & Prices</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Prices for our products are subject to change without
                     notice. We reserve the right at any time to modify or
@@ -205,16 +205,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 5</h4>
                   <h6>Products Or Services</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Certain products or services may be available exclusively
                     online through the website. These products or services may
@@ -241,16 +241,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-desktop"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-desktop"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 6</h4>
                   <h6>Accuracy of Billing & Account Information</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     We reserve the right to refuse any order you place with us.
                     We may, in our sole discretion, limit or cancel quantities
@@ -274,16 +274,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-server"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-server"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 7</h4>
                   <h6>Optional Tools</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     We may provide you with access to third-party tools over
                     which we neither monitor nor have any control nor input. You
@@ -304,16 +304,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 8</h4>
                   <h6>Third-party Links</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Certain content, products and services available via our
                     Service may include materials from third-parties.
@@ -336,16 +336,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-desktop"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-desktop"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 9</h4>
                   <h6>User Comments, Feedback & Other submissions</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     If, at our request, you send certain specific submissions
                     (for example contest entries) or without a request from us
@@ -385,16 +385,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-server"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-server"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 10</h4>
                   <h6>Personal Information</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Your submission of personal information through the store is
                     governed by our Privacy Policy.
@@ -402,16 +402,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 11</h4>
                   <h6> Errors, Inaccurancies & Omissions</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Occasionally there may be information on our site or in the
                     Service that contains typographical errors, inaccuracies or
@@ -434,16 +434,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-desktop"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-desktop"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 12</h4>
                   <h6>Prohibited Uses</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     In addition to other prohibitions as set forth in the Terms
                     of Service, you are prohibited from using the site or its
@@ -504,16 +504,16 @@ const TnC = () => {
               </div>
             </div>
 
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 13</h4>
                   <h6> Disclaimer of Warranties / Limitation f liability</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     We do not guarantee, represent or warrant that your use of
                     our service will be uninterrupted, timely, secure or
@@ -558,16 +558,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 14</h4>
                   <h6>Indemnification</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     You agree to indemnify, defend and hold harmless Cloudin and
                     our parent, subsidiaries, affiliates, partners, officers,
@@ -583,16 +583,16 @@ const TnC = () => {
               </div>
             </div>
 
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 15</h4>
                   <h6> Severability</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     In the event that any provision of these Terms of Service is
                     determined to be unlawful, void or unenforceable, such
@@ -606,16 +606,16 @@ const TnC = () => {
               </div>
             </div>
 
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 16</h4>
                   <h6>Termination</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     The obligations and liabilities of the parties incurred
                     prior to the termination date shall survive the termination
@@ -634,16 +634,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 17</h4>
                   <h6> Entire Agreement</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     The failure of us to exercise or enforce any right or
                     provision of these Terms of Service shall not constitute a
@@ -661,16 +661,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 18</h4>
                   <h6>Governing Law</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     These Terms of Service and any separate agreements whereby
                     we provide you Services shall be governed by and construed
@@ -680,16 +680,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 19</h4>
                   <h6>Changes to Terms of service</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     You can review the most current version of the Terms of
                     Service at any time at this page. We reserve the right, at
@@ -704,16 +704,16 @@ const TnC = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Section 20</h4>
                   <h6>Contact Information</h6>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                   Questions about the Terms of Service should be sent to us at info@cloudinteam.com. 
                   </p>

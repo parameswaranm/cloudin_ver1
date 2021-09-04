@@ -28,30 +28,30 @@ const Refund = () => {
         </div>
       </div>
 
-      <div class="feature_area pt-80 pb-70">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="section_title text_center mb-55">
-                <div class="section_main_title">
+      <div className="feature_area pt-80 pb-70">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section_title text_center mb-55">
+                <div className="section_main_title">
                   <h1> Refund Policy</h1>
                 </div>
-                <div class="em_bar">
-                  <div class="em_bar_bg"></div>
+                <div className="em_bar">
+                  <div className="em_bar_bg"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-video-camera"></i>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-video-camera"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Returns</h4>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     {' '}
                     Our policy lasts 30 days. If 30 days have gone by since your
@@ -85,15 +85,15 @@ const Refund = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-server"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-server"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Refunds (If Applicable)</h4>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Once your return is received and inspected, we will send you
                     an email to notify you that we have received your returned
@@ -106,15 +106,15 @@ const Refund = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Late Or Missing Refunds (If Applicable)</h4>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     If you haven’t received a refund yet, first check your bank
                     account again. Then contact your credit card company, it may
@@ -127,15 +127,15 @@ const Refund = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-desktop"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-desktop"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Sale Items (If Applicable)</h4>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     Only regular priced items may be refunded, unfortunately
                     sale items cannot be refunded.
@@ -143,15 +143,15 @@ const Refund = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-server"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-server"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Exchanges (If Applicable)</h4>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     We only replace items if they are defective or damaged. If
                     you need to exchange it for the same item, send us an email
@@ -161,15 +161,15 @@ const Refund = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-cloud"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-cloud"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Gifts</h4>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     If the item was marked as a gift when purchased and shipped
                     directly to you, you’ll receive a gift credit for the value
@@ -183,15 +183,15 @@ const Refund = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
-              <div class="feature_style_five mb-30">
-                <div class="feature_style_five_cion mb-20">
-                  <i class="fa fa-desktop"></i>
+            <div className="col-lg-12">
+              <div className="feature_style_five mb-30">
+                <div className="feature_style_five_cion mb-20">
+                  <i className="fa fa-desktop"></i>
                 </div>
-                <div class="feature_style_five_title mb-3">
+                <div className="feature_style_five_title mb-3">
                   <h4>Shipping</h4>
                 </div>
-                <div class="feature_style_five_text">
+                <div className="feature_style_five_text">
                   <p>
                     To return your product, you should mail your product to:
                     Cloudin Technologies, Peelamedu You will be responsible for

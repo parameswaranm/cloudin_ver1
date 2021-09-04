@@ -103,66 +103,142 @@ element.style {
 .slider_text_inner h1 {
     font-size: 38px!important;
 }
-.minheight380px{
+
+.minheight380px {
     min-height: 380px !important;
 }
-.techno_flipbox_back.minheight380px p{
-color: #fff !important;
+
+.techno_flipbox_back.minheight380px p {
+    color: #fff !important;
 }
-.clr_both{
-    clear:both;
-    display:block;
+
+.clr_both {
+    clear: both;
+    display: block;
 }
-.vertical_top_it{
+
+.vertical_top_it {
     position: relative;
     top: -25px;
 }
 
-.vertical_top_mobilApp{
+.vertical_top_mobilApp {
     position: relative;
     top: -75px;
 }
-.vertical_top_webApp{
-    position: relative;
-    top: -75px;
-}
-.pos_relative{
-    position: relative;   
-}
-.pos_absolute{
-    position: absolute;     
-}
-.rightAlign{
-    right:0;
-}
-.leftAlign{
-    left:0;
-}
-.ai_box_minheight{
-    min-height:505px!important;
 
+.vertical_top_webApp {
+    position: relative;
+    top: -75px;
 }
-.blockChain_Box_minHeight{
-    min-height:405px!important;
+
+.pos_relative {
+    position: relative;
 }
-.blockChain_Box_minHeight2{
-    min-height:305px!important;
+
+.pos_absolute {
+    position: absolute;
 }
-.aws_Box_minHeight{
-    min-height:385px!important;
+
+.rightAlign {
+    right: 0;
 }
-.react_Box_minHeight{
-    min-height:385px!important;
+
+.leftAlign {
+    left: 0;
 }
-.itCons_Box_minHeight{
-    min-height:335px!important;
+
+.about_box_minheight {
+    min-height: 185px!important;
 }
-.mobiApp_Box_minHeight{
-    min-height:335px!important;
+.about_box_minheight2 {
+    min-height: 165px!important;
 }
-.webApp_Box_minHeight{
-    min-height:335px!important;
+.ai_box_minheight {
+    min-height: 505px!important;
 }
-.uxui_Box_minHeight{
-    min-height:335px!important;
+.ai_box_minheight2 {
+    min-height: 270px!important;
+}
+
+.blockChain_Box_minHeight {
+    min-height: 405px!important;
+}
+
+.blockChain_Box_minHeight2 {
+    min-height: 305px!important;
+}
+
+.aws_Box_minHeight {
+    min-height: 385px!important;
+}
+
+.react_Box_minHeight {
+    min-height: 385px!important;
+}
+
+.itCons_Box_minHeight {
+    min-height: 335px!important;
+}
+
+.mobiApp_Box_minHeight {
+    min-height: 335px!important;
+}
+
+.webApp_Box_minHeight {
+    min-height: 335px!important;
+}
+
+.uxui_Box_minHeight {
+    min-height: 335px!important;
+}
+.inventory_Box_minHeight {
+    min-height: 450px!important;
+}
+.mrBusiness_Box_minHeight {
+    min-height: 450px!important;
+}
+.eCamp_Box_minHeight {
+    min-height: 490px!important;
+}
+.invent .single_service_inner::before {
+    height: 60px;
+}
+
+.em_bar_bg {
+    background: #f4f4f4
+}
+
+.invent .single_service_content h4 {
+    text-align: left;
+    padding: 0 60px 0 70px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .no-js .owl-carousel, .owl-carousel.owl-loaded, .banner_area {
+        display: block!important;
+        clear: both;
+    }
+    .breatcome_area {
+        display: none !important;
+    }
+    .mean-container .mean-bar::before {
+        color: #fff;
+        content: url('assets/images/logo2x.png');
+        font-size: 22px;
+        font-weight: 800;
+        left: 10px;
+        position: absolute;
+        top: 0px;
+        height: 60%;
+    }
+    .mean-container .mean-bar {
+        background: #00247e !important;
+        float: left;
+        min-height: 60px;
+        padding: 4px 0 0;
+        position: relative;
+        width: 100%;
+        z-index: 999999;
+    }
 }

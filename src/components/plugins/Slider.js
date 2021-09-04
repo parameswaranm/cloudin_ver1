@@ -1,7 +1,6 @@
 import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 
-
 const Slider = () => {
   return (
     <div>
@@ -330,12 +329,9 @@ const Slider = () => {
                   </div>
                   <div className="singel-about-content">
                     <h5>Warranty Management</h5>
-                    <p>
-                      Morem Ipsum is simply dummy text of the printing and
-                      pepesetting found.
-                    </p>
                   </div>
                 </div>
+                <p>&nbsp;</p>
                 <div className="singel_about_left_inner">
                   <div className="about_icon mr-4">
                     <div className="icon mt-3">
@@ -344,10 +340,6 @@ const Slider = () => {
                   </div>
                   <div className="singel-about-content">
                     <h5>Quality Control System</h5>
-                    <p>
-                      Morem Ipsum is simply dummy text of the printing and
-                      pepesetting found.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -1166,7 +1158,84 @@ const Slider = () => {
         </div>
       </div>
 
-     </div>
+      <div className="call_do_action pt-85 pb-130 bg_color clientCount_bg">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section_title white text_center mb-60 mt-3">
+                <div className="phone_number mb-3">
+                  <h5> +91 90436 86520</h5>
+                </div>
+                <div className="section_main_title">
+                  <h1>To make requests for the</h1>
+                  <h1>further information</h1>
+                </div>
+                <div className="button three mt-40">
+                  <a href="#">
+                    Join With Now<i className="fa fa-long-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="counter_area">
+        <div className="container">
+          <div className="row cntr_bg_up nagative_margin pt-50 pb-45">
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="single_counter text_center mb-4">
+                <div className="countr_text">
+                  <h1>
+                    <span className="counter">850+</span>
+                  </h1>
+                </div>
+                <div className="counter_desc">
+                  <h5> Clients Worldwide</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="single_counter text_center mb-4">
+                <div className="countr_text">
+                  <h1>
+                    <span className="counter">450+</span>
+                  </h1>
+                </div>
+                <div className="counter_desc">
+                  <h5>Projects Delivered</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="single_counter text_center mb-4">
+                <div className="countr_text">
+                  <h1>
+                    <span className="counter">8+</span>
+                  </h1>
+                </div>
+                <div className="counter_desc">
+                  <h5>Countries We are operating</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="single_counter text_center mb-4">
+                <div className="countr_text">
+                  <h1>
+                    <span className="counter">99%</span>
+                  </h1>
+                </div>
+                <div className="counter_desc">
+                  <h5>Happy Customers</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

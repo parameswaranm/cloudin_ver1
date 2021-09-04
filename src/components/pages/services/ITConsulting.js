@@ -17,7 +17,7 @@ const ITConsulting = () => {
                       <a href="index.html">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
-                      <i className="fa fa-angle-right"></i> <span>Chatbot</span>
+                      <i className="fa fa-angle-right"></i> <span>IT Consulting</span>
                     </li>
                   </ul>
                 </div>
