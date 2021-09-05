@@ -221,6 +221,22 @@ element.style {
     padding: 0 60px 0 70px;
 }
 
+.sticky {
+    z-index: 999;
+}
+
+.sticky .nav_scroll li a {
+    color: #fff;
+}
+
+.sticky .logo_img {
+    display: none;
+}
+
+.sticky .main_sticky {
+    display: block;
+}
+
 @media only screen and (max-width: 1024px) {
     .no-js .owl-carousel, .owl-carousel.owl-loaded, .banner_area {
         display: block!important;
@@ -255,7 +271,9 @@ element.style {
         margin: 7px 15px;
         background-color: #00247e;
     }
-    .sticky .line {background-color: #fff;}
+    .sticky .line {
+        background-color: #fff;
+    }
     .menu-toggle:hover {
         cursor: pointer;
     }
@@ -280,7 +298,7 @@ element.style {
     .mobile {
         max-width: 100%;
         width: 80%;
-        height: 100%;         
+        height: 100%;
         overflow: hidden;
         position: relative;
         display: inline-block;
@@ -313,7 +331,6 @@ element.style {
     }
     .mobile-one .mobile-nav li ul, .mobile-one .mobile-nav li ul li {
         width: 100%;
-         
     }
     .mobile-one .mobile-nav li a:hover {
         /* background-color: #23252B; */
@@ -333,7 +350,7 @@ element.style {
         margin: 0 0 0 0px;
     }
     .sticky {
-        z-index:999;
+        z-index: 999;
     }
     .techno_menu ul {
         overflow: auto !important;
@@ -342,7 +359,4 @@ element.style {
         margin: 0 auto;
         width: 50%;
     }
-}
-.sticky {
-    z-index:999;
 }
