@@ -5,14 +5,24 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   useEffect(() => {
     $(window).on('scroll', function () {
+      var ww = document.body.clientWidth;
       if ($(window).scrollTop() > 50) {
         $('#sticky-header').addClass('sticky');
       } else {
         $('#sticky-header').removeClass('sticky');
       }
+
+      if ($(window).scrollTop() > 50) {
+        if (ww < 1023) {
+          $('#sticky-header').removeClass('sticky');
+        } else if (ww >= 1024) {
+          $('#sticky-header').addClass('sticky');
+        }
+      }
     });
 
-    //MOBILE ONE AND MOBILE THREE
+    //MOBILE view
+
     var menu = 'close';
     $('.mobile-one .menu-toggle').on('click', function () {
       if (menu === 'close') {
@@ -28,6 +38,21 @@ const Navbar = () => {
           .css('transform', 'translate(-100%, 0)');
         menu = 'close';
       }
+    });
+
+    $('li ul li').on('click', function () {
+      $(this)
+        .parent()
+        .parent()
+        .parent()
+        .parent()
+        .css('transform', 'translate(-100%, 0)');
+
+      menu = 'close';
+    });
+    $('li.standalone').on('click', function () {
+      $(this).parent().parent().css('transform', 'translate(-100%, 0)');
+      menu = 'close';
     });
   }, []);
 
@@ -111,7 +136,7 @@ const Navbar = () => {
                     </div>
                     <nav className="techno_menu mobile-nav">
                       <ul className="nav_scroll">
-                        <li>
+                        <li className="standalone">
                           <NavLink to="/">Home</NavLink>
                         </li>
                         <li>

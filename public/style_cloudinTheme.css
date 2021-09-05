@@ -255,11 +255,12 @@ element.style {
         margin: 7px 15px;
         background-color: #00247e;
     }
+    .sticky .line {background-color: #fff;}
     .menu-toggle:hover {
         cursor: pointer;
     }
     .mobile-nav {
-        margin: 33px 0 0 0;
+        margin: 39px 0 0 0;
     }
     .mobile-nav ul {
         padding: 0;
@@ -274,13 +275,12 @@ element.style {
         text-align: left;
         position: relative;
         left: -15px;
-        top: 19px;
+        top: 20px;
     }
     .mobile {
-        max-width: 70%;
-        width: 70%;
-        height: 100%;
-        /* background-color: #eee; */
+        max-width: 100%;
+        width: 80%;
+        height: 100%;         
         overflow: hidden;
         position: relative;
         display: inline-block;
@@ -293,9 +293,9 @@ element.style {
         background: linear-gradient(#44cba0, #44bfc6); */
     }
     .mobile-one .mobile-nav {
-        background-color: #efefef;
+        background-color: #FFB300;
         max-width: 100%;
-        width: 100%;
+        width: 70%;
         height: 100%;
         transform: translate(-100%, 0);
         -webkit-transition: all 0.2s ease-in-out;
@@ -323,9 +323,9 @@ element.style {
     }
     .menuAlign {
         position: absolute;
-        right: 0;
+        left: 0;
         top: 0;
-        z-index: 99999;
+        z-index: 999;
         flex: 0 0 100%;
         max-width: 100%;
     }
@@ -333,7 +333,7 @@ element.style {
         margin: 0 0 0 0px;
     }
     .sticky {
-        z-index: 9999;
+        z-index:999;
     }
     .techno_menu ul {
         overflow: auto !important;
@@ -342,4 +342,7 @@ element.style {
         margin: 0 auto;
         width: 50%;
     }
+}
+.sticky {
+    z-index:999;
 }
