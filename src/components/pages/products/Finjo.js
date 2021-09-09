@@ -1,6 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const Finjo = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -14,7 +17,7 @@ const Finjo = () => {
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>{' '}
+                      <a href="#">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i> <span>Finjo</span>
@@ -42,9 +45,8 @@ const Finjo = () => {
                 </div>
                 <div className="section_main_title">
                   <h1>
-                    Simplify, speedup and automate <br />
-                    <span>
-                       your payment collection and distribution process
+                    Simplify, speedup and automate  
+                    <span> your payment collection and distribution process
                     </span>
                   </h1>
                 </div>
@@ -61,11 +63,7 @@ const Finjo = () => {
                     </p>
                   </div>
                 </div>
-                <div className="singel_about_left_inner pl-4">
-                  <div className="button two">
-                    <a href="#">More Details</a>
-                  </div>
-                </div>
+                 
               </div>
             </div>
           </div>

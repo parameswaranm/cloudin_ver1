@@ -1,6 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const ReactDev = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -9,15 +12,15 @@ const ReactDev = () => {
             <div className="col-lg-12">
               <div className="breatcome_title">
                 <div className="breatcome_title_inner pb-2">
-                  <h2>React Native</h2>
+                  <h2>React native</h2>
                 </div>
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>{' '}
+                      <a href="#">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
-                      <i className="fa fa-angle-right"></i> <span>React Native</span>
+                      <i className="fa fa-angle-right"></i> <span>React native</span>
                     </li>
                   </ul>
                 </div>
@@ -45,7 +48,7 @@ const ReactDev = () => {
                 </div>
                 <div className="section_main_title">
                   <h1>
-                    Our <span>Tailor-made Solutions</span>
+                    Our <span>tailor-made solutions</span>
                   </h1>
                 </div>
                 <div className="em_bar">
@@ -75,11 +78,11 @@ const ReactDev = () => {
                     </p>
                   </div>
                 </div>
-                <div className="singel_about_left_inner pl-4">
+                {/* <div className="singel_about_left_inner pl-4">
                   <div className="button two">
                     <a href="#">More Details</a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -139,7 +142,7 @@ const ReactDev = () => {
                   <div className="service_style_eight_content white pt-4">
                     <h4> MVP Development </h4>
                     <p>
-                       Build your product in iterations while keeping your
+                     Build your product in iterations while keeping your
                       overheads low, ensuring you to generate maximum user
                       feedback and iterate into a superior product.
                     </p>
@@ -175,7 +178,7 @@ const ReactDev = () => {
                   <div className="service_style_eight_content white pt-4">
                     <h4> Staff Augmentation </h4>
                     <p>
-                       Dedicated developers specialized in React Native to help
+                      Dedicated developers specialized in React Native to help
                       you meet your project goals and budget without unnecessary
                       overheads
                     </p>

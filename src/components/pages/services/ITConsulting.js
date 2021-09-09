@@ -1,6 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const ITConsulting = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -9,15 +12,15 @@ const ITConsulting = () => {
             <div className="col-lg-12">
               <div className="breatcome_title">
                 <div className="breatcome_title_inner pb-2">
-                  <h2>IT Consulting</h2>
+                  <h2>IT consulting</h2>
                 </div>
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>{' '}
+                      <a href="#">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
-                      <i className="fa fa-angle-right"></i> <span>IT Consulting</span>
+                      <i className="fa fa-angle-right"></i> <span>IT consulting</span>
                     </li>
                   </ul>
                 </div>
@@ -42,9 +45,9 @@ const ITConsulting = () => {
                 </div>
                 <div className="section_main_title">
                   <h1>
-                    consulting solutions suitable for your key business domains{' '}
+                    Consulting solutions suitable for your key business domains{' '}
                     <br />
-                    <span> Our Driving Vision</span>
+                    <span> our driving vision</span>
                   </h1>
                 </div>
                 <div className="em_bar">
@@ -77,11 +80,11 @@ const ITConsulting = () => {
                     </p>
                   </div>
                 </div>
-                <div className="singel_about_left_inner pl-4">
+                {/* <div className="singel_about_left_inner pl-4">
                   <div className="button two">
                     <a href="#">More Details</a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

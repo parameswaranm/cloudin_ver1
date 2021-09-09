@@ -1,6 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const Pricing = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -9,16 +12,16 @@ const Pricing = () => {
             <div className="col-lg-12">
               <div className="breatcome_title">
                 <div className="breatcome_title_inner pb-2">
-                  <h2> Pricing Policy</h2>
+                  <h2> Pricing policy</h2>
                 </div>
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>{' '}
+                      <a href="#">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
-                      <span> Pricing Policy</span>
+                      <span> Pricing policy</span>
                     </li>
                   </ul>
                 </div>

@@ -1,6 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const WebDevelopment = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -9,16 +12,16 @@ const WebDevelopment = () => {
             <div className="col-lg-12">
               <div className="breatcome_title">
                 <div className="breatcome_title_inner pb-2">
-                  <h2>Web Application</h2>
+                  <h2>Web application</h2>
                 </div>
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>{' '}
+                      <a href="#">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
-                      <span>Web Application</span>
+                      <span>Web application</span>
                     </li>
                   </ul>
                 </div>
@@ -45,7 +48,7 @@ const WebDevelopment = () => {
                   <h1>
                     Ground-up bespoke web development solutions
                     <br />
-                    <span> Our Custom Solutions</span>
+                    <span> our Custom Solutions</span>
                   </h1>
                 </div>
                 <div className="em_bar">
@@ -73,11 +76,11 @@ const WebDevelopment = () => {
                     </p>
                   </div>
                 </div>
-                <div className="singel_about_left_inner pl-4">
+                {/* <div className="singel_about_left_inner pl-4">
                   <div className="button two">
                     <a href="#">More Details</a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -120,7 +123,7 @@ const WebDevelopment = () => {
                   <div className="service_style_eight_content white pt-4">
                     <h5> Custom web application development</h5>
                     <p>
-                       From basic landing pages to customized web development
+                      From basic landing pages to customized web development
                       India, we offer custom web application development
                       services
                     </p>

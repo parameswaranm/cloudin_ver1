@@ -1,6 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const ArtificialIntelligence = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="banner_area banner3 d-flex align-items-center">
@@ -14,7 +17,7 @@ const ArtificialIntelligence = () => {
                       Enhance your digital journey through end-to-end
                     </h5>
                     <h1 className="wow fadeInUp" data-wow-delay="0.4s">
-                      Artificial Intelligence services
+                      Artificial intelligence services
                     </h1>
                   </div>
                   <div className="banner_content_text white pt-30">
@@ -39,7 +42,7 @@ const ArtificialIntelligence = () => {
                       implementation.
                     </p>
                   </div>
-                  <div className="slider_button pt-25 d-flex">
+                  {/* <div className="slider_button pt-25 d-flex">
                     <div className="button color_two">
                       <a
                         className="wow fadeInUp"
@@ -49,8 +52,8 @@ const ArtificialIntelligence = () => {
                         How IT Work <i className="fa fa-long-arrow-right"></i>
                       </a>
                     </div>
-                  </div>
-                  <div className="data_science_video white-color">
+                  </div> */}
+                  {/* <div className="data_science_video white-color">
                     <div
                       className="data_science_video_inner wow fadeInUp"
                       data-wow-delay="0.5s"
@@ -59,13 +62,13 @@ const ArtificialIntelligence = () => {
                         className="video-vemo-icon venobox vbox-item"
                         data-vbtype="youtube"
                         data-autoplay="true"
-                        href="https://youtu.be/BS4TUd7FJSg"
+                        href="#"
                       >
                         <i className="fa fa-play"></i>
                         <div id="spinnerbtn"></div>
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -228,9 +231,9 @@ const ArtificialIntelligence = () => {
                       experimentation
                     </p>
                   </div>
-                  <div className="process_style_two_content_button">
+                  {/* <div className="process_style_two_content_button">
                     <a href="#">Read More</a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -253,9 +256,9 @@ const ArtificialIntelligence = () => {
                       and decision making.
                     </p>
                   </div>
-                  <div className="process_style_two_content_button">
+                  {/* <div className="process_style_two_content_button">
                     <a href="#">Read More</a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -278,9 +281,9 @@ const ArtificialIntelligence = () => {
                       better decisions.
                     </p>
                   </div>
-                  <div className="process_style_two_content_button">
+                  {/* <div className="process_style_two_content_button">
                     <a href="#">Read More</a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -305,9 +308,9 @@ const ArtificialIntelligence = () => {
                       chatbots and voice-enabled interfaces
                     </p>
                   </div>
-                  <div className="process_style_two_content_button">
+                  {/* <div className="process_style_two_content_button">
                     <a href="#">Read More</a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -329,9 +332,9 @@ const ArtificialIntelligence = () => {
                       speak and write in their natural styles
                     </p>
                   </div>
-                  <div className="process_style_two_content_button">
+                  {/* <div className="process_style_two_content_button">
                     <a href="#">Read More</a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -354,9 +357,9 @@ const ArtificialIntelligence = () => {
                       recognize patterns in them.
                     </p>
                   </div>
-                  <div className="process_style_two_content_button">
+                  {/* <div className="process_style_two_content_button">
                     <a href="#">Read More</a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

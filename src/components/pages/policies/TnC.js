@@ -1,6 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const TnC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -14,7 +17,7 @@ const TnC = () => {
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>{' '}
+                      <a href="#">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i> <span>Terms & Conditions</span>
@@ -105,7 +108,7 @@ const TnC = () => {
                   <i className="fa fa-server"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 1</h4>
+                  
                   <h6> Online Store Terms </h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -132,7 +135,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 2</h4>
+                   
                   <h6>General Conditions </h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -161,7 +164,7 @@ const TnC = () => {
                   <i className="fa fa-desktop"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 3</h4>
+                   
                   <h6>Accuracy, Completeness & Timeliness of Information</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -190,7 +193,7 @@ const TnC = () => {
                   <i className="fa fa-server"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 4</h4>
+                   
                   <h6>Modification to the Service & Prices</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -211,7 +214,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 5</h4>
+                   
                   <h6>Products Or Services</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -247,7 +250,7 @@ const TnC = () => {
                   <i className="fa fa-desktop"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 6</h4>
+                   
                   <h6>Accuracy of Billing & Account Information</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -280,7 +283,7 @@ const TnC = () => {
                   <i className="fa fa-server"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 7</h4>
+                   
                   <h6>Optional Tools</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -310,7 +313,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 8</h4>
+                   
                   <h6>Third-party Links</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -342,7 +345,7 @@ const TnC = () => {
                   <i className="fa fa-desktop"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 9</h4>
+                   
                   <h6>User Comments, Feedback & Other submissions</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -391,7 +394,7 @@ const TnC = () => {
                   <i className="fa fa-server"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 10</h4>
+                   
                   <h6>Personal Information</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -408,7 +411,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 11</h4>
+                  
                   <h6> Errors, Inaccurancies & Omissions</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -440,7 +443,7 @@ const TnC = () => {
                   <i className="fa fa-desktop"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 12</h4>
+                   
                   <h6>Prohibited Uses</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -510,7 +513,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 13</h4>
+                  
                   <h6> Disclaimer of Warranties / Limitation f liability</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -564,7 +567,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 14</h4>
+                   
                   <h6>Indemnification</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -589,7 +592,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 15</h4>
+                   
                   <h6> Severability</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -612,7 +615,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 16</h4>
+                   
                   <h6>Termination</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -640,7 +643,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 17</h4>
+                   
                   <h6> Entire Agreement</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -667,7 +670,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 18</h4>
+                   
                   <h6>Governing Law</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -686,7 +689,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 19</h4>
+                   
                   <h6>Changes to Terms of service</h6>
                 </div>
                 <div className="feature_style_five_text">
@@ -710,7 +713,7 @@ const TnC = () => {
                   <i className="fa fa-cloud"></i>
                 </div>
                 <div className="feature_style_five_title mb-3">
-                  <h4>Section 20</h4>
+                  
                   <h6>Contact Information</h6>
                 </div>
                 <div className="feature_style_five_text">

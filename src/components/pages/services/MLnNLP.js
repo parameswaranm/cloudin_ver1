@@ -1,18 +1,21 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const MLnNLP = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="banner_area banner2 d-flex align-items-center">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-8">
               <div className="single_banner">
                 <div className="single_banner_content">
                   <div className="banner_text_content white">
                     <h5 className="mb-3">Our Competency</h5>
                     <h1>
-                      Simplify the creation of Machine Learning Modelswith
+                      Simplify the creation of machine learning modelswith
                       powerful NLP algorithm with datasets of any size
                     </h1>
                   </div>
@@ -35,30 +38,30 @@ const MLnNLP = () => {
                       the core data centre to the intelligent edge.
                     </p>
                   </div>
-                  <div className="slider_button pt-25 d-flex">
+                  {/* <div className="slider_button pt-25 d-flex">
                     <div className="button color_two">
                       <a href="#">
                         How IT Work <i className="fa fa-long-arrow-right"></i>
                       </a>
                     </div>
-                  </div>
-                  <div className="data_science_video white-color">
+                  </div> */}
+                  {/* <div className="data_science_video white-color">
                     <div className="data_science_video_inner">
                       <a
                         className="video-vemo-icon venobox vbox-item"
                         data-vbtype="youtube"
                         data-autoplay="true"
-                        href="https://youtu.be/BS4TUd7FJSg"
+                        href="#"
                       >
                         <i className="fa fa-play"></i>
                         <div id="spinnerbtn"></div>
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-4">
               <div className="single_banner_thumb">
                 <div className="machine_banner_shape">
                   <div className="machine_banner_shape_inner1 bounce-animate">

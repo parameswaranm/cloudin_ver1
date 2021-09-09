@@ -65,7 +65,7 @@ Version: 0.1
     width: 100%;
     -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
-    background: #00247e !important;
+    background: #fff !important;
     transition: .5s;
 }
 

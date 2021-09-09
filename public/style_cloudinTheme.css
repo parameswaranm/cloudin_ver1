@@ -226,7 +226,7 @@ element.style {
 }
 
 .sticky .nav_scroll li a {
-    color: #fff;
+    color: #030065;
 }
 
 .sticky .logo_img {
@@ -237,7 +237,51 @@ element.style {
     display: block;
 }
 
-@media only screen and (max-width: 1024px) {
+.menuAlign {
+    z-index: 9999;
+}
+
+.feature_style_five_text ul, .feature_style_five_text ul li {
+    list-style: none;
+    color: #616161;
+}
+
+.feature_style_five:hover .feature_style_five_text ul, .feature_style_five:hover .feature_style_five_text ul li {
+    color: #fff;
+}
+
+.membername .team_style_three_title h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.btmName .single_team_content {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    background: none !important;
+    padding: 12px 20px 23px;
+    text-align: center;
+    border-bottom: 2px solid #0042A5;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+#scrollUp {
+    bottom: 75px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .techno_menu.mobile-nav {
+        transform: translate(0, 0) !important;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
     .no-js .owl-carousel, .owl-carousel.owl-loaded, .banner_area {
         display: block!important;
         clear: both;

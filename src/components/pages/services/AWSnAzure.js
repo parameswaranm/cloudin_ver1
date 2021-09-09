@@ -1,6 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const AWSnAzure = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -9,12 +12,12 @@ const AWSnAzure = () => {
             <div className="col-lg-12">
               <div className="breatcome_title">
                 <div className="breatcome_title_inner pb-2">
-                  <h2>AWS & Azure Application</h2>
+                  <h2>AWS & Azure</h2>
                 </div>
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>{' '}
+                      <a href="#">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i> <span>AWS & Azure</span>
@@ -42,10 +45,10 @@ const AWSnAzure = () => {
                 </div>
                 <div className="section_main_title">
                   <h1>
-                    to achieve uninterrupted continuity and transformative
+                    To achieve uninterrupted continuity and transformative
                     agility
                     <br />
-                    <span> Our Excellency</span>
+                    <span> our Excellency</span>
                   </h1>
                 </div>
                 <div className="em_bar">
@@ -82,11 +85,11 @@ const AWSnAzure = () => {
                     </p>
                   </div>
                 </div>
-                <div className="singel_about_left_inner pl-4">
+                {/* <div className="singel_about_left_inner pl-4">
                   <div className="button two">
                     <a href="#">More Details</a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

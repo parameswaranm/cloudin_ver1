@@ -13,7 +13,7 @@ const Portfolio = () => {
 						</div>
 						<div className="breatcome_content">
 							<ul>
-								<li><a href="index.html">Home</a> <i className="fa fa-angle-right"></i> <a href="#"> Pages</a> <i className="fa fa-angle-right"></i> <span>Portfolio</span></li>
+								<li><a href="#">Home</a> <i className="fa fa-angle-right"></i> <a href="#"> Pages</a> <i className="fa fa-angle-right"></i> <span>Portfolio</span></li>
 							</ul>
 						</div>
 					</div>

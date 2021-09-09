@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import OwlCarousel from 'react-owl-carousel';
+import { NavLink } from 'react-router-dom';
 
 const Slider = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <OwlCarousel
@@ -33,28 +37,28 @@ const Slider = () => {
                       </div>
                       <div className="slider_button pt-5 d-flex">
                         <div className="button">
-                          <a href="#">
+                          <NavLink to="/aboutus">
                             How IT Work{' '}
                             <i className="fa fa-long-arrow-right"></i>
-                          </a>
-                          <a className="active" href="#">
+                          </NavLink>
+                          <NavLink activeClassName="active" to="/ai" className="ml-4">
                             IT Services{' '}
                             <i className="fa fa-long-arrow-right"></i>
-                          </a>
+                          </NavLink>
                         </div>
                       </div>
-                      <div className="slider-video">
+                      {/* <div className="slider-video">
                         <div className="video-icon">
                           <a
                             className="video-vemo-icon venobox vbox-item"
                             data-vbtype="youtube"
                             data-autoplay="true"
-                            href="https://youtu.be/BS4TUd7FJSg"
+                            href="#"
                           >
                             <i className="fa fa-play"></i>
                           </a>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -84,28 +88,28 @@ const Slider = () => {
                       </div>
                       <div className="slider_button pt-5 d-flex">
                         <div className="button">
-                          <a href="#">
+                          <NavLink to="/aboutus">
                             How IT Work{' '}
                             <i className="fa fa-long-arrow-right"></i>
-                          </a>
-                          <a className="active" href="#">
+                          </NavLink>
+                          <NavLink activeClassName="active" to="/ai" className="ml-4">
                             IT Services{' '}
                             <i className="fa fa-long-arrow-right"></i>
-                          </a>
+                          </NavLink>
                         </div>
                       </div>
-                      <div className="slider-video">
+                      {/* <div className="slider-video">
                         <div className="video-icon">
                           <a
                             className="video-vemo-icon venobox vbox-item"
                             data-vbtype="youtube"
                             data-autoplay="true"
-                            href="https://youtu.be/BS4TUd7FJSg"
+                            href="#"
                           >
                             <i className="fa fa-play"></i>
                           </a>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -135,28 +139,28 @@ const Slider = () => {
                       </div>
                       <div className="slider_button pt-5 d-flex">
                         <div className="button">
-                          <a href="#">
+                          <NavLink to="/aboutus">
                             How IT Work{' '}
                             <i className="fa fa-long-arrow-right"></i>
-                          </a>
-                          <a className="active" href="#">
+                          </NavLink>
+                          <NavLink activeClassName="active" to="/ai" className="ml-4">
                             IT Services{' '}
                             <i className="fa fa-long-arrow-right"></i>
-                          </a>
+                          </NavLink>
                         </div>
                       </div>
-                      <div className="slider-video">
+                      {/* <div className="slider-video">
                         <div className="video-icon">
                           <a
                             className="video-vemo-icon venobox vbox-item"
                             data-vbtype="youtube"
                             data-autoplay="true"
-                            href="https://youtu.be/BS4TUd7FJSg"
+                            href="#"
                           >
                             <i className="fa fa-play"></i>
                           </a>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -320,29 +324,6 @@ const Slider = () => {
                   </p>
                 </div>
               </div>
-              <div className="singel_about_left mb-30">
-                <div className="singel_about_left_inner mb-3">
-                  <div className="about_icon mr-4">
-                    <div className="icon mt-3">
-                      <i className="flaticon-padlock"></i>
-                    </div>
-                  </div>
-                  <div className="singel-about-content">
-                    <h5>Warranty Management</h5>
-                  </div>
-                </div>
-                <p>&nbsp;</p>
-                <div className="singel_about_left_inner">
-                  <div className="about_icon mr-4">
-                    <div className="icon mt-3">
-                      <i className="flaticon-code"></i>
-                    </div>
-                  </div>
-                  <div className="singel-about-content">
-                    <h5>Quality Control System</h5>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -398,9 +379,9 @@ const Slider = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/ai">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -438,9 +419,9 @@ const Slider = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/mLnNLP">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -478,9 +459,9 @@ const Slider = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/blockchain">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -518,9 +499,9 @@ const Slider = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/chatBot">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -558,9 +539,9 @@ const Slider = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/aWSnAzure">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -598,9 +579,9 @@ const Slider = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/react">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -638,9 +619,9 @@ const Slider = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/iTConsulting">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -678,9 +659,9 @@ const Slider = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/mobileApp">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -718,9 +699,9 @@ const Slider = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/webApp">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -760,9 +741,49 @@ const Slider = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/uiux">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+              <div className="techno_flipbox mb-30">
+                <div className="techno_flipbox_font">
+                  <div className="techno_flipbox_inner">
+                    <div className="techno_flipbox_icon">
+                      <div className="icon bgOrange">
+                        <i className="flaticon-business-and-finance"></i>
+                      </div>
+                    </div>
+                    <div className="flipbox_title">
+                      <h3>Virtual Assistant</h3>
+                    </div>
+                    <div className="flipbox_desc">
+                      <p>
+                        Our CloudinAssistants have the top administrative skills
+                        and know all the best tools to get things done quickly.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="techno_flipbox_back service_bg3">
+                  <div className="techno_flipbox_inner">
+                    <div className="flipbox_title">
+                      <h3>Virtual Assistant</h3>
+                    </div>
+                    <div className="flipbox_desc">
+                      <p>
+                        Our CloudinAssistants have the top administrative skills
+                        and know all the best tools to get things done quickly.
+                      </p>
+                    </div>
+                    <div className="flipbox_button">
+                      <NavLink activeClassName="active" to="/virtualAssist">
+                        Read More<i className="fa fa-angle-double-right"></i>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -797,7 +818,11 @@ const Slider = () => {
                 </div>
                 <div className="service_style_two_content">
                   <div className="service_style_two_title pb-3">
-                    <h4>Inventory</h4>
+                    <h4>
+                      <NavLink activeClassName="active" to="/inventory">
+                        Inventory
+                      </NavLink>
+                    </h4>
                   </div>
                   <div className="service_style_two_text">
                     <p>
@@ -816,7 +841,11 @@ const Slider = () => {
                 </div>
                 <div className="service_style_two_content">
                   <div className="service_style_two_title pb-3">
-                    <h4>Mr.Business</h4>
+                    <h4>
+                      <NavLink activeClassName="active" to="/mrBusiness">
+                        Mr.Business
+                      </NavLink>
+                    </h4>
                   </div>
                   <div className="service_style_two_text">
                     <p>
@@ -834,7 +863,11 @@ const Slider = () => {
                 </div>
                 <div className="service_style_two_content">
                   <div className="service_style_two_title pb-3">
-                    <h4>Finjo</h4>
+                    <h4>
+                      <NavLink activeClassName="active" to="/finjo">
+                        Finjo
+                      </NavLink>
+                    </h4>
                   </div>
                   <div className="service_style_two_text">
                     <p>
@@ -853,7 +886,11 @@ const Slider = () => {
                 </div>
                 <div className="service_style_two_content">
                   <div className="service_style_two_title pb-3">
-                    <h4>E-Camp</h4>
+                    <h4>
+                      <NavLink activeClassName="active" to="/eCamp">
+                        E-Camp
+                      </NavLink>
+                    </h4>
                   </div>
                   <div className="service_style_two_text">
                     <p>
@@ -887,25 +924,17 @@ const Slider = () => {
             </div>
           </div>
         </div>
-        <div className="video_area pb-200">
+        <div className="video_area">
           <div className="container">
             <div className="row mrt-200">
               <div className="col-lg-12">
                 <div className="single_video">
                   <div className="single_video_thumb">
-                    <img src="assets/images/slider/video.png" alt="" />
-                  </div>
-                </div>
-                <div className="single-video text-center">
-                  <div className="video-icon mrt-345">
-                    <a
-                      className="video-vemo-icon venobox vbox-item"
-                      data-vbtype="youtube"
-                      data-autoplay="true"
-                      href="https://youtu.be/BS4TUd7FJSg"
-                    >
-                      <i className="fa fa-play"></i>
-                    </a>
+                    <img
+                      src="assets/images/slider/video.png"
+                      width="100%"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
@@ -1154,29 +1183,6 @@ const Slider = () => {
                 </div>
               </div>
             </section>
-          </div>
-        </div>
-      </div>
-
-      <div className="call_do_action pt-85 pb-130 bg_color clientCount_bg">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section_title white text_center mb-60 mt-3">
-                <div className="phone_number mb-3">
-                  <h5> +91 90436 86520</h5>
-                </div>
-                <div className="section_main_title">
-                  <h1>To make requests for the</h1>
-                  <h1>further information</h1>
-                </div>
-                <div className="button three mt-40">
-                  <a href="#">
-                    Join With Now<i className="fa fa-long-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

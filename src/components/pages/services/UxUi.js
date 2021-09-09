@@ -1,6 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const UxUi = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -14,7 +17,7 @@ const UxUi = () => {
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>{' '}
+                      <a href="#">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i> <span>UI & UX</span>
@@ -43,7 +46,7 @@ const UxUi = () => {
                 <div className="section_main_title">
                   <h1>
                     Users with our elegant UI/UX designs
-                    <span> Our Graceful UI/UX </span>
+                    <br /><span> our graceful UI/UX </span>
                   </h1>
                 </div>
                 <div className="em_bar">
@@ -77,11 +80,11 @@ const UxUi = () => {
                     </p>
                   </div>
                 </div>
-                <div className="singel_about_left_inner pl-4">
+                {/* <div className="singel_about_left_inner pl-4">
                   <div className="button two">
                     <a href="#">More Details</a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -269,14 +272,14 @@ const UxUi = () => {
                   >
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i> o
+                        <i className="fa fa-check-square-o"></i> 
                         Touch-friendly navigation options for enhanced user
                         experience
                       </span>
                     </div>
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i> o Ensure a
+                        <i className="fa fa-check-square-o"></i> Ensure a
                         simplified design layouts to provide a pleasant mobile
                         experience
                       </span>

@@ -1,6 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const Services = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div>
@@ -15,7 +18,7 @@ const Services = () => {
                   <div className="breatcome_content">
                     <ul>
                       <li>
-                        <a href="index.html">Home</a>{' '}
+                        <a href="#">Home</a>{' '}
                         <i className="fa fa-angle-right"></i>{' '}
                         <a href="#"> Pages</a>{' '}
                         <i className="fa fa-angle-right"></i>{' '}
@@ -564,7 +567,7 @@ const Services = () => {
                       className="video-vemo-icon venobox vbox-item"
                       data-vbtype="youtube"
                       data-autoplay="true"
-                      href="https://youtu.be/BS4TUd7FJSg"
+                      href="#"
                     >
                       <i className="fa fa-play"></i>
                     </a>

@@ -1,7 +1,10 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 
 const Investor = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -15,7 +18,7 @@ const Investor = () => {
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>{' '}
+                      <a href="#">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
@@ -61,11 +64,11 @@ const Investor = () => {
                 thrilled to have them with us on this journey .
               </p>
             </div>
-            <div className="service_style_one_button pt-3">
+            {/* <div className="service_style_one_button pt-3">
               <a href="#">
                 Read More <i className="fa fa-long-arrow-right"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -110,11 +113,11 @@ const Investor = () => {
                     growth and innovation .
                   </p>
                 </div>
-                <div className="feature_style_four_button">
+                {/* <div className="feature_style_four_button">
                   <a href="#">
                     Read More<i className="fa fa-long-arrow-right"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
@@ -134,11 +137,11 @@ const Investor = () => {
                     endless money to companies .
                   </p>
                 </div>
-                <div className="feature_style_four_button">
+                {/* <div className="feature_style_four_button">
                   <a href="#">
                     Read More<i className="fa fa-long-arrow-right"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
@@ -159,11 +162,11 @@ const Investor = () => {
                     industry .
                   </p>
                 </div>
-                <div className="feature_style_four_button">
+                {/* <div className="feature_style_four_button">
                   <a href="#">
                     Read More<i className="fa fa-long-arrow-right"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -186,11 +189,11 @@ const Investor = () => {
                     strangers .
                   </p>
                 </div>
-                <div className="feature_style_four_button">
+                {/* <div className="feature_style_four_button">
                   <a href="#">
                     Read More<i className="fa fa-long-arrow-right"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

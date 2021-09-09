@@ -3,6 +3,17 @@ import React, { Fragment, useEffect, useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
+
+  const handleScroll = () => {
+    window.scrollTo({ 
+      top: document.documentElement.scrollHeight, 
+      behavior: 'smooth'
+      /* you can also use 'auto' behaviour 
+         in place of 'smooth' */
+    });
+  }
+
+
   useEffect(() => {
     $(window).on('scroll', function () {
       var ww = document.body.clientWidth;
@@ -82,22 +93,18 @@ const Navbar = () => {
                   <div className="header_top_menu_icon_inner">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/cloudintechnologies/" target="_blank">
                           <i className="fa fa-facebook"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://twitter.com/cloudintech?s=21" target="_blank">
                           <i className="fa fa-twitter"></i>
                         </a>
                       </li>
+                       
                       <li>
-                        <a href="#">
-                          <i className="fa fa-pinterest"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/company/cloudin-tech" target="_blank">
                           <i className="fa fa-linkedin"></i>
                         </a>
                       </li>
@@ -114,18 +121,18 @@ const Navbar = () => {
               <div className="col-md-3 col-sm-12 col-xs-12 logoAlign">
                 <div className="logo mt-1">
                   <a className="logo_img" href="index.html" title="Cloudin">
-                    <img src="assets/images/cloudin_logo.png" alt="Cloudin" />
+                  <NavLink to="/home"><img src="assets/images/cloudin_logo.png" alt="Cloudin" /></NavLink>
                   </a>
                   <a className="main_sticky" href="index.html" title="Cloudin">
-                    <img
-                      src="assets/images/cloudin_logo_hover.png"
+                  <NavLink to="/home"><img
+                      src="assets/images/cloudin_logo.png"
                       alt="Cloudin"
-                    />
+                    /></NavLink>
                   </a>
                 </div>
               </div>
               <div className="col-md-9 col-sm-12 col-xs-12 menuAlign">
-                <div class="mobile-wrapper">
+                <div className="mobile-wrapper">
                   <div className="mobile mobile-one">
                     <div className="header">
                       <div className="menu-toggle">
@@ -137,7 +144,7 @@ const Navbar = () => {
                     <nav className="techno_menu mobile-nav">
                       <ul className="nav_scroll">
                         <li className="standalone">
-                          <NavLink to="/">Home</NavLink>
+                          <NavLink to="/home">Home</NavLink>
                         </li>
                         <li>
                           <NavLink to="/aboutus">Company</NavLink>
@@ -152,11 +159,11 @@ const Navbar = () => {
                                 Our team
                               </NavLink>
                             </li>
-                            <li>
+                            {/* <li>
                               <NavLink activeClassName="active" to="/investor">
                                 Investor
                               </NavLink>
-                            </li>
+                            </li> */}
                             {/* <li>
                           <NavLink activeClassName="active" to="/portfolio">
                             Portfolio
@@ -171,7 +178,7 @@ const Navbar = () => {
                           <ul className="sub-menu">
                             <li>
                               <NavLink activeClassName="active" to="/ai">
-                                Artificial Intelligence
+                                Artificial intelligence
                               </NavLink>
                             </li>
                             <li>
@@ -189,7 +196,7 @@ const Navbar = () => {
                             </li>
                             <li>
                               <NavLink activeClassName="active" to="/chatBot">
-                                Chat bot
+                              Chatbot
                               </NavLink>
                             </li>
                             <li>
@@ -207,22 +214,22 @@ const Navbar = () => {
                                 activeClassName="active"
                                 to="/iTConsulting"
                               >
-                                IT Consulting
+                                IT consulting
                               </NavLink>
                             </li>
                             <li>
                               <NavLink activeClassName="active" to="/mobileApp">
-                                Mobile App
+                                Mobile app
                               </NavLink>
                             </li>
                             <li>
                               <NavLink activeClassName="active" to="/webApp">
-                                Web App
+                                Web app
                               </NavLink>
                             </li>
                             <li>
                               <NavLink activeClassName="active" to="/uiux">
-                                UI/UX Design
+                                UI/UX design
                               </NavLink>
                             </li>
                             <li>
@@ -230,7 +237,7 @@ const Navbar = () => {
                                 activeClassName="active"
                                 to="/virtualAssist"
                               >
-                                Virtual Assistant
+                                Virtual assistant
                               </NavLink>
                             </li>
                           </ul>
@@ -272,17 +279,17 @@ const Navbar = () => {
                           <ul className="sub-menu">
                             <li>
                               <NavLink activeClassName="active" to="/privacy">
-                                Privacy Policy
+                                Privacy policy
                               </NavLink>
                             </li>
                             <li>
                               <NavLink activeClassName="active" to="/pricing">
-                                Pricing Policy
+                                Pricing policy
                               </NavLink>
                             </li>
                             <li>
                               <NavLink activeClassName="active" to="/refund">
-                                Refund Policy
+                                Refund policy
                               </NavLink>
                             </li>
                             <li>
@@ -292,14 +299,14 @@ const Navbar = () => {
                             </li>
                           </ul>
                         </li>
-                        <li>
-                          <NavLink activeClassName="active" to="/home">
+                        <li className="cursor_pointer" onClick={handleScroll}>
+                          <a>
                             Contact us
-                          </NavLink>
+                          </a>
                         </li>
                       </ul>
                       <div className="donate-btn-header">
-                        <a className="dtbtn">Get A Quote</a>
+                        <a className="dtbtn" href="https://t.me/cloudinQ" target="_blank">Get a quote</a>
                       </div>
                     </nav>
                   </div>
