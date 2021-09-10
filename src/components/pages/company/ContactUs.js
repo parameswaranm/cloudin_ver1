@@ -59,6 +59,11 @@ const ContactUs = () => {
   const handleChangeFunc = () => {
     setisValueChanged(true);
   };
+  const getValues = (values) => {
+    if (values) {
+      setisValueChanged(true);
+    }
+  };
 
   return (
     <Fragment>
@@ -237,8 +242,11 @@ const ContactUs = () => {
                               control="select"
                               value={values.region}
                               onChange={setFieldValue}
+                              onChange={async (e, value) => {
+                                await setFieldValue('region', value);
+                                getValues(value);
+                              }}
                               onBlur={setFieldTouched}
-                              onKeyPress={handleChangeFunc}
                               options={
                                 region &&
                                 region.map((item) => ({
@@ -258,7 +266,10 @@ const ContactUs = () => {
                             <FormikControl
                               control="select"
                               value={values.industry}
-                              onChange={setFieldValue}
+                              onChange={async (e, value) => {
+                                await setFieldValue('industry', value);
+                                getValues(value);
+                              }}
                               onBlur={setFieldTouched}
                               onKeyPress={handleChangeFunc}
                               options={
@@ -280,7 +291,10 @@ const ContactUs = () => {
                             <FormikControl
                               control="select"
                               value={values.services}
-                              onChange={setFieldValue}
+                              onChange={async (e, value) => {
+                                await setFieldValue('services', value);
+                                getValues(value);
+                              }}
                               onBlur={setFieldTouched}
                               onKeyPress={handleChangeFunc}
                               options={
@@ -328,7 +342,6 @@ const ContactUs = () => {
                                 Send Message
                               </button>
                             </div>
-                             
                           </div>
                         </div>
                       </div>
@@ -340,8 +353,6 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-
-       
     </Fragment>
   );
 };
