@@ -55,7 +55,7 @@ const Input = (props) => {
 
         <div
           className={`formControl-container text-left validation ${
-            diFieldClass ? diFieldClass : 'col-sm-7'
+            diFieldClass ? diFieldClass : 'col-sm-8'
           }`}
         >
           <Field

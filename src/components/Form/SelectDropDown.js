@@ -90,7 +90,7 @@ const SelectDropDown = (props) => {
 
         <div
           className={`formControl-container text-left error validation ${
-            diFieldClass ? diFieldClass : 'col-sm-7'
+            diFieldClass ? diFieldClass : 'col-sm-8'
           }`}
         >
           <Select

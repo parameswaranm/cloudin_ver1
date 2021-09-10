@@ -49,7 +49,7 @@ const TextArea = (props) => {
                     </label>
                 </div>
                 
-                <div className={`formControl-container text-left validation ${diFieldClass ? diFieldClass : 'col-sm-7'}`}>
+                <div className={`formControl-container text-left validation ${diFieldClass ? diFieldClass : 'col-sm-8'}`}>
                      
                         <Field
                             as="textarea"
