@@ -275,6 +275,18 @@ element.style {
     bottom: 75px;
 }
 
+.label-block label {
+    font-size: 18px!important;
+}
+
+.text-secondary {
+    color: #fff !important;
+}
+
+.error-message {
+    color: #FFB300 !important;font-size: 12px;
+}
+
 @media only screen and (min-width: 1024px) {
     .techno_menu.mobile-nav {
         transform: translate(0, 0) !important;

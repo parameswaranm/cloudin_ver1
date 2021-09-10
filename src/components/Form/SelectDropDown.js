@@ -76,7 +76,7 @@ const SelectDropDown = (props) => {
         ) : (
           <div
             className={`label-block  ${
-              divlabelClass ? divlabelClass : 'col-sm-4'
+              divlabelClass ? divlabelClass : 'col-sm-3'
             }`}
           >
             <label
@@ -90,7 +90,7 @@ const SelectDropDown = (props) => {
 
         <div
           className={`formControl-container text-left error validation ${
-            diFieldClass ? diFieldClass : 'col-sm-8'
+            diFieldClass ? diFieldClass : 'col-sm-7'
           }`}
         >
           <Select

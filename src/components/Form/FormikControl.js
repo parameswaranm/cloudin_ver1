@@ -10,7 +10,9 @@ const FormikControl = (props) => {
     case 'input':
       return <Input {...rest} />;
     case 'select':
-      return <SelectDropDown {...rest} />;     
+      return <SelectDropDown {...rest} />;
+    case 'textarea':
+      return <Textarea {...rest} />;
     default:
       return null;
   }

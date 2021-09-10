@@ -41,7 +41,7 @@ const Input = (props) => {
         ) : (
           <div
             className={`label-block ${
-              divlabelClass ? divlabelClass : 'col-sm-4'
+              divlabelClass ? divlabelClass : 'col-sm-3'
             }`}
           >
             <label
@@ -55,7 +55,7 @@ const Input = (props) => {
 
         <div
           className={`formControl-container text-left validation ${
-            diFieldClass ? diFieldClass : 'col-sm-8'
+            diFieldClass ? diFieldClass : 'col-sm-7'
           }`}
         >
           <Field

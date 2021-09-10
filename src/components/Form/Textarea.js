@@ -4,6 +4,7 @@ import React from 'react';
 import ErrorMessageDisplay from './ErrorMessage';
 
 const TextArea = (props) => {
+    
     const {
         label,
         name,
@@ -27,7 +28,7 @@ const TextArea = (props) => {
         noCounts,
         ...rest
     } = props;
-    const tooltipText = dataTip;
+     
 
     let error;
     if (errors[name] && touched[name]) {
@@ -41,14 +42,14 @@ const TextArea = (props) => {
     return (
         <React.Fragment>
             <div className={classname ? 'row' + ' ' + classname : 'row mb-3'}>
-                {/* <div className="col-sm-6 label-block"> */}
-                <div className={`label-block ${divlabelClass ? divlabelClass : 'col-sm-6'}`}>
+                 
+                <div className={`label-block ${divlabelClass ? divlabelClass : 'col-sm-3'}`}>
                     <label htmlFor={name} className={!fieldOptional ? `mandatory-label` : ''}>
                         {label}
                     </label>
                 </div>
-                {/* <div className="col-sm-4 formControl-container text-left validation"> */}
-                <div className={`formControl-container text-left validation ${diFieldClass ? diFieldClass : 'col-sm-6'}`}>
+                
+                <div className={`formControl-container text-left validation ${diFieldClass ? diFieldClass : 'col-sm-7'}`}>
                      
                         <Field
                             as="textarea"
@@ -69,7 +70,8 @@ const TextArea = (props) => {
                         />
                      
                     <ErrorMessageDisplay {...props} />
-                    {!noCounts && <small className="text-secondary m-0">Characters: {value.length} / {maxlength} Left {maxlength-value.length}</small>}
+                     
+                    { value && <small className="text-secondary m-0">Characters: {value.length} / {maxlength} Left {maxlength-value.length}</small>} 
                 </div>
             </div>
         </React.Fragment>
