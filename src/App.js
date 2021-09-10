@@ -3,6 +3,7 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 
 import Container from './components/Container';
 import AboutUs from './components/pages/company/AboutUs';
+import ContactUs from './components/pages/company/ContactUs';
 import Investor from './components/pages/company/Investor';
 import OurTeam from './components/pages/company/OurTeam';
 import Portfolio from './components/pages/company/Portfolio';
@@ -43,6 +44,9 @@ function App() {
         </Route>
         <Route path="/aboutus" exact>
           <AboutUs />
+        </Route>
+        <Route path="/contactus" exact>
+          <ContactUs />
         </Route>
         <Route path="/ourteam" exact>
           <OurTeam />

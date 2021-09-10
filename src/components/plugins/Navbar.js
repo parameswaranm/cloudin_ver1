@@ -3,16 +3,14 @@ import React, { Fragment, useEffect, useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-
   const handleScroll = () => {
-    window.scrollTo({ 
-      top: document.documentElement.scrollHeight, 
-      behavior: 'smooth'
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth',
       /* you can also use 'auto' behaviour 
          in place of 'smooth' */
     });
-  }
-
+  };
 
   useEffect(() => {
     $(window).on('scroll', function () {
@@ -93,18 +91,27 @@ const Navbar = () => {
                   <div className="header_top_menu_icon_inner">
                     <ul>
                       <li>
-                        <a href="https://www.facebook.com/cloudintechnologies/" target="_blank">
+                        <a
+                          href="https://www.facebook.com/cloudintechnologies/"
+                          target="_blank"
+                        >
                           <i className="fa fa-facebook"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://twitter.com/cloudintech?s=21" target="_blank">
+                        <a
+                          href="https://twitter.com/cloudintech?s=21"
+                          target="_blank"
+                        >
                           <i className="fa fa-twitter"></i>
                         </a>
                       </li>
-                       
+
                       <li>
-                        <a href="https://www.linkedin.com/company/cloudin-tech" target="_blank">
+                        <a
+                          href="https://www.linkedin.com/company/cloudin-tech"
+                          target="_blank"
+                        >
                           <i className="fa fa-linkedin"></i>
                         </a>
                       </li>
@@ -121,13 +128,14 @@ const Navbar = () => {
               <div className="col-md-3 col-sm-12 col-xs-12 logoAlign">
                 <div className="logo mt-1">
                   <a className="logo_img" href="index.html" title="Cloudin">
-                  <NavLink to="/home"><img src="assets/images/cloudin_logo.png" alt="Cloudin" /></NavLink>
+                    <NavLink to="/home">
+                      <img src="assets/images/cloudin_logo.png" alt="Cloudin" />
+                    </NavLink>
                   </a>
                   <a className="main_sticky" href="index.html" title="Cloudin">
-                  <NavLink to="/home"><img
-                      src="assets/images/cloudin_logo.png"
-                      alt="Cloudin"
-                    /></NavLink>
+                    <NavLink to="/home">
+                      <img src="assets/images/cloudin_logo.png" alt="Cloudin" />
+                    </NavLink>
                   </a>
                 </div>
               </div>
@@ -196,7 +204,7 @@ const Navbar = () => {
                             </li>
                             <li>
                               <NavLink activeClassName="active" to="/chatBot">
-                              Chatbot
+                                Chatbot
                               </NavLink>
                             </li>
                             <li>
@@ -299,14 +307,23 @@ const Navbar = () => {
                             </li>
                           </ul>
                         </li>
-                        <li className="cursor_pointer" onClick={handleScroll}>
-                          <a>
+                        <li
+                          className="cursor_pointer"
+                          // onClick={handleScroll}
+                        >
+                          <NavLink activeClassName="active" to="/contactus">
                             Contact us
-                          </a>
+                          </NavLink>
                         </li>
                       </ul>
                       <div className="donate-btn-header">
-                        <a className="dtbtn" href="https://t.me/cloudinQ" target="_blank">Get a quote</a>
+                        <a
+                          className="dtbtn"
+                          href="https://t.me/cloudinQ"
+                          target="_blank"
+                        >
+                          Get a quote
+                        </a>
                       </div>
                     </nav>
                   </div>
