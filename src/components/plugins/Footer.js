@@ -62,9 +62,7 @@ const Footer = (props) => {
                     >
                       <i className="fa fa-linkedin"></i>
                     </a>
-                    {/* <a href="#"> */}
-                    {/* <i className="fa fa-skype"></i> */}
-                    {/* </a> */}
+                     
                   </div>
                 </div>
               </div>
@@ -78,14 +76,14 @@ const Footer = (props) => {
                       <a href="#">TextLocal</a>
                       <br />
                       {/* <p className="color_yellow">
-                        Condimentum rhoncus, sem quam semper libero
+                         
                       </p> */}
                     </li>
                     <li>
                       <a href="#">Collect ChatBot</a>
                       <br />
                       {/* <p className="color_yellow">
-                        Condimentum rhoncus, sem quam semper libero
+                         
                       </p> */}
                     </li>
                   </ul>
