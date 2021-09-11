@@ -98,10 +98,10 @@ const ContactUs = () => {
             <div className="col-lg-12">
               <div className="section_title text_center mb-55">
                 <div className="section_sub_title uppercase mb-3">
-                  <h6>CONTACT US</h6>
+                  <h6>Contact us</h6>
                 </div>
                 <div className="section_main_title">
-                  <h1>We Are Here For You</h1>
+                  <h1>We are here for you</h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
