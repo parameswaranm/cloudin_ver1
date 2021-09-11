@@ -109,22 +109,28 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="single_contact_address text_center mb-30">
+          <div className="row ">
+            <div className="col-lg-4 col-md-6 col-sm-12 ">
+              <div className="single_contact_address text_center mb-30 contactBox">
                 <div className="contact_address_icon pb-3">
                   <i className="fa fa-map-o"></i>
                 </div>
                 <div className="contact_address_title pb-2">
-                  <h4>Enter Your Address</h4>
+                  <h4>India</h4>
                 </div>
                 <div className="contact_address_text">
-                  <p>54/1 New sorini Asut, Melbord Austria.</p>
+                  <p>
+                    201, Vanjiamman Building,
+                    <br />
+                    Esso Bunk, Peelamedu,
+                    <br />
+                    Coimbatore-641004. Tamilnadu,
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="single_contact_address text_center mb-30">
+            <div className="col-lg-4 col-md-6 col-sm-12 ">
+              <div className="single_contact_address text_center mb-30 contactBox">
                 <div className="contact_address_icon pb-3">
                   <i className="fa fa-clock-o"></i>
                 </div>
@@ -132,12 +138,12 @@ const ContactUs = () => {
                   <h4>Opening Hours</h4>
                 </div>
                 <div className="contact_address_text">
-                  <p>Mon - Thu: 10:00am - 05:00pm</p>
+                  <p>Mon - Sat: 10:00am - 05:00pm</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="single_contact_address text_center mb-30">
+            <div className="col-lg-4 col-md-6 col-sm-12 ">
+              <div className="single_contact_address text_center mb-30 contactBox">
                 <div className="contact_address_icon pb-3">
                   <i className="fa fa-volume-control-phone"></i>
                 </div>
@@ -145,7 +151,11 @@ const ContactUs = () => {
                   <h4>Contact Directly</h4>
                 </div>
                 <div className="contact_address_text">
-                  <p>demo@example.com, 54786547521</p>
+                  <p>
+                    India, Contact : 0422 - 4960128,
+                    <br />
+                    Email : info@cloudin.email
+                  </p>
                 </div>
               </div>
             </div>

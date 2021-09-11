@@ -207,6 +207,9 @@ element.style {
 .eCamp_Box_minHeight {
     min-height: 490px!important;
 }
+.contactBox{
+    min-height: 250px!important;
+}
 
 .invent .single_service_inner::before {
     height: 60px;
