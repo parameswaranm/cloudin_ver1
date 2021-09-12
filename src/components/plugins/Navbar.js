@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import React, { Fragment, useEffect, useRef, useState } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {

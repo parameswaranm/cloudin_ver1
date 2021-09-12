@@ -1,15 +1,16 @@
-import { Form, Formik } from 'formik';
-import React, { Fragment, useState } from 'react';
-import { matchPath, Prompt, Redirect, Route, Switch } from 'react-router-dom';
+import axios from 'axios';
+import { Formik } from 'formik';
+import cloudinConfig from '../../../store/config';
+import React, { Fragment, useContext, useEffect, useState } from 'react';
+import { matchPath, Prompt } from 'react-router-dom';
 
+import { Context } from '../../../store/Context';
 import FormikControl from '../../Form/FormikControl';
 import { ContactValidation } from '../../validation/validation';
 
 export const handleChange = (event) => {
   const keyCode = event.keyCode || event.which;
-
   const keyValue = String.fromCharCode(keyCode);
-
   if (
     /^[0-9!@":<>?;,/#~\$%\^\&*\)\(+=._\[(.*?)\]\{(.*?)\}/`/\\|]|[^'][^-]+$/g.test(
       keyValue
@@ -18,42 +19,146 @@ export const handleChange = (event) => {
     event.preventDefault();
 };
 
-const ContactUs = () => {
+const ContactUs = (props) => {
   const [isValueChanged, setisValueChanged] = useState(false);
+  const [state, dispatch] = useContext(Context);
+  const [country, setCountry] = useState(false);
+  const [postsData, setpostsData] = useState([]);
+
+  const [testProp, settestProp] = React.useState(null);
+  const context2 = useContext(Context);
+  console.log(context2);
+
   const services = [
     {
       id: '1',
-      label: 'service 1',
-      value: 'service 1',
+      label: 'Artificial Intelligence',
+      value: 'Artificial Intelligence',
     },
     {
       id: '2',
-      label: 'service 2',
-      value: 'service 2',
+      label: 'ML & NLP',
+      value: 'ML & NLP',
+    },
+    {
+      id: '3',
+      label: 'Blockchain Technology',
+      value: 'Blockchain Technology',
+    },
+    {
+      id: '4',
+      label: 'Chatbot',
+      value: 'Chatbot',
+    },
+    {
+      id: '5',
+      label: 'Cloud Services',
+      value: 'Cloud Services',
+    },
+    {
+      id: '6',
+      label: 'React Native Development',
+      value: 'React Native Development',
+    },
+    {
+      id: '7',
+      label: 'IT Consulting Services',
+      value: 'IT Consulting Services',
+    },
+    {
+      id: '8',
+      label: 'Mobile App Development',
+      value: 'Mobile App Development',
+    },
+    {
+      id: '9',
+      label: 'Web Application',
+      value: 'Web Application',
+    },
+    {
+      id: '10',
+      label: 'UI / UX Design',
+      value: 'UI / UX Design',
+    },
+    {
+      id: '11',
+      label: 'Virtual Assistant',
+      value: 'Virtual Assistant',
     },
   ];
   const region = [
     {
       id: '1',
-      label: 'region 1',
-      value: 'region 1',
+      label: 'Africa',
+      value: 'Africa',
     },
     {
       id: '2',
-      label: 'region 2',
-      value: 'region 2',
+      label: 'Americas',
+      value: 'Americas',
+    },
+    {
+      id: '3',
+      label: 'Asia',
+      value: 'Asia',
+    },
+    {
+      id: '4',
+      label: 'Europe',
+      value: 'Europe',
+    },
+    {
+      id: '5',
+      label: 'Oceania',
+      value: 'Oceania',
     },
   ];
   const industry = [
     {
       id: '1',
-      label: 'industry 1',
-      value: 'industry 1',
+      label: 'Accounting',
+      value: 'Accounting  ',
     },
     {
       id: '2',
-      label: 'industry 2',
-      value: 'industry 2',
+      label: 'Automotive',
+      value: 'Automotive',
+    },
+    ,
+    {
+      id: '3',
+      label: 'Chemicals',
+      value: 'Chemicals',
+    },
+    ,
+    {
+      id: '4',
+      label: 'Civic/Social Organization',
+      value: 'Civic/Social Organization',
+    },
+    ,
+    {
+      id: '5',
+      label: 'Computer Software/Engineering',
+      value: 'Computer Software/Engineering',
+    },
+    ,
+    {
+      id: '6',
+      label: 'Consumer Services',
+      value: 'Consumer Services',
+    },
+    ,
+    {
+      id: '7',
+      label: 'Design',
+      value: 'Design',
+    },
+    ,
+    {
+      id: '8',
+      label: 'Farming',
+      value: 'Farming',
     },
   ];
   const handleChangeFunc = () => {
@@ -64,6 +169,25 @@ const ContactUs = () => {
       setisValueChanged(true);
     }
   };
+  const getValuesRegion = (values) => {
+    if (values) {
+      setisValueChanged(true);
+      if (values) {
+        axios
+          .get(cloudinConfig.REGION_API_URL + `/${values.label}`)
+          .then((response) => {
+            const postsData = response.data;
+            dispatch({ type: 'SET_POSTS', payload: postsData });
+            setCountry(true);
+            setpostsData(postsData);
+          })
+          .catch((error) => {
+            dispatch({ type: 'SET_ERROR', payload: error });
+          });
+      }
+    }
+  };
+  useEffect(() => {}, []);
 
   return (
     <Fragment>
@@ -76,6 +200,7 @@ const ContactUs = () => {
                   <h2>Contact us</h2>
                 </div>
                 <div className="breatcome_content">
+                  {/* <h1>{context2.initialState}</h1> */}
                   <ul>
                     <li>
                       <a href="index.html">Home</a>{' '}
@@ -243,18 +368,15 @@ const ContactUs = () => {
                               onKeyPress={handleChangeFunc}
                               {...propsvalues}
                               maxlength={25}
-                              // divlabelClass="col-sm-6"
-                              // diFieldClass="col-sm-6"
                               onBlur={handleBlur}
                             />
 
                             <FormikControl
                               control="select"
                               value={values.region}
-                              onChange={setFieldValue}
                               onChange={async (e, value) => {
                                 await setFieldValue('region', value);
-                                getValues(value);
+                                getValuesRegion(value);
                               }}
                               onBlur={setFieldTouched}
                               options={
@@ -270,9 +392,27 @@ const ContactUs = () => {
                               label="region"
                               positiveValidation={false}
                               {...propsvalues}
-                              // divlabelClass="col-sm-6"
-                              // diFieldClass="col-sm-6"
                             />
+                            {country && (
+                              <FormikControl
+                                control="select"
+                                value={values.country}
+                                onChange={setFieldValue}
+                                onBlur={setFieldTouched}
+                                options={
+                                  postsData &&
+                                  postsData.map((item) => ({
+                                    label: item.name,
+                                    value: item.alpha2Code,
+                                  }))
+                                }
+                                type="selectDropdown"
+                                name="country"
+                                label="Country"
+                                positiveValidation={false}
+                                {...propsvalues}
+                              />
+                            )}
                             <FormikControl
                               control="select"
                               value={values.industry}
@@ -295,8 +435,6 @@ const ContactUs = () => {
                               label="Industry"
                               positiveValidation={false}
                               {...propsvalues}
-                              // divlabelClass="col-sm-6"
-                              // diFieldClass="col-sm-6"
                             />
                             <FormikControl
                               control="select"
@@ -320,8 +458,6 @@ const ContactUs = () => {
                               label="Services"
                               positiveValidation={false}
                               {...propsvalues}
-                              // divlabelClass="col-sm-6"
-                              // diFieldClass="col-sm-6"
                             />
                             <FormikControl
                               control="textarea"
