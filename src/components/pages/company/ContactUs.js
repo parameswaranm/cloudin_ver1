@@ -28,8 +28,7 @@ const ContactUs = (props) => {
   const [testProp, settestProp] = React.useState(null);
   const context2 = useContext(Context);
   console.log(context2);
-
-  const [testName, setTestName] = useState();
+ 
 
   const services = [
     {
