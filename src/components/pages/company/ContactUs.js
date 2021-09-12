@@ -29,6 +29,8 @@ const ContactUs = (props) => {
   const context2 = useContext(Context);
   console.log(context2);
 
+  const [testName, setTestName] = useState();
+
   const services = [
     {
       id: '1',
@@ -187,7 +189,6 @@ const ContactUs = (props) => {
       }
     }
   };
-  useEffect(() => {}, []);
 
   return (
     <Fragment>
