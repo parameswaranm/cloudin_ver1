@@ -1,9 +1,10 @@
 import axios from 'axios';
-import { Formik } from 'formik';
-import cloudinConfig from '../../../store/config';
+import emailjs, { init, send } from 'emailjs-com';
+import { Form, Formik } from 'formik';
 import React, { Fragment, useContext, useEffect, useState } from 'react';
 import { matchPath, Prompt } from 'react-router-dom';
 
+import cloudinConfig from '../../../store/config';
 import { Context } from '../../../store/Context';
 import FormikControl from '../../Form/FormikControl';
 import { ContactValidation } from '../../validation/validation';
@@ -28,7 +29,6 @@ const ContactUs = (props) => {
   const [testProp, settestProp] = React.useState(null);
   const context2 = useContext(Context);
   console.log(context2);
- 
 
   const services = [
     {
@@ -189,6 +189,23 @@ const ContactUs = (props) => {
     }
   };
 
+  const sendEmail = (object)=> {
+    emailjs
+      .send(
+        cloudinConfig.SERVICE_id,
+        cloudinConfig.TEMPLATE_ID,
+        object,
+        cloudinConfig.USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -318,10 +335,18 @@ const ContactUs = (props) => {
                   industry: '',
                   services: '',
                 }}
+                // onSubmit={(values, actions) => {
+                //   console.log(values);
+                //   setisValueChanged(false);
+                //   this.handleSubmit(values);
+                // }}
+
+                initialValues={{ name: '' }}
                 onSubmit={(values, actions) => {
-                  console.log(values);
-                  setisValueChanged(false);
-                  this.handleSubmit(values);
+                  setTimeout(() => {
+                    sendEmail(values);
+                    actions.setSubmitting(false);
+                  }, 1000);
                 }}
               >
                 {(formik) => {
@@ -346,151 +371,153 @@ const ContactUs = (props) => {
 
                   return (
                     <>
-                      <Prompt
-                        when={formikdirty}
-                        message={() => {
-                          return matchPath({ path: '/home' })
-                            ? true
-                            : 'Are you sure you want to navigate away?';
-                        }}
-                      />
-                      <div className="col-sm-12">
-                        <div className="row">
-                          <div className="col-sm-12 data-column">
-                            <FormikControl
-                              control="input"
-                              type="text"
-                              name="name"
-                              label="Name"
-                              value={values.name}
-                              positiveValidation={false}
-                              placeHolder=""
-                              onKeyPress={handleChangeFunc}
-                              {...propsvalues}
-                              maxlength={25}
-                              onBlur={handleBlur}
-                            />
+                      <Form>
+                        <Prompt
+                          when={formikdirty}
+                          message={() => {
+                            return matchPath({ path: '/home' })
+                              ? true
+                              : 'Are you sure you want to navigate away?';
+                          }}
+                        />
+                        <div className="col-sm-12">
+                          <div className="row">
+                            <div className="col-sm-12 data-column">
+                              <FormikControl
+                                control="input"
+                                type="text"
+                                name="name"
+                                label="Name"
+                                value={values.name}
+                                positiveValidation={false}
+                                placeHolder=""
+                                onKeyPress={handleChangeFunc}
+                                {...propsvalues}
+                                maxlength={25}
+                                onBlur={handleBlur}
+                              />
 
-                            <FormikControl
-                              control="select"
-                              value={values.region}
-                              onChange={async (e, value) => {
-                                await setFieldValue('region', value);
-                                getValuesRegion(value);
-                              }}
-                              onBlur={setFieldTouched}
-                              options={
-                                region &&
-                                region.map((item) => ({
-                                  id: item.id,
-                                  label: item.label,
-                                  value: item.value,
-                                }))
-                              }
-                              type="selectDropdown"
-                              name="region"
-                              label="region"
-                              positiveValidation={false}
-                              {...propsvalues}
-                            />
-                            {country && (
                               <FormikControl
                                 control="select"
-                                value={values.country}
-                                onChange={setFieldValue}
+                                value={values.region}
+                                onChange={async (e, value) => {
+                                  await setFieldValue('region', value);
+                                  getValuesRegion(value);
+                                }}
                                 onBlur={setFieldTouched}
                                 options={
-                                  postsData &&
-                                  postsData.map((item) => ({
-                                    label: item.name,
-                                    value: item.alpha2Code,
+                                  region &&
+                                  region.map((item) => ({
+                                    id: item.id,
+                                    label: item.label,
+                                    value: item.value,
                                   }))
                                 }
                                 type="selectDropdown"
-                                name="country"
-                                label="Country"
+                                name="region"
+                                label="region"
                                 positiveValidation={false}
                                 {...propsvalues}
                               />
-                            )}
-                            <FormikControl
-                              control="select"
-                              value={values.industry}
-                              onChange={async (e, value) => {
-                                await setFieldValue('industry', value);
-                                getValues(value);
-                              }}
-                              onBlur={setFieldTouched}
-                              onKeyPress={handleChangeFunc}
-                              options={
-                                industry &&
-                                industry.map((item) => ({
-                                  id: item.id,
-                                  label: item.label,
-                                  value: item.value,
-                                }))
-                              }
-                              type="selectDropdown"
-                              name="industry"
-                              label="Industry"
-                              positiveValidation={false}
-                              {...propsvalues}
-                            />
-                            <FormikControl
-                              control="select"
-                              value={values.services}
-                              onChange={async (e, value) => {
-                                await setFieldValue('services', value);
-                                getValues(value);
-                              }}
-                              onBlur={setFieldTouched}
-                              onKeyPress={handleChangeFunc}
-                              options={
-                                services &&
-                                services.map((item) => ({
-                                  id: item.id,
-                                  label: item.label,
-                                  value: item.value,
-                                }))
-                              }
-                              type="selectDropdown"
-                              name="services"
-                              label="Services"
-                              positiveValidation={false}
-                              {...propsvalues}
-                            />
-                            <FormikControl
-                              control="textarea"
-                              type="text"
-                              name="subject"
-                              label="Subject"
-                              value={values.subject}
-                              positiveValidation={false}
-                              placeHolder=""
-                              {...propsvalues}
-                              maxlength={500}
-                              onBlur={(e) => {
-                                handleBlur(e);
-                              }}
-                              onKeyPress={handleChangeFunc}
-                            />
+                              {country && (
+                                <FormikControl
+                                  control="select"
+                                  value={values.country}
+                                  onChange={setFieldValue}
+                                  onBlur={setFieldTouched}
+                                  options={
+                                    postsData &&
+                                    postsData.map((item) => ({
+                                      label: item.name,
+                                      value: item.alpha2Code,
+                                    }))
+                                  }
+                                  type="selectDropdown"
+                                  name="country"
+                                  label="Country"
+                                  positiveValidation={false}
+                                  {...propsvalues}
+                                />
+                              )}
+                              <FormikControl
+                                control="select"
+                                value={values.industry}
+                                onChange={async (e, value) => {
+                                  await setFieldValue('industry', value);
+                                  getValues(value);
+                                }}
+                                onBlur={setFieldTouched}
+                                onKeyPress={handleChangeFunc}
+                                options={
+                                  industry &&
+                                  industry.map((item) => ({
+                                    id: item.id,
+                                    label: item.label,
+                                    value: item.value,
+                                  }))
+                                }
+                                type="selectDropdown"
+                                name="industry"
+                                label="Industry"
+                                positiveValidation={false}
+                                {...propsvalues}
+                              />
+                              <FormikControl
+                                control="select"
+                                value={values.services}
+                                onChange={async (e, value) => {
+                                  await setFieldValue('services', value);
+                                  getValues(value);
+                                }}
+                                onBlur={setFieldTouched}
+                                onKeyPress={handleChangeFunc}
+                                options={
+                                  services &&
+                                  services.map((item) => ({
+                                    id: item.id,
+                                    label: item.label,
+                                    value: item.value,
+                                  }))
+                                }
+                                type="selectDropdown"
+                                name="services"
+                                label="Services"
+                                positiveValidation={false}
+                                {...propsvalues}
+                              />
+                              <FormikControl
+                                control="textarea"
+                                type="text"
+                                name="subject"
+                                label="Subject"
+                                value={values.subject}
+                                positiveValidation={false}
+                                placeHolder=""
+                                {...propsvalues}
+                                maxlength={500}
+                                onBlur={(e) => {
+                                  handleBlur(e);
+                                }}
+                                onKeyPress={handleChangeFunc}
+                              />
+                            </div>
                           </div>
-                        </div>
-                        <div className="row justify-content-md-center">
-                          <div className="col-sm-6 align-self-center action-column">
-                            <div className="quote_btn">
-                              <button
-                                className="btn"
-                                type="submit"
-                                onClick={(e) => handleSubmit(e)}
-                                disabled={!formik.isValid}
-                              >
-                                Send Message
-                              </button>
+                          <div className="row justify-content-md-center">
+                            <div className="col-sm-6 align-self-center action-column">
+                              <div className="quote_btn">
+                                <button
+                                  className="btn"
+                                  type="submit"
+                                  onClick={(e) => handleSubmit(e)}
+                                  disabled={!formik.isValid}
+                                >
+                                  Send Message
+                                </button>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </Form>
                     </>
                   );
                 }}
