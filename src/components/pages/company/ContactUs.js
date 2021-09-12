@@ -220,7 +220,7 @@ const ContactUs = (props) => {
                   {/* <h1>{context2.initialState}</h1> */}
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>{' '}
+                      <a href="#">Home</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
