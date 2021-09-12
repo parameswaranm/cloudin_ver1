@@ -25,6 +25,7 @@ const ContactUs = (props) => {
   const [state, dispatch] = useContext(Context);
   const [country, setCountry] = useState(false);
   const [postsData, setpostsData] = useState([]);
+  const [submitConfirm, setSubmitConfirm] = useState(false);
 
   const [testProp, settestProp] = React.useState(null);
   const context2 = useContext(Context);
@@ -189,7 +190,7 @@ const ContactUs = (props) => {
     }
   };
 
-  const sendEmail = (object)=> {
+  const sendEmail = (object) => {
     emailjs
       .send(
         cloudinConfig.SERVICE_id,
@@ -199,13 +200,17 @@ const ContactUs = (props) => {
       )
       .then(
         (result) => {
+          setSubmitConfirm(true);
           console.log(result.text);
+          setTimeout(() => {
+            setSubmitConfirm(false);
+          }, 2000);
         },
         (error) => {
           console.log(error.text);
         }
       );
-  }
+  };
   return (
     <Fragment>
       <div className="breatcome_area d-flex align-items-center">
@@ -220,8 +225,7 @@ const ContactUs = (props) => {
                   {/* <h1>{context2.initialState}</h1> */}
                   <ul>
                     <li>
-                      <a href="#">Home</a>{' '}
-                      <i className="fa fa-angle-right"></i>{' '}
+                      <a href="#">Home</a> <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <span>Contact us</span>
@@ -325,15 +329,24 @@ const ContactUs = (props) => {
 
               <Formik
                 validationSchema={ContactValidation([
-                  { name: '', region: '', industry: '', services: '' },
+                  {
+                    name: '',
+                    region: '',
+                    country: '',
+                    industry: '',
+                    services: '',
+                    subject: '',
+                  },
                 ])}
                 enableReinitialize
                 validateOnMount
                 initialValues={{
                   name: '',
                   region: '',
+                  country: '',
                   industry: '',
                   services: '',
+                  subject: '',
                 }}
                 // onSubmit={(values, actions) => {
                 //   console.log(values);
@@ -341,11 +354,11 @@ const ContactUs = (props) => {
                 //   this.handleSubmit(values);
                 // }}
 
-                initialValues={{ name: '' }}
                 onSubmit={(values, actions) => {
                   setTimeout(() => {
                     sendEmail(values);
                     actions.setSubmitting(false);
+                    actions.resetForm();
                   }, 1000);
                 }}
               >
@@ -415,7 +428,7 @@ const ContactUs = (props) => {
                                 }
                                 type="selectDropdown"
                                 name="region"
-                                label="region"
+                                label="Region"
                                 positiveValidation={false}
                                 {...propsvalues}
                               />
@@ -515,6 +528,11 @@ const ContactUs = (props) => {
                                 </button>
                               </div>
                             </div>
+                            {submitConfirm && (
+                              <h4 className="text-secondary">
+                                Form submitted successfully!...
+                              </h4>
+                            )}
                           </div>
                         </div>
                       </Form>
