@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.248" height="46.583" viewBox="0 0 42.248 46.583">
+  <g id="Group_22" data-name="Group 22" transform="translate(-200 -87.912)">
+    <path id="Path_39" data-name="Path 39" d="M181.39-941.231v-2.082H186.7v2.082l3.874,1.684,1.973-1.362,3.408,3.551-1.255,1.83,1.4,3.766,2.511.359v4.519l-2.26.609-1.578,3.839,1.184,1.721-3.228,3.48L191-918.491l-3.838,1.257v1.828l-1.076,1.184h-3.515l-1.255-.933v-2.078l-3.3-1.077-2.009,1.254-3.551-3.658,1.112-1.364-1.542-4.2h-2.045v-5.2h2.045l1.542-4.2-1.327-1.686,3.515-3.551,1.829,1.362Z" transform="translate(42.866 1032)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <path id="Path_40" data-name="Path 40" d="M256.027-843.862l-.127-5.285a7.843,7.843,0,0,0,4.894-7.231,6.829,6.829,0,0,0-5.046-6.1v6.668s-.643,2.322-2.695,2.23c-1.865.139-2.76-2.23-2.76-2.23v-6.668a6.925,6.925,0,0,0-4.466,6.271c-.187,4.853,4.332,7.059,4.332,7.059v5.285" transform="translate(-26.01 958.586)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(200 119.008)" fill="none" stroke="#fff" stroke-width="1.55">
+      <rect width="6.884" height="12.484" rx="3.442" stroke="none"/>
+      <rect x="0.775" y="0.775" width="5.334" height="10.934" rx="2.667" fill="none"/>
+    </g>
+    <path id="Path_41" data-name="Path 41" d="M105-607.158h2.58s3.554-2.062,6.605-1.637,5.6,3.335,5.6,3.335h6.165s2.139.363,2.328,2.3a2.386,2.386,0,0,1-2.013,2.788h-9.31" transform="translate(101.037 728.242)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <path id="Path_42" data-name="Path 42" d="M346.708-600.834l8.365-4.3a2.361,2.361,0,0,1,2.789.606,2.618,2.618,0,0,1,0,2.97l-4.244,3.031" transform="translate(-117.637 725.069)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <path id="Path_43" data-name="Path 43" d="M105-493.977h3.153l13.831,3.637a7.764,7.764,0,0,0,3.86-.3,13.215,13.215,0,0,0,3.8-2.546" transform="translate(100.462 623.91)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <g id="Ellipse_32" data-name="Ellipse 32" transform="translate(231.944 127.636)" fill="none" stroke="#fff" stroke-width="1.55">
+      <ellipse cx="1.102" cy="1.147" rx="1.102" ry="1.147" stroke="none"/>
+      <ellipse cx="1.102" cy="1.147" rx="0.327" ry="0.372" fill="none"/>
+    </g>
+  </g>
+</svg>

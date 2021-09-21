@@ -179,18 +179,19 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgYellow">
-                        <i className="flaticon-global-1"></i>
+                        {/* <i className="flaticon-global-1"></i> */}
+                        <i className="understandingIcon"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
-                      <h3>UNDERSTADING</h3>
+                      <h3>UNDERSTANDING</h3>
                     </div>
                   </div>
                 </div>
                 <div className="techno_flipbox_back bgYellow">
                   <div className="techno_flipbox_inner">
                     <div className="flipbox_title">
-                      <h3>UNDERSTADING</h3>
+                      <h3>UNDERSTANDING</h3>
                     </div>
                     <div className="flipbox_desc">
                       <p>Effective client requirement & analysis</p>
@@ -205,7 +206,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgDrkblue">
-                        <i className="flaticon-data"></i>
+                        <i className="implemetationIcon"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -231,7 +232,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkPink">
-                        <i className="flaticon-interaction"></i>
+                        <i className="innovationIcon"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -257,7 +258,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgDrkGrey">
-                        <i className="flaticon-developer"></i>
+                        <i className="exposureIcon"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -353,7 +354,8 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgYellow">
-                        <i className="flaticon-padlock"></i>
+                        <i className="aiServices"></i>
+
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -393,7 +395,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkblue">
-                        <i className="flaticon-intelligent"></i>
+                      <i className="mlServices"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -433,7 +435,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkPink">
-                        <i className="flaticon-code"></i>
+                        <i className="blockchainServices"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -473,7 +475,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgBusiGreen">
-                        <i className="flaticon-content-writing"></i>
+                        <i className="chatbotServices"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -513,7 +515,8 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkGrey">
-                        <i className="flaticon-bar-chart"></i>
+                         
+                         <i className="cloudServices2"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -553,7 +556,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgOrange">
-                        <i className="flaticon-business-and-finance"></i>
+                        <i className="reactServices"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -593,7 +596,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgSharPink">
-                        <i className="flaticon-content-writing"></i>
+                        <i className="itServices"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -633,7 +636,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgRed">
-                        <i className="flaticon-bar-chart"></i>
+                        <i className="mobileAppServices"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -673,7 +676,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkblue">
-                        <i className="flaticon-business-and-finance"></i>
+                        <i className="webAppServices"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -714,8 +717,8 @@ const Slider = () => {
                 <div className="techno_flipbox_font">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
-                      <div className="icon bgOrange">
-                        <i className="flaticon-business-and-finance"></i>
+                      <div className="icon bgDrkGrey">
+                        <i className="uxuiServices"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -755,7 +758,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgOrange">
-                        <i className="flaticon-business-and-finance"></i>
+                        <i className="virtualServices"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">

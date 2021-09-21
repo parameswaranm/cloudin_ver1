@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.896" height="45.672" viewBox="0 0 42.896 45.672">
+  <g id="Group_19" data-name="Group 19" transform="translate(-199 -87.828)">
+    <g id="Ellipse_21" data-name="Ellipse 21" transform="translate(199 95.082)" fill="none" stroke="#fff" stroke-width="1.55">
+      <circle cx="3.716" cy="3.716" r="3.716" stroke="none"/>
+      <circle cx="3.716" cy="3.716" r="2.941" fill="none"/>
+    </g>
+    <g id="Ellipse_22" data-name="Ellipse 22" transform="translate(234.463 95.082)" fill="none" stroke="#fff" stroke-width="1.55">
+      <circle cx="3.716" cy="3.716" r="3.716" stroke="none"/>
+      <circle cx="3.716" cy="3.716" r="2.941" fill="none"/>
+    </g>
+    <g id="Ellipse_23" data-name="Ellipse 23" transform="translate(216.821 126.067)" fill="none" stroke="#fff" stroke-width="1.55">
+      <circle cx="3.716" cy="3.716" r="3.716" stroke="none"/>
+      <circle cx="3.716" cy="3.716" r="2.941" fill="none"/>
+    </g>
+    <line id="Line_50" data-name="Line 50" y2="16.657" transform="translate(202.716 102.56)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <line id="Line_51" data-name="Line 51" x2="14.687" y2="8.776" transform="translate(202.716 119.216)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <line id="Line_52" data-name="Line 52" y2="16.657" transform="translate(238.269 102.56)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <line id="Line_53" data-name="Line 53" x1="14.687" y2="8.776" transform="translate(223.582 119.216)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <line id="Line_54" data-name="Line 54" y1="8.418" x2="14.687" transform="translate(205.851 88.5)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <line id="Line_55" data-name="Line 55" x2="14.597" y2="8.418" transform="translate(220.537 88.5)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <path id="Path_29" data-name="Path 29" d="M137.362-856.8l11.763-6.866,11.532,6.381v14.224L149.3-836.607l-11.942-6.453Z" transform="translate(71.342 959.314)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <line id="Line_56" data-name="Line 56" x2="11.821" y2="6.627" transform="translate(208.716 102.56)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <line id="Line_57" data-name="Line 57" y1="7.075" x2="11.463" transform="translate(220.537 102.112)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <line id="Line_58" data-name="Line 58" y1="6.269" transform="translate(220.537 116.44)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    <g id="Ellipse_24" data-name="Ellipse 24" transform="translate(217.612 111.291)" fill="none" stroke="#fff" stroke-width="1.55">
+      <circle cx="2.746" cy="2.746" r="2.746" stroke="none"/>
+      <circle cx="2.746" cy="2.746" r="1.971" fill="none"/>
+    </g>
+  </g>
+</svg>
