@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const JoinOurTeam = () => {
   useEffect(() => {
@@ -33,19 +34,11 @@ const JoinOurTeam = () => {
       <div className="blog_area blog-details-area pt-20 pb-20" id="blog">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-7 col-sm-12 col-xs-12">
+            <div className="col-lg-8 col-md-7 col-sm-12 col-xs-12">
               <div className="row">
                 <div className="col-md-12">
                   <div className="blog_details">
                     <div className="blog_dtl_content">
-                      <h5>Working at Cloudin</h5>
-                      <p>
-                        We are people-centric and highly collaborative.
-                        Prioritizing longevity, we believe we are on a marathon
-                        and not on a sprint, so we focus on work-life balance
-                        and happiness at the workplace.
-                      </p>
-                      <p></p>
                       <div className="blog_dtl_top_bs pt-2">
                         <span>Why you should join Cloudin?</span>
                       </div>
@@ -169,6 +162,141 @@ const JoinOurTeam = () => {
                 </div>
               </div>
             </div>
+
+            <div className=" col-lg-4 col-md-5 col-sm-12 col-xs-12 sidebar-right content-widget pdsr">
+              <div className="blog-left-side widget">
+                <div id="search-3" className="widget widget_search">
+                  <div className="search">
+                    <form action="#" method="get">
+                      <input
+                        type="text"
+                        name=""
+                        value=""
+                        placeholder="Type Your Keyword"
+                        title="Search for:"
+                      />
+                      <button type="button" className="icons">
+                        <i className="fa fa-search"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <div className="widget_about widget sn_bd_dtl_wd">
+                  <h2 className="widget-title text-center">Cloudin</h2>
+
+                  <div className="widget_about_content">
+                    <p>
+                      We are people-centric and highly collaborative.
+                      Prioritizing longevity, we believe we are on a marathon
+                      and not on a sprint, so we focus on work-life balance and
+                      happiness at the workplace.
+                    </p>
+                  </div>
+                  <div className="widget_about_icon">
+                    <a
+                      href="https://www.facebook.com/cloudintechnologies/"
+                      target="_blank"
+                    >
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                    <a
+                      href="https://twitter.com/cloudintech?s=21"
+                      target="_blank"
+                    >
+                      <i className="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/cloudin-tech"
+                      target="_blank"
+                    >
+                      <i className="fa fa-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+                <div id="categories-3" className="widget widget_categories">
+                  <h2 className="widget-title">Job Categories</h2>
+                  <ul>
+                    <li className="cat-item cat-item-8">
+                    <NavLink activeClassName="active" to="/joinourteam">
+                        <i className="fa fa-youtube-play"></i> Back-end
+                        Developer
+                        <span>(2)</span>
+                      </NavLink>
+                    </li>
+                    <li className="cat-item cat-item-10">
+                    <NavLink activeClassName="active" to="/joinourteam">
+                        <i className="fa fa-youtube-play"></i> UX UI Design
+                        <span>(1)</span>
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  id="em_recent_post_widget-6"
+                  className="widget widget_recent_data"
+                >
+                  <div className="single-widget-item">
+                    <h2 className="widget-title">Popular Post</h2>
+                    <div className="recent-post-item">
+                      <div className="recent-post-image">
+                        <a href="#">
+                          <img
+                            width="100"
+                            height="80"
+                            src="assets/images/recent1.jpg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                      <div className="recent-post-text">
+                        <h4>
+                        <NavLink activeClassName="active" to="/joinourteam">3 Ways to Transform Your Business</NavLink>
+                        </h4>
+                        <span className="rcomment">June 16, 2021</span>
+                      </div>
+                    </div>
+                    <div className="recent-post-item">
+                      <div className="recent-post-image">
+                        <a href="#">
+                          <img
+                            width="100"
+                            height="80"
+                            src="assets/images/recent2.jpg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                      <div className="recent-post-text">
+                        <h4>
+                        <NavLink activeClassName="active" to="/joinourteam">How Important Is Design To Business.</NavLink>
+                        </h4>
+                        <span className="rcomment">July 16, 2021</span>
+                      </div>
+                    </div>
+                    <div className="recent-post-item">
+                      <div className="recent-post-image">
+                        <a href="#">
+                          <img
+                            width="100"
+                            height="80"
+                            src="assets/images/recent3.jpg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                      <div className="recent-post-text">
+                        <h4>
+                          <NavLink activeClassName="active" to="/joinourteam">
+                            Small Business Web Design Solution.
+                          </NavLink>
+                        </h4>
+                        <span className="rcomment">August 16, 2021</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -176,7 +304,7 @@ const JoinOurTeam = () => {
       <div className="blog_area blog-details-area pt-20 pb-20" id="blog">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-7 col-sm-12 col-xs-12">
+            <div className="col-lg-8 col-md-7 col-sm-12 col-xs-12">
               <div className="row">
                 <div className="col-md-12">
                   <div className="blog_details">
