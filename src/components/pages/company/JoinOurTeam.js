@@ -79,7 +79,7 @@ const JoinOurTeam = () => {
                       <b>Job description</b>
                       <p>
                         We are looking for an experienced Back-end developer to
-                        join our IT team! As a Backend Developer, you will be
+                        join our IT team! As a Back end Developer, you will be
                         responsible for the server-side web application logic as
                         well as for the integration of the front-end part.
                         <br />
