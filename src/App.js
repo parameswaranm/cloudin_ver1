@@ -5,6 +5,7 @@ import Container from './components/Container';
 import AboutUs from './components/pages/company/AboutUs';
 import ContactUs from './components/pages/company/ContactUs';
 import Investor from './components/pages/company/Investor';
+import JoinOurTeam from './components/pages/company/JoinOurTeam';
 import OurTeam from './components/pages/company/OurTeam';
 import Portfolio from './components/pages/company/Portfolio';
 import NotFound from './components/pages/PageNotFound';
@@ -44,6 +45,9 @@ function App() {
         </Route>
         <Route path="/aboutus" exact>
           <AboutUs />
+        </Route>
+        <Route path="/joinourteam" exact>
+          <JoinOurTeam />
         </Route>
         <Route path="/contactus" exact>
           <ContactUs />

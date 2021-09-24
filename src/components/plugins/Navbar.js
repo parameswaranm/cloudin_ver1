@@ -174,6 +174,11 @@ const Navbar = () => {
                             Portfolio
                           </NavLink>
                         </li> */}
+                        <li>
+                          <NavLink activeClassName="active" to="/joinourteam">
+                            Join our team
+                          </NavLink>
+                        </li>
                           </ul>
                         </li>
                         <li>

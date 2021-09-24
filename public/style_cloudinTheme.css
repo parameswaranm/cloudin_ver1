@@ -415,6 +415,34 @@ element.style {
     background-repeat: no-repeat;
     background-position: 14px 16px;
 }
+.width_hundred{
+    width: 100%;
+}
+ul.joblist{
+    padding: 0px 0 0 0;
+    margin: 0 0 0 0;
+    list-style: none;
+}
+ul.joblist li{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    list-style:circle;
+}
+ul.joblist2{
+    padding: 0px 0 0 0;
+    margin: 0 0 0 0;
+    list-style: none;
+}
+ul.joblist2 li{
+    padding: 0 0 0 0;
+    margin:0 0 10px 0px;
+    list-style:none; border-bottom:2px dotted #cbcbcb;
+}
+
+
+.greenFnt {
+    color: #00a650 !important;
+}
 
 /*icons block ends here*/
 
