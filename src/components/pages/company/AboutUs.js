@@ -383,7 +383,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-share-square-o"></i>
+                  <img className="mt-3" src="/assets/images/cloudinIcons/cloudinStarted.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -401,7 +401,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-id-badge"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/partnership.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -420,7 +420,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-transgender-alt"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/milestone1.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -439,7 +439,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-cogs"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/milestone2.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -457,7 +457,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-transgender-alt"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/rd.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -475,7 +475,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-cogs"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/iot.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -496,7 +496,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-cogs"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/land.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -536,7 +536,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight2">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-share-square-o"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/techinno.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -554,7 +554,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight2">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-id-badge"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/prompt.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -572,7 +572,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight2">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-transgender-alt"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/award.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -590,7 +590,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight2">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-cogs"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/reliable.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -608,7 +608,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight2">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-transgender-alt"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/spectrum.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">
@@ -625,7 +625,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="service_style_seven pt-3 pb-3 pl-4 pr-3 mb-30 about_box_minheight2">
                 <div className="service_style_seven_icon mr-3">
-                  <i className="fa fa-cogs"></i>
+                <img className="mt-3" src="/assets/images/cloudinIcons/consulting.svg" />
                 </div>
                 <div className="service_style_seven_content ">
                   <div className="service_style_seven_title pb-3">

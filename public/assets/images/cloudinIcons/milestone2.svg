@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.585" height="41.354" viewBox="0 0 40.585 41.354">
+  <g id="Group_249" data-name="Group 249" transform="translate(-400 -36.83)">
+    <g id="Group_248" data-name="Group 248" transform="translate(400 37.605)">
+      <g id="Polygon_1" data-name="Polygon 1" transform="translate(0 11.802)" fill="none">
+        <path d="M15.08,0,30.16,28.2H0Z" stroke="none"/>
+        <path d="M 15.07987022399902 3.286787033081055 L 2.586631774902344 26.64812469482422 L 27.5731086730957 26.64812469482422 L 15.07987022399902 3.286787033081055 M 15.07987022399902 -5.7220458984375e-06 L 30.15974044799805 28.19812393188477 L 0 28.19812393188477 L 15.07987022399902 -5.7220458984375e-06 Z" stroke="none" fill="#11267a"/>
+      </g>
+      <path id="Path_104" data-name="Path 104" d="M784.129-659.891l4.7-7.938,9.212,16.463h-9.212" transform="translate(-758.781 691.169)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+      <path id="Path_105" data-name="Path 105" d="M593.492-694.719l2.45,2.646,2.646-3.332,2.744,3.332,2.646-2.646" transform="translate(-583.726 716.492)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+      <path id="Path_106" data-name="Path 106" d="M656.177-940.369l-.207-13.026H666.23l-3.078,3.7,3.078,3.033H656.177" transform="translate(-641.097 953.395)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    </g>
+    <text id="_2" data-name="2" transform="translate(411 72)" fill="#11267a" stroke="#11267a" stroke-width="0.5" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">2</tspan></text>
+  </g>
+</svg>

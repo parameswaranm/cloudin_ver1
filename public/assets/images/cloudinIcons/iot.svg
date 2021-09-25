@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.57" height="41.55" viewBox="0 0 30.57 41.55">
+  <g id="Group_252" data-name="Group 252" transform="translate(-373.07 -124.233)">
+    <g id="Rectangle_106" data-name="Rectangle 106" transform="translate(374.019 151.486)" fill="none" stroke="#11267a" stroke-width="1.55">
+      <rect width="12.271" height="10.898" rx="3" stroke="none"/>
+      <rect x="0.775" y="0.775" width="10.721" height="9.348" rx="2.225" fill="none"/>
+    </g>
+    <g id="Rectangle_107" data-name="Rectangle 107" transform="translate(390.326 150.84)" fill="none" stroke="#11267a" stroke-width="1.55">
+      <rect width="9.93" height="14.047" rx="2" stroke="none"/>
+      <rect x="0.775" y="0.775" width="8.38" height="12.497" rx="1.225" fill="none"/>
+    </g>
+    <line id="Line_122" data-name="Line 122" y2="2.664" transform="translate(380.195 162.344)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <line id="Line_123" data-name="Line 123" x2="5.247" transform="translate(377.531 165.008)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <line id="Line_124" data-name="Line 124" x2="12.271" transform="translate(374.059 158.873)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <line id="Line_125" data-name="Line 125" x2="9.93" transform="translate(390.366 161.617)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <line id="Line_126" data-name="Line 126" y2="2.503" transform="translate(396.825 148.378)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <line id="Line_127" data-name="Line 127" y2="3.391" transform="translate(380.114 148.136)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <g id="Ellipse_48" data-name="Ellipse 48" transform="translate(378.217 144.463)" fill="none" stroke="#11267a" stroke-width="1.55">
+      <ellipse cx="1.897" cy="1.978" rx="1.897" ry="1.978" stroke="none"/>
+      <ellipse cx="1.897" cy="1.978" rx="1.122" ry="1.203" fill="none"/>
+    </g>
+    <g id="Ellipse_49" data-name="Ellipse 49" transform="translate(394.766 144.463)" fill="none" stroke="#11267a" stroke-width="1.55">
+      <ellipse cx="1.897" cy="1.978" rx="1.897" ry="1.978" stroke="none"/>
+      <ellipse cx="1.897" cy="1.978" rx="1.122" ry="1.203" fill="none"/>
+    </g>
+    <line id="Line_128" data-name="Line 128" x2="13.099" y2="0.036" transform="translate(381.707 146.405)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <line id="Line_129" data-name="Line 129" y1="11.867" transform="translate(388.429 134.574)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <line id="Line_130" data-name="Line 130" x2="2.987" y2="2.987" transform="translate(388.429 134.574)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <line id="Line_131" data-name="Line 131" x1="2.987" y2="2.987" transform="translate(385.442 134.574)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <path id="Path_112" data-name="Path 112" d="M80.2-890.7H71.468a4.581,4.581,0,0,1-3.622-4.736,4.171,4.171,0,0,1,3.622-4.55h3.761s.139-7.011,7.15-7.011,6.872,7.011,6.872,7.011h3.668a4.552,4.552,0,0,1,3.947,4.55,4.828,4.828,0,0,1-3.947,4.736h-8.5" transform="translate(306 1032)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+  </g>
+</svg>

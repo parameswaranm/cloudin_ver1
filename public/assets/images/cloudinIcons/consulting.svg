@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.064" height="41.55" viewBox="0 0 41.064 41.55">
+  <g id="Group_241" data-name="Group 241" transform="translate(-572 -163.212)">
+    <g id="Ellipse_70" data-name="Ellipse 70" transform="translate(572 165.112)" fill="none" stroke="#11267a" stroke-width="1.55">
+      <circle cx="4.625" cy="4.625" r="4.625" stroke="none"/>
+      <circle cx="4.625" cy="4.625" r="3.85" fill="none"/>
+    </g>
+    <g id="Ellipse_71" data-name="Ellipse 71" transform="translate(603.813 165.112)" fill="none" stroke="#11267a" stroke-width="1.55">
+      <circle cx="4.625" cy="4.625" r="4.625" stroke="none"/>
+      <circle cx="4.625" cy="4.625" r="3.85" fill="none"/>
+    </g>
+    <path id="Path_141" data-name="Path 141" d="M289.559-729.57a2.828,2.828,0,0,1,2.857-2.353,2.477,2.477,0,0,1,2.521,2.353v8.907h5.378a4.052,4.052,0,0,1,2.6.84,4.307,4.307,0,0,1,.756,2.689v10.671s-.252,2.773-2.521,2.773-3.025-2.773-3.025-2.773v-8.487h-5.714a4.406,4.406,0,0,1-2.269-1.344,4.578,4.578,0,0,1-.588-2.6Z" transform="translate(284.485 907.677)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <g id="Rectangle_117" data-name="Rectangle 117" transform="translate(583.498 179.463)" fill="none" stroke="#11267a" stroke-width="1.55">
+      <rect width="18.241" height="3.717" rx="1.859" stroke="none"/>
+      <rect x="0.775" y="0.775" width="16.691" height="2.167" rx="1.084" fill="none"/>
+    </g>
+    <path id="Path_142" data-name="Path 142" d="M303.67-729.57a2.828,2.828,0,0,0-2.857-2.353,2.477,2.477,0,0,0-2.521,2.353v8.907h-5.378a4.052,4.052,0,0,0-2.6.84,4.307,4.307,0,0,0-.756,2.689v10.671s.252,2.773,2.521,2.773,3.025-2.773,3.025-2.773v-8.487h5.714a4.406,4.406,0,0,0,2.269-1.344,4.578,4.578,0,0,0,.588-2.6Z" transform="translate(307.135 907.677)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <path id="Path_143" data-name="Path 143" d="M399-858.566l2.032-2.218v-7.229h11.474v9.447Z" transform="translate(184.498 1032)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <path id="Path_144" data-name="Path 144" d="M450.818-835.125v2.333h11.55v-7.535l1.989-2.027h-4.475" transform="translate(137.159 1008.558)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <line id="Line_176" data-name="Line 176" x2="6.83" transform="translate(587.95 167.143)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+    <line id="Line_177" data-name="Line 177" x2="6.83" transform="translate(587.95 169.996)" fill="none" stroke="#11267a" stroke-width="1.55"/>
+  </g>
+</svg>
