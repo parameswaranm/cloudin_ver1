@@ -415,6 +415,41 @@ element.style {
     background-repeat: no-repeat;
     background-position: 14px 16px;
 }
+.holistic{
+    background-image: url(/assets/images/cloudinIcons/holistic.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:15px 17px; 
+}
+.cocreate{
+    background-image: url(/assets/images/cloudinIcons/cocreate.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:15px 17px; 
+}
+.highVelocity{
+    background-image: url(/assets/images/cloudinIcons/highVelocity.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:15px 17px; 
+}
+.quality{
+    background-image: url(/assets/images/cloudinIcons/quality.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:15px 17px; 
+}
+
+
+
+
+
+
+
 .width_hundred{
     width: 100%;
 }

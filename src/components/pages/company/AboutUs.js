@@ -158,7 +158,7 @@ const AboutUs = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgYellow">
-                        <i className="flaticon-global-1"></i>
+                        <i className="holistic"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -184,7 +184,7 @@ const AboutUs = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgDrkblue">
-                        <i className="flaticon-data"></i>
+                        <i className="cocreate"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -210,7 +210,7 @@ const AboutUs = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkPink">
-                        <i className="flaticon-interaction"></i>
+                        <i className="highVelocity"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -236,7 +236,7 @@ const AboutUs = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgDrkGrey">
-                        <i className="flaticon-developer"></i>
+                        <i className="quality"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
