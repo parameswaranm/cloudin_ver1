@@ -11,7 +11,7 @@ const Slider = () => {
       <OwlCarousel
         items={1}
         margin={8}
-        autoplay={true}
+        autoplay={false}
         nav={true}
         navText={[
           "<i class='fa fa-long-arrow-left'></i>",
@@ -29,11 +29,13 @@ const Slider = () => {
                   <div className="slider_content">
                     <div className="slider_text">
                       <div className="slider_text_inner">
-                        <h5>Total IT Solution Here</h5>
-                        <h1>
+                        
+                      <h1 className="banner_text_bg1">
+                        <span> Total IT Solution Here </span><br/>
                           Experience the simplest yet the most powerful and
                           seamless techno-digital Solution
                         </h1>
+                        
                       </div>
                       <div className="slider_button pt-5 d-flex">
                         <div className="button">
@@ -80,8 +82,9 @@ const Slider = () => {
                   <div className="slider_content">
                     <div className="slider_text">
                       <div className="slider_text_inner">
-                        <h5>Total IT Solution Here</h5>
-                        <h1>
+                        
+                        <h1 className="banner_text_bg1">
+                        <span> Total IT Solution Here </span><br/>
                           Bridging the gap between business and technology with
                           Cloudin IT Solutions
                         </h1>
@@ -131,8 +134,9 @@ const Slider = () => {
                   <div className="slider_content">
                     <div className="slider_text">
                       <div className="slider_text_inner">
-                        <h5>Total IT Solution Here</h5>
-                        <h1>
+                         
+                      <h1 className="banner_text_bg1">
+                        <span> Total IT Solution Here </span><br/>
                           Mapping the innovations that adds lasting value in
                           every direction{' '}
                         </h1>

@@ -357,7 +357,7 @@ a.dtbtn:hover {
 }
 
 .slider3 {
-    background-image: url(assets/images/slider/dark1.jpg);
+    background-image: url(assets/images/slider/dark1.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1490,7 +1490,79 @@ a.em-active-button:hover {
 <!-- ============================================================== -->*/
 
 .breatcome_area {
-    background: url(assets/images/slider/slider-10.jpg);
+    background: url(assets/images/slider/slider-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+.breatcome_blockchain {
+    background: url(assets/images/slider/blockchain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+.breatcome_chatbot {
+    background: url(assets/images/slider/chatbot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+.breatcome_azure {
+    background: url(assets/images/slider/azure.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+.breatcome_react {
+    background: url(assets/images/slider/react.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+.breatcome_itconsulting {
+    background: url(assets/images/slider/itconsulting.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+.breatcome_mobileapp {
+    background: url(assets/images/slider/mobileapp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+.breatcome_webapp {
+    background: url(assets/images/slider/webapp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+.breatcome_uxui {
+    background: url(assets/images/slider/uxui.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+.breatcome_virtualassist {
+    background: url(assets/images/slider/virtualassist.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1498,7 +1570,16 @@ a.em-active-button:hover {
     position: relative;
 }
 
-.breatcome_area:before {
+.breatcome_area:before, 
+.breatcome_blockchain:before, 
+.breatcome_chatbot:before, 
+.breatcome_azure:before, 
+.breatcome_react:before,
+.breatcome_itconsulting:before,
+.breatcome_mobileapp:before,
+.breatcome_webapp:before,
+.breatcome_uxui:before,
+.breatcome_virtualassist:before {
     position: absolute;
     content: '';
     background-image: linear-gradient(to right, rgba(12, 90, 219, 0.85), rgba(12, 90, 219, 0.80), rgba(18, 85, 194, 0.70), rgba(34, 86, 172, 0.75), rgba(38, 85, 163, 0.75));
@@ -1556,7 +1637,7 @@ a.em-active-button:hover {
 }
 
 .dark1 {
-    background-image: url(assets/images/slider/dark1.jpg);
+    background-image: url(assets/images/slider/dark1.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -5263,7 +5344,7 @@ a.em-active-button:hover {
 .single_process_number span {
     height: 50px;
     width: 50px;
-    background: #0042A5;
+    background: #333;
     display: inline-block;
     line-height: 50px;
     border-radius: 50%;
@@ -8132,8 +8213,8 @@ a.em-active-button:hover {
 }
 
 .service_bg1 {
-    background-image: url("assets/images/slider/bg2.jpg");
-    background-size: cover; 
+    background-image: url("assets/images/slider/bg2.png");
+    /* background-size: contain;  */
 }
 
 .service_bg2 {
@@ -8185,7 +8266,7 @@ a.em-active-button:hover {
 }
 
 .blockChain_gloBg2 {
-    background-image: url("assets/images/slider/bg2.jpg")
+    background-image: url("assets/images/slider/bg2.png")
 }
 
 .contactBg {

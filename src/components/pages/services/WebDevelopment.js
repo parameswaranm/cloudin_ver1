@@ -6,7 +6,7 @@ const WebDevelopment = () => {
   }, [])
   return (
     <Fragment>
-      <div className="breatcome_area d-flex align-items-center">
+      <div className="breatcome_webapp d-flex align-items-center">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
