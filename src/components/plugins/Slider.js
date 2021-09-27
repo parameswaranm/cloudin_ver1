@@ -37,7 +37,7 @@ const Slider = () => {
                         </h1>
                         
                       </div>
-                      <div className="slider_button pt-5 d-flex">
+                      {/* <div className="slider_button pt-5 d-flex">
                         <div className="button">
                           <NavLink to="/aboutus">
                             How IT Work{' '}
@@ -48,7 +48,7 @@ const Slider = () => {
                             <i className="fa fa-long-arrow-right"></i>
                           </NavLink>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <div className="slider-video">
                         <div className="video-icon">
                           <a
@@ -83,13 +83,13 @@ const Slider = () => {
                     <div className="slider_text">
                       <div className="slider_text_inner">
                         
-                        <h1 className="banner_text_bg1">
+                        <h1 className="banner_text_bg1 color_pink">
                         <span> Total IT Solution Here </span><br/>
                           Bridging the gap between business and technology with
                           Cloudin IT Solutions
                         </h1>
                       </div>
-                      <div className="slider_button pt-5 d-flex">
+                      {/* <div className="slider_button pt-5 d-flex">
                         <div className="button">
                           <NavLink to="/aboutus">
                             How IT Work{' '}
@@ -100,7 +100,7 @@ const Slider = () => {
                             <i className="fa fa-long-arrow-right"></i>
                           </NavLink>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <div className="slider-video">
                         <div className="video-icon">
                           <a
@@ -124,7 +124,7 @@ const Slider = () => {
         {/* <!-- --> */}
 
         <div
-          className="slider_area d-flex align-items-center slider3"
+          className="slider_area d-flex slider3"
           id="home"
         >
           <div className="container">
@@ -135,13 +135,13 @@ const Slider = () => {
                     <div className="slider_text">
                       <div className="slider_text_inner">
                          
-                      <h1 className="banner_text_bg1">
+                      <h1 className="banner_text_bg1 color_strip_Green">
                         <span> Total IT Solution Here </span><br/>
                           Mapping the innovations that adds lasting value in
                           every direction{' '}
                         </h1>
                       </div>
-                      <div className="slider_button pt-5 d-flex">
+                      {/* <div className="slider_button pt-5 d-flex">
                         <div className="button">
                           <NavLink to="/aboutus">
                             How IT Work{' '}
@@ -152,7 +152,7 @@ const Slider = () => {
                             <i className="fa fa-long-arrow-right"></i>
                           </NavLink>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <div className="slider-video">
                         <div className="video-icon">
                           <a
@@ -179,7 +179,7 @@ const Slider = () => {
           <div className="row nagative_margin">
             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font border_grey1">
+                <div className="techno_flipbox_font border_grey1 flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgYellow">
@@ -192,7 +192,7 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-                <div className="techno_flipbox_back bgYellow">
+                <div className="techno_flipbox_back bgYellow flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="flipbox_title">
                       <h3>UNDERSTANDING</h3>
@@ -206,7 +206,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font border_grey1">
+                <div className="techno_flipbox_font border_grey1 flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgDrkblue">
@@ -218,7 +218,7 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-                <div className="techno_flipbox_back bgDrkblue">
+                <div className="techno_flipbox_back bgDrkblue flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="flipbox_title">
                       <h3>IMPLEMENTATION</h3>
@@ -232,7 +232,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font border_grey1">
+                <div className="techno_flipbox_font border_grey1 flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkPink">
@@ -244,7 +244,7 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-                <div className="techno_flipbox_back bgDrkPink">
+                <div className="techno_flipbox_back bgDrkPink flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="flipbox_title">
                       <h3>INNOVATION</h3>
@@ -258,7 +258,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font border_grey1">
+                <div className="techno_flipbox_font border_grey1 flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgDrkGrey">
@@ -270,7 +270,7 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-                <div className="techno_flipbox_back bgDrkGrey">
+                <div className="techno_flipbox_back bgDrkGrey flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="flipbox_title">
                       <h3>EXPOSURE</h3>
