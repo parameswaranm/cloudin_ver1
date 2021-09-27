@@ -154,7 +154,7 @@ const AboutUs = () => {
           <div className="row nagative_margin">
             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font border_grey1">
+                <div className="techno_flipbox_font border_grey1 flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgYellow">
@@ -166,7 +166,7 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="techno_flipbox_back bgYellow">
+                <div className="techno_flipbox_back bgYellow flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="flipbox_title">
                       <h3> Holistic </h3>
@@ -180,7 +180,7 @@ const AboutUs = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font border_grey1">
+                <div className="techno_flipbox_font border_grey1 flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgDrkblue">
@@ -192,7 +192,7 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="techno_flipbox_back bgDrkblue">
+                <div className="techno_flipbox_back bgDrkblue flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="flipbox_title">
                       <h3> Co-Create</h3>
@@ -206,7 +206,7 @@ const AboutUs = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font border_grey1">
+                <div className="techno_flipbox_font border_grey1 flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkPink">
@@ -218,7 +218,7 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="techno_flipbox_back bgDrkPink">
+                <div className="techno_flipbox_back bgDrkPink flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="flipbox_title">
                       <h3>High Velocity</h3>
@@ -232,7 +232,7 @@ const AboutUs = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font border_grey1">
+                <div className="techno_flipbox_font border_grey1 flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon ">
                       <div className="icon bgDrkGrey">
@@ -244,7 +244,7 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="techno_flipbox_back bgDrkGrey">
+                <div className="techno_flipbox_back bgDrkGrey flipcus_height">
                   <div className="techno_flipbox_inner">
                     <div className="flipbox_title">
                       <h3>Quality</h3>
