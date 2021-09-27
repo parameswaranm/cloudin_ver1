@@ -354,7 +354,7 @@ const Slider = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgYellow">
@@ -395,7 +395,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkblue">
@@ -435,7 +435,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkPink">
@@ -475,7 +475,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgBusiGreen">
@@ -515,7 +515,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkGrey">
@@ -556,7 +556,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgOrange">
@@ -596,7 +596,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgSharPink">
@@ -636,7 +636,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgRed">
@@ -676,7 +676,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkblue">
@@ -718,7 +718,7 @@ const Slider = () => {
           <div className="row justify-content-md-center">
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkGrey">
@@ -758,7 +758,7 @@ const Slider = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">
-                <div className="techno_flipbox_font">
+                <div className="techno_flipbox_font flipcusBorder">
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgOrange">
