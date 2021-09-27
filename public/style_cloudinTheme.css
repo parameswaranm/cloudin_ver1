@@ -17,7 +17,8 @@
 .color_pink {
     color: #b20768 !important;
 }
-.color_strip_Green{
+
+.color_strip_Green {
     color: #01a5a7 !important;
 }
 
@@ -312,37 +313,38 @@ element.style {
     background-position: 7px 10px;
 }
 
-.understandingIcon{
+.understandingIcon {
     background-image: url(/assets/images/cloudinIcons/understand.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:15px 17px; 
+    background-position: 15px 17px;
 }
 
-.implemetationIcon{
+.implemetationIcon {
     background-image: url(/assets/images/cloudinIcons/Implementation.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:16px 17px; 
+    background-position: 16px 17px;
 }
 
-.exposureIcon{
+.exposureIcon {
     background-image: url(/assets/images/cloudinIcons/exposure.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:16px 18px; 
+    background-position: 16px 18px;
 }
 
-.innovationIcon{
+.innovationIcon {
     background-image: url(/assets/images/cloudinIcons/innovation.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:22px 18px; 
+    background-position: 22px 18px;
 }
+
 .aiServices {
     background-image: url(/assets/images/cloudinIcons/ai.svg);
     height: 100%;
@@ -350,6 +352,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 17px 20px;
 }
+
 .mlServices {
     background-image: url(/assets/images/cloudinIcons/ml.svg);
     height: 100%;
@@ -357,6 +360,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 17px 20px;
 }
+
 .blockchainServices {
     background-image: url(/assets/images/cloudinIcons/blockchain.svg);
     height: 100%;
@@ -364,6 +368,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 17px 20px;
 }
+
 .chatbotServices {
     background-image: url(/assets/images/cloudinIcons/chatbot.svg);
     height: 100%;
@@ -371,6 +376,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 12px 20px;
 }
+
 .cloudServices2 {
     background-image: url(/assets/images/cloudinIcons/cloudServices.svg);
     height: 100%;
@@ -378,6 +384,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 16px 20px;
 }
+
 .reactServices {
     background-image: url(/assets/images/cloudinIcons/react.svg);
     height: 100%;
@@ -385,6 +392,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 16px 20px;
 }
+
 .itServices {
     background-image: url(/assets/images/cloudinIcons/it_services.svg);
     height: 100%;
@@ -392,6 +400,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 16px 20px;
 }
+
 .mobileAppServices {
     background-image: url(/assets/images/cloudinIcons/mobileApp.svg);
     height: 100%;
@@ -399,6 +408,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 16px 20px;
 }
+
 .webAppServices {
     background-image: url(/assets/images/cloudinIcons/webApp.svg);
     height: 100%;
@@ -406,6 +416,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 12px 20px;
 }
+
 .uxuiServices {
     background-image: url(/assets/images/cloudinIcons/uxui.svg);
     height: 100%;
@@ -413,6 +424,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 16px 20px;
 }
+
 .virtualServices {
     background-image: url(/assets/images/cloudinIcons/virtualAssist.svg);
     height: 100%;
@@ -420,79 +432,100 @@ element.style {
     background-repeat: no-repeat;
     background-position: 14px 16px;
 }
-.holistic{
+
+.holistic {
     background-image: url(/assets/images/cloudinIcons/holistic.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:15px 17px; 
+    background-position: 15px 17px;
 }
-.cocreate{
+
+.cocreate {
     background-image: url(/assets/images/cloudinIcons/cocreate.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:15px 17px; 
+    background-position: 15px 17px;
 }
-.highVelocity{
+
+.highVelocity {
     background-image: url(/assets/images/cloudinIcons/highVelocity.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:15px 17px; 
+    background-position: 15px 17px;
 }
-.quality{
+
+.quality {
     background-image: url(/assets/images/cloudinIcons/quality.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:15px 17px; 
+    background-position: 15px 17px;
 }
- 
 
-
-
-
-
-
-
-.width_hundred{
+.width_hundred {
     width: 100%;
 }
-ul.joblist{
+
+ul.joblist {
     padding: 0px 0 0 0;
     margin: 0 0 0 0;
     list-style: none;
-}
-ul.joblist li{
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    list-style:circle;
-}
-ul.joblist2{
-    padding: 0px 0 0 0;
-    margin: 0 0 0 0;
-    list-style: none;
-}
-ul.joblist2 li{
-    padding: 0 0 0 0;
-    margin:0 0 10px 0px;
-    list-style:none; border-bottom:2px dotted #cbcbcb;
 }
 
+ul.joblist li {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    list-style: circle;
+}
+
+ul.joblist2 {
+    padding: 0px 0 0 0;
+    margin: 0 0 0 0;
+    list-style: none;
+}
+
+ul.joblist2 li {
+    padding: 0 0 0 0;
+    margin: 0 0 10px 0px;
+    list-style: none;
+    border-bottom: 2px dotted #cbcbcb;
+}
 
 .greenFnt {
     color: #00a650 !important;
 }
-.banner_text_bg1{    
+
+.banner_text_bg1 {
     padding: 0px 0 10px 10px;
-    margin-top: 60px!important; 
+    margin-top: 60px!important;
 }
-.banner_text_bg1 span{
+
+.banner_text_bg1 span {
     font-size: 20px;
     color: #000 !important;
-
 }
+.mainbannerAlign{
+    width: 50%;
+    display: inline-block !important;
+}
+.mainbannerAlign3{
+    width: 50%;
+    display: inline-block !important;
+}
+img.mainbannerAlign{
+    width: 50%;
+    display: inline-block !important;
+    margin: 50px 0 50px 0;
+}
+img.mainbannerAlign2{
+    width:42%;
+    display: inline-block !important;
+    margin: 0px 0 0px 0;
+}
+
 /*icons block ends here*/
 
 @media only screen and (min-width: 1024px) {
@@ -502,6 +535,35 @@ ul.joblist2 li{
 }
 
 @media only screen and (max-width: 1023px) {
+    .mainbannerAlign{
+        width: 100%;
+        display: inline-block !important;
+    }
+    .mainbannerAlign3{
+        width: 26%;
+        display: inline-block !important;
+    }
+    img.mainbannerAlign {
+        width: 100%;
+        display: inline-block !important;
+        margin: 10px 0 10px 0;
+    }
+    img.mainbannerAlign2 {
+        width: 100%;
+        display: inline-block !important;
+        padding: 0 0 60px 0 !important;
+    }
+
+    .slider2 {
+        background-image: url(assets/images/slider/banner2.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height:550px;
+        width: auto !important;
+        margin: 0 auto;
+         
+    }
     .no-js .owl-carousel, .owl-carousel.owl-loaded, .banner_area {
         display: block!important;
         clear: both;

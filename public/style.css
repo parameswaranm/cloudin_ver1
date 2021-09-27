@@ -340,23 +340,25 @@ a.dtbtn:hover {
 ======================================================*/
 
 .slider1 {
-    background-image: url(assets/images/slider/banner1.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height:550px;
-    width:1366px;
-    margin:0 auto;
+    /* background-image: url(assets/images/slider/banner1_icon.png); */
+    background: rgb(71,118,198);
+    background: linear-gradient(180deg, rgba(71,118,198,1) 0%, rgba(108,188,233,1) 100%);
+    /* background-size: cover;
+    background-position: center right; 
+    background-repeat: no-repeat;*/
+    /* height:550px;
+    width:1366px; 
+    margin:0 auto;*/
 }
 
 .slider2 {
-    background-image: url(assets/images/slider/banner2.png);
+    background-image: url(assets/images/slider/banner2_icon_bg.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height:550px;
-    width:1366px;
-    margin:0 auto;
+    /* height:550px; */
+    /* width:1366px;
+    margin:0 auto; */
 }
 
 .slider3 {
@@ -458,7 +460,7 @@ a.dtbtn:hover {
 }
 
 .slider_text_inner {
-    display: inline-block; width:55%;
+    display: inline-block;  
 }
 
 .slider_text_inner h1 {
