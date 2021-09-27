@@ -345,6 +345,8 @@ a.dtbtn:hover {
     background-position: center center;
     background-repeat: no-repeat;
     height:550px;
+    width:1366px;
+    margin:0 auto;
 }
 
 .slider2 {
@@ -353,6 +355,8 @@ a.dtbtn:hover {
     background-position: center center;
     background-repeat: no-repeat;
     height:550px;
+    width:1366px;
+    margin:0 auto;
 }
 
 .slider3 {
@@ -361,6 +365,8 @@ a.dtbtn:hover {
     background-position: center center;
     background-repeat: no-repeat;
     height:550px;
+    width:1366px;
+    margin:0 auto;
 }
 
 .slider4 {
