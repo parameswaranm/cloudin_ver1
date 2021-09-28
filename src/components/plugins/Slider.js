@@ -100,14 +100,14 @@ const Slider = () => {
               <div className="col-lg-12">
                 <div className="single_slider">
                   <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div className="col-lg-8 col-md-6 col-sm-12 col-xs-6">
                       <div className="slider_content mainbannerAlign">
                         <div className="slider_text">
                           <div className="slider_text_inner">
                             <h1 className="banner_text_bg1 color_strip_Green">
                               <span> Total IT Solution Here </span>
                               <br />
-                              S Mapping the innovations that adds lasting value in
+                              Mapping the innovations that adds lasting value in
                               every direction{' '}
                             </h1>
                           </div>
