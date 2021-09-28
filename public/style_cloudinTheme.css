@@ -528,7 +528,7 @@ img.mainbannerAlignImg2{
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
      
     .no-js .owl-carousel, .owl-carousel.owl-loaded, .banner_area {
         display: block!important;
