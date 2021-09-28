@@ -11,7 +11,7 @@ const Slider = () => {
       <OwlCarousel
         items={1}
         margin={8}
-        autoplay={false}
+        autoplay={true}
         nav={true}
         navText={[
           "<i class='fa fa-long-arrow-left'></i>",
@@ -22,27 +22,32 @@ const Slider = () => {
           className="slider_area d-flex align-items-center slider1"
           id="home"
         >
-        
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="single_slider">
-                  <div className="slider_content mainbannerAlign">
-                    <div className="slider_text">
-                      <div className="slider_text_inner">
-                        
-                      <h1 className="banner_text_bg1">
-                        <span> Total IT Solution Here </span><br/>
-                          Experience the simplest yet the most powerful and
-                          seamless techno-digital Solution
-                        </h1>
-                        
+                  <div className="row">
+                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                      <div className="slider_content">
+                        <div className="slider_text">
+                          <div className="slider_text_inner">
+                            <h1 className="banner_text_bg1">
+                              <span> Total IT Solution Here </span>
+                              <br />
+                              Experience the simplest yet the most powerful and
+                              seamless techno-digital Solution
+                            </h1>
+                          </div>
+                        </div>
                       </div>
-                       
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                      <img
+                        src="../assets/images/slider/banner1_icon.png"
+                        className="mainbannerAlignImg"
+                      />
                     </div>
                   </div>
-                
-                  <img src="../assets/images/slider/banner1_icon.png" className="mainbannerAlign" />
                 </div>
               </div>
             </div>
@@ -59,20 +64,28 @@ const Slider = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="single_slider">
-                  <div className="slider_content mainbannerAlign">
-                    <div className="slider_text">
-                      <div className="slider_text_inner">
-                        
-                        <h1 className="banner_text_bg1 color_pink">
-                        <span> Total IT Solution Here </span><br/>
-                          Bridging the gap between business and technology with
-                          Cloudin IT Solutions
-                        </h1>
+                  <div className="row">
+                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                      <div className="slider_content">
+                        <div className="slider_text">
+                          <div className="slider_text_inner">
+                            <h1 className="banner_text_bg1 color_pink">
+                              <span> Total IT Solution Here </span>
+                              <br />
+                              Bridging the gap between business and technology
+                              with Cloudin IT Solutions
+                            </h1>
+                          </div>
+                        </div>
                       </div>
-                       
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                      <img
+                        src="../assets/images/slider/banner2_icon.png"
+                        className="mainbannerAlignImg2"
+                      />
                     </div>
                   </div>
-                  <img src="../assets/images/slider/banner2_icon.png" className="mainbannerAlign2" />
                 </div>
               </div>
             </div>
@@ -81,49 +94,27 @@ const Slider = () => {
 
         {/* <!-- --> */}
 
-        <div
-          className="slider_area d-flex slider3"
-          id="home"
-        >
+        <div className="slider_area d-flex slider3" id="home">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="single_slider">
-                  <div className="slider_content">
-                    <div className="slider_text">
-                      <div className="slider_text_inner mainbannerAlign3">
-                         
-                      <h1 className="banner_text_bg1 color_strip_Green">
-                        <span> Total IT Solution Here </span><br/>
-                          Mapping the innovations that adds lasting value in
-                          every direction{' '}
-                        </h1>
+                  <div className="row">
+                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                      <div className="slider_content mainbannerAlign">
+                        <div className="slider_text">
+                          <div className="slider_text_inner">
+                            <h1 className="banner_text_bg1 color_strip_Green">
+                              <span> Total IT Solution Here </span>
+                              <br />
+                              S Mapping the innovations that adds lasting value in
+                              every direction{' '}
+                            </h1>
+                          </div>
+                        </div>
                       </div>
-                      {/* <div className="slider_button pt-5 d-flex">
-                        <div className="button">
-                          <NavLink to="/aboutus">
-                            How IT Work{' '}
-                            <i className="fa fa-long-arrow-right"></i>
-                          </NavLink>
-                          <NavLink activeClassName="active" to="/ai" className="ml-4">
-                            IT Services{' '}
-                            <i className="fa fa-long-arrow-right"></i>
-                          </NavLink>
-                        </div>
-                      </div> */}
-                      {/* <div className="slider-video">
-                        <div className="video-icon">
-                          <a
-                            className="video-vemo-icon venobox vbox-item"
-                            data-vbtype="youtube"
-                            data-autoplay="true"
-                            href="#"
-                          >
-                            <i className="fa fa-play"></i>
-                          </a>
-                        </div>
-                      </div> */}
                     </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">&nbsp;</div>
                   </div>
                 </div>
               </div>
@@ -317,7 +308,6 @@ const Slider = () => {
                     <div className="techno_flipbox_icon">
                       <div className="icon bgYellow">
                         <i className="aiServices"></i>
-
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -357,7 +347,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkblue">
-                      <i className="mlServices"></i>
+                        <i className="mlServices"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">
@@ -477,8 +467,7 @@ const Slider = () => {
                   <div className="techno_flipbox_inner">
                     <div className="techno_flipbox_icon">
                       <div className="icon bgDrkGrey">
-                         
-                         <i className="cloudServices2"></i>
+                        <i className="cloudServices2"></i>
                       </div>
                     </div>
                     <div className="flipbox_title">

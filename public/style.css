@@ -340,15 +340,8 @@ a.dtbtn:hover {
 ======================================================*/
 
 .slider1 {
-    /* background-image: url(assets/images/slider/banner1_icon.png); */
-    background: rgb(71,118,198);
-    background: linear-gradient(180deg, rgba(71,118,198,1) 0%, rgba(108,188,233,1) 100%);
-    /* background-size: cover;
-    background-position: center right; 
-    background-repeat: no-repeat;*/
-    /* height:550px;
-    width:1366px; 
-    margin:0 auto;*/
+    background: rgb(71, 118, 198);
+    background: linear-gradient(180deg, rgba(71, 118, 198, 1) 0%, rgba(108, 188, 233, 1) 100%);
 }
 
 .slider2 {
@@ -356,9 +349,6 @@ a.dtbtn:hover {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /* height:550px; */
-    /* width:1366px;
-    margin:0 auto; */
 }
 
 .slider3 {
@@ -366,9 +356,7 @@ a.dtbtn:hover {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height:550px;
-    width:1366px;
-    margin:0 auto;
+    height: 550px;
 }
 
 .slider4 {
@@ -460,7 +448,7 @@ a.dtbtn:hover {
 }
 
 .slider_text_inner {
-    display: inline-block;  
+    display: inline-block;
 }
 
 .slider_text_inner h1 {
@@ -1902,7 +1890,6 @@ a.em-active-button:hover {
     font-size: 16px;
     color: #232323;
     font-weight: 700;
-     
 }
 
 /* New Flip Box Style */
@@ -2461,6 +2448,7 @@ a.em-active-button:hover {
     border: 1px solid #0042A5;
     border-radius: 8px;
 }
+
 .flipcusBorder {
     border: 1px solid #ffffff !important;
     border-radius: 8px;
@@ -2486,7 +2474,8 @@ a.em-active-button:hover {
     -webkit-transform-style: preserve-3d;
     z-index: 1;
 }
-.flipcus_height{
+
+.flipcus_height {
     min-height: 150px !important;
 }
 
@@ -8229,13 +8218,16 @@ a.em-active-button:hover {
 .service_bg1 {
     /* background-image: url("assets/images/slider/bg2.jpg"); */
     /* background-size: contain;  */
-     
-background: #1e5799; /* Old browsers */
-background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2989d8',GradientType=0 ); IE6-9
-
+    background: #1e5799;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e5799 0%, #2989d8 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2989d8', GradientType=0);
+    IE6-9
 }
 
 .service_bg2 {

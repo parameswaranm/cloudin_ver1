@@ -507,24 +507,18 @@ ul.joblist2 li {
     font-size: 20px;
     color: #000 !important;
 }
-.mainbannerAlign{
-    width: 50%;
-    display: inline-block !important;
-}
-.mainbannerAlign3{
-    width: 50%;
-    display: inline-block !important;
-}
-img.mainbannerAlign{
-    width: 50%;
+ 
+img.mainbannerAlignImg{
+    width: 100%;
     display: inline-block !important;
     margin: 50px 0 50px 0;
 }
-img.mainbannerAlign2{
-    width:42%;
+img.mainbannerAlignImg2{
+    width:90%;
     display: inline-block !important;
     margin: 0px 0 0px 0;
 }
+ 
 
 /*icons block ends here*/
 
@@ -534,36 +528,8 @@ img.mainbannerAlign2{
     }
 }
 
-@media only screen and (max-width: 1023px) {
-    .mainbannerAlign{
-        width: 100%;
-        display: inline-block !important;
-    }
-    .mainbannerAlign3{
-        width: 26%;
-        display: inline-block !important;
-    }
-    img.mainbannerAlign {
-        width: 100%;
-        display: inline-block !important;
-        margin: 10px 0 10px 0;
-    }
-    img.mainbannerAlign2 {
-        width: 100%;
-        display: inline-block !important;
-        padding: 0 0 60px 0 !important;
-    }
-
-    .slider2 {
-        background-image: url(assets/images/slider/banner2.png);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        height:550px;
-        width: auto !important;
-        margin: 0 auto;
-         
-    }
+@media only screen and (max-width: 1024px) {
+     
     .no-js .owl-carousel, .owl-carousel.owl-loaded, .banner_area {
         display: block!important;
         clear: both;
