@@ -117,7 +117,7 @@ const Footer = (props) => {
                     </div>
                     <div className="recent-post-text">
                       <h5>
-                        <a href="#">Cloudin new site <span className="rcomment">3.O</span></a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6848295836535934976" target="_blank">Virtual Assistant</a>
                       </h5>
                       
                     </div>
