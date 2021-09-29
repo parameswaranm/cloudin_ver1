@@ -16,7 +16,7 @@ const Footer = (props) => {
       <div className="footer-middle pt-95 call_bg">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="widget widgets-company-info">
                 {/* <div className="footer-bottom-logo pb-40">
                   <img src="assets/images/cloudin_logo_hover.png" alt="" />
@@ -67,29 +67,7 @@ const Footer = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="widget widget-nav-menu">
-                <h4 className="widget-title pb-4">Associated with</h4>
-                <div className="menu-quick-link-container ml-4">
-                  <ul id="menu-quick-link" className="menu">
-                    <li>
-                      <a href="#">TextLocal</a>
-                      <br />
-                      {/* <p className="color_yellow">
-                         
-                      </p> */}
-                    </li>
-                    <li>
-                      <a href="#">Collect ChatBot</a>
-                      <br />
-                      {/* <p className="color_yellow">
-                         
-                      </p> */}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+             
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="widget widgets-company-info">
                 <h3 className="widget-title pb-4">Company Address</h3>
@@ -130,18 +108,18 @@ const Footer = (props) => {
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div id="em-recent-post-widget">
                 <div className="single-widget-item">
-                  <h4 className="widget-title pb-3">Recent post</h4>
-                  <div className="recent-post-item active pb-3">
-                    <div className="recent-post-image mr-3">
+                  <h4 className="widget-title pb-0">Recent post</h4>
+                  <div className=" active pb-3">
+                    <div className="recent-post-image mr-3  pb-4">
                       <a href="#">
-                        <img width="80" height="80" src={RecentImg1} alt="" />
+                        <img width="200" height="200" src="../assets/images/recent_posts.svg" alt="" />
                       </a>
                     </div>
                     <div className="recent-post-text">
-                      <h6>
-                        <a href="#">Cloudin new site</a>
-                      </h6>
-                      <span className="rcomment">3.O</span>
+                      <h5>
+                        <a href="#">Cloudin new site <span className="rcomment">3.O</span></a>
+                      </h5>
+                      
                     </div>
                   </div>
                 </div>
