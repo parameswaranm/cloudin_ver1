@@ -82,15 +82,7 @@ const DigitalMarket = () => {
                       benefit from efficient digital marketing services all year
                       round.
                     </p>
-                    <p>
-                      <b>Get expert help in more ways</b>
-                      <br />
-                      Your dedicated Cloudin Assistant can help with many other
-                      administrative tasks. But if at any time, you need
-                      something outside their specialty, they can get hands-on
-                      support from another Cloudin Assistant with more
-                      experience in that task.
-                    </p>
+                     
                     <p>
                       <b>SEO</b>
                       <br />
