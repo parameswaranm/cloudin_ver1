@@ -250,6 +250,14 @@ const Navbar = () => {
                                 Virtual assistant
                               </NavLink>
                             </li>
+                             <li>
+                              <NavLink
+                                activeClassName="active"
+                                to="/digitalMarket"
+                              >
+                                Digital Marketing
+                              </NavLink>
+                            </li>
                           </ul>
                         </li>
                         <li>

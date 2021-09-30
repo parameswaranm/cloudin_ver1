@@ -1,3 +1,4 @@
+import DigitalMarket from './components/pages/services/DigitalMarket';
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
@@ -96,6 +97,9 @@ function App() {
         </Route>
         <Route path="/virtualAssist" exact>
           <VirtualAssistant />
+        </Route>
+        <Route path="/digitalMarket" exact>
+          <DigitalMarket />
         </Route>
         <Route path="/tc" exact>
           <TnC />
