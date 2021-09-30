@@ -179,6 +179,7 @@ const ContactUs = (props) => {
           .get(cloudinConfig.REGION_API_URL + `/${values.label}`)
           .then((response) => {
             const postsData = response.data;
+            console.log(postsData);
             dispatch({ type: 'SET_POSTS', payload: postsData });
             setCountry(true);
             setpostsData(postsData);
@@ -441,8 +442,9 @@ const ContactUs = (props) => {
                                   options={
                                     postsData &&
                                     postsData.map((item) => ({
-                                      label: item.name,
-                                      value: item.alpha2Code,
+                                       
+                                      label: item.name.common,
+                                      value: item.languages,
                                     }))
                                   }
                                   type="selectDropdown"
