@@ -58,6 +58,9 @@
 .bgOrange {
     background: #E07400 !important;
 }
+.dark_purple{
+    background: #5D1D7D !important;    
+}
 
 .bgSharPink {
     background: #F30B52 !important;
@@ -431,6 +434,13 @@ element.style {
     display: block;
     background-repeat: no-repeat;
     background-position: 14px 16px;
+}
+.digitalMarketing {
+    background-image: url(/assets/images/cloudinIcons/digital_marketing.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 16px 20px;
 }
 
 .holistic {

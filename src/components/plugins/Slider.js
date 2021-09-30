@@ -114,7 +114,9 @@ const Slider = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">&nbsp;</div>
+                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                      &nbsp;
+                    </div>
                   </div>
                 </div>
               </div>
@@ -736,6 +738,47 @@ const Slider = () => {
                     </div>
                     <div className="flipbox_button">
                       <NavLink activeClassName="active" to="/virtualAssist">
+                        Read More<i className="fa fa-angle-double-right"></i>
+                      </NavLink>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+              <div className="techno_flipbox mb-30">
+                <div className="techno_flipbox_font flipcusBorder">
+                  <div className="techno_flipbox_inner">
+                    <div className="techno_flipbox_icon">
+                      <div className="icon dark_purple">
+                        <i className="digitalMarketing"></i>
+                      </div>
+                    </div>
+                    <div className="flipbox_title">
+                      <h3>Digital Marketing</h3>
+                    </div>
+                    <div className="flipbox_desc">
+                      <p>
+                        No matter what you're looking for, we can create a
+                        custom solution for your business.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="techno_flipbox_back service_bg3">
+                  <div className="techno_flipbox_inner">
+                    <div className="flipbox_title">
+                      <h3>Digital Marketing</h3>
+                    </div>
+                    <div className="flipbox_desc">
+                      <p>
+                      No matter what you're looking for, we can create a
+                        custom solution for your business.
+                      </p>
+                    </div>
+                    <div className="flipbox_button">
+                      <NavLink activeClassName="active" to="/digitalMarket">
                         Read More<i className="fa fa-angle-double-right"></i>
                       </NavLink>
                     </div>
