@@ -38,6 +38,23 @@ const Slider = () => {
                               seamless techno-digital Solution
                             </h1>
                           </div>
+
+                          <div className="slider_button pt-5 d-flex">
+                            <div className="button">
+                              <NavLink to="/aboutus">
+                                How IT Work{' '}
+                                <i className="fa fa-long-arrow-right"></i>
+                              </NavLink>
+                              <NavLink
+                                activeClassName="active"
+                                to="/ai"
+                                className="ml-4"
+                              >
+                                IT Services{' '}
+                                <i className="fa fa-long-arrow-right"></i>
+                              </NavLink>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -75,6 +92,22 @@ const Slider = () => {
                               Bridging the gap between business and technology
                               with Cloudin IT Solutions
                             </h1>
+                          </div>
+                          <div className="slider_button pt-5 d-flex">
+                            <div className="button">
+                              <NavLink to="/aboutus">
+                                How IT Work{' '}
+                                <i className="fa fa-long-arrow-right"></i>
+                              </NavLink>
+                              <NavLink
+                                activeClassName="active"
+                                to="/ai"
+                                className="ml-4"
+                              >
+                                IT Services{' '}
+                                <i className="fa fa-long-arrow-right"></i>
+                              </NavLink>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -773,7 +806,7 @@ const Slider = () => {
                     </div>
                     <div className="flipbox_desc">
                       <p>
-                      No matter what you're looking for, we can create a
+                        No matter what you're looking for, we can create a
                         custom solution for your business.
                       </p>
                     </div>

@@ -285,7 +285,8 @@ element.style {
 }
 
 #scrollUp {
-    bottom: 75px;
+    bottom: 25px;
+    right:50px;
 }
 
 .label-block label {
@@ -528,6 +529,16 @@ img.mainbannerAlignImg2{
     display: inline-block !important;
     margin: 0px 0 0px 0;
 }
+.display_block{
+    display: block;
+}
+.display_inlineblock{
+    display: inline-block;
+}
+.flag_width{width:40px;}
+.cursor_hand{
+    cursor: pointer;
+}
  
 
 /*icons block ends here*/
@@ -539,6 +550,9 @@ img.mainbannerAlignImg2{
 }
 
 @media only screen and (max-width: 1023px) {
+    .slider_text_inner {
+        margin-top: 75px;
+    }
      
     .no-js .owl-carousel, .owl-carousel.owl-loaded, .banner_area {
         display: block!important;

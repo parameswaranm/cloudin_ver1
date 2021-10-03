@@ -1,22 +1,33 @@
 import React, { Fragment, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import RecentImg1 from '../../assets/images/recent1.jpg';
-import RecentImg3 from '../../assets/images/recent3.jpg';
-
-const Footer = (props) => {
-  const [ind, setInd] = useState();
-  const [nz, setNz] = useState();
-  const [us, setUs] = useState();
+const Footer = () => {
+  const [ind, setInd] = useState(true);
+  const [nz, setNz] = useState(false);
+  const [us, setUs] = useState(false);
   const countryClick = (ctry) => {
-
-  }
+    if (ctry === 'ind') {
+      setInd(true);
+      setNz(false);
+      setUs(false);
+    }
+    if (ctry === 'us') {
+      setUs(true);
+      setNz(false);
+      setInd(false);
+    }
+    if (ctry === 'nz') {
+      setNz(true);
+      setUs(false);
+      setInd(false);
+    }
+  };
   return (
     <Fragment>
       <div className="footer-middle pt-95 call_bg">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-12">
+            <div className="col-lg-5 col-md-6 col-sm-12">
               <div className="widget widgets-company-info">
                 {/* <div className="footer-bottom-logo pb-40">
                   <img src="assets/images/cloudin_logo_hover.png" alt="" />
@@ -62,46 +73,98 @@ const Footer = (props) => {
                     >
                       <i className="fa fa-linkedin"></i>
                     </a>
-                     
                   </div>
                 </div>
               </div>
             </div>
-             
-            <div className="col-lg-3 col-md-6 col-sm-12">
+
+            <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="widget widgets-company-info">
                 <h3 className="widget-title pb-4">Company Address</h3>
                 <div className="company-info-desc">
-                  <p>
-                    201, Vanjiamman Building, <br />
-                    Esso Bunk, Peelamedu,
-                    <br />
-                    Coimbatore-641004. Tamilnadu,
-                    <br /> India, Contact : 0422 - 4960128, <br />
-                    Email : info@cloudin.email
-                  </p>
-                  <p>
-                    Sri Ekadantha Building, <br /> #10 2nd Cross,
-                    <br /> Old Madiwala, BTM 1st Stag
-                    <br /> Bangalore-68. , India <br />
-                    Contact : +91 90436 86520, <br />
-                    Email : info@cloudin.email
-                  </p>
-                  <p className="countries">
-                    <img
-                      className="active"
-                      src="https://www.countryflags.io/in/flat/64.png"
-                      width="40"
-                    />
-                    <img
-                      src="https://www.countryflags.io/us/flat/64.png"
-                      width="40"
-                    />
-                    <img
-                      src="https://www.countryflags.io/nz/flat/64.png"
-                      width="40"
-                    />
-                  </p>
+                  {ind && (
+                    <div>
+                      <p>
+                        10th street, <br />
+                        Sri sai Towers, <br />
+                        Axis Bank Building ,
+                        <br />
+                        from 10th street Sri Kumaran Cut, from 100 feet Malabar
+                        Cut, Coimbatore. Tamilnadu,
+                        <br /> India, Contact : 0422 - 4960128, <br />
+                        Email : info@cloudin.email
+                      </p>
+                      <p>
+                        Sri Ekadantha Building, <br /> #10 2nd Cross,
+                        <br /> Old Madiwala, BTM 1st Stag
+                        <br /> Bangalore-68. , India <br />
+                        Contact : +91 90436 86520, <br />
+                        Email : info@cloudin.email
+                      </p>
+                    </div>
+                  )}
+                  {us && (
+                    <div>
+                      <p>
+                        Cloudin, Sunnyvale, <br />
+                        California,
+                        <br />
+                        USA-641004.
+                        <br /> Contact : +1(206)7523331, <br />
+                        Email : info@cloudin.email
+                      </p>
+                    </div>
+                  )}
+                  {nz && (
+                    <div>
+                      <p>
+                        Cloudin, 113D, Sturges Road, <br />
+                        Henderson,
+                        <br />
+                        Auckland, Newzealand ,
+                        <br /> Contact : +64 02102920557, <br />
+                        Email : info@cloudin.email
+                      </p>
+                    </div>
+                  )}
+                  <div className="countries">
+                    <div className="display_inlineblock">
+                      <img className="cursor_hand"
+                        src="https://www.countryflags.io/in/flat/64.png"
+                        width="40"
+                        onClick={() => {
+                          countryClick('ind');
+                        }}
+                      />
+                      {ind && (
+                        <span className="active display_block flag_width"></span>
+                      )}
+                    </div>
+                    <div className="display_inlineblock">
+                      <img className="cursor_hand"
+                        src="https://www.countryflags.io/us/flat/64.png"
+                        width="40"
+                        onClick={() => {
+                          countryClick('us');
+                        }}
+                      />
+                      {us && (
+                        <span className="active display_block flag_width"></span>
+                      )}
+                    </div>
+                    <div className="display_inlineblock">
+                      <img className="cursor_hand"
+                        src="https://www.countryflags.io/nz/flat/64.png"
+                        width="40"
+                        onClick={() => {
+                          countryClick('nz');
+                        }}
+                      />
+                      {nz && (
+                        <span className="active display_block flag_width"></span>
+                      )}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -112,14 +175,23 @@ const Footer = (props) => {
                   <div className=" active pb-3">
                     <div className="recent-post-image mr-3  pb-4">
                       <a href="#">
-                        <img width="200" height="200" src="../assets/images/recent_posts.svg" alt="" />
+                        <img
+                          width="200"
+                          height="200"
+                          src="../assets/images/recent_posts.svg"
+                          alt=""
+                        />
                       </a>
                     </div>
                     <div className="recent-post-text">
                       <h5>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6848295836535934976" target="_blank">Virtual Assistant</a>
+                        <a
+                          href="https://www.linkedin.com/feed/update/urn:li:activity:6848295836535934976"
+                          target="_blank"
+                        >
+                          Virtual Assistant
+                        </a>
                       </h5>
-                      
                     </div>
                   </div>
                 </div>
