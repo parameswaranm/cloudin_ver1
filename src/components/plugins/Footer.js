@@ -85,20 +85,21 @@ const Footer = () => {
                   {ind && (
                     <div>
                       <p>
-                        10th street, <br />
-                        Sri sai Towers, <br />
-                        Axis Bank Building ,
-                        <br />
-                        from 10th street Sri Kumaran Cut, from 100 feet Malabar
-                        Cut, Coimbatore. Tamilnadu,
-                        <br /> India, Contact : 0422 - 4960128, <br />
+                        Cloudin, <br />
+                        10th street, Sri sai Towers, <br />
+                        Axis Bank Building,<br />
+                        from 10th street, Sri Kumaran Cut, <br />
+                        from 100 feet Malabar Cut, <br />
+                        Coimbatore. Tamilnadu,<br /> 
+                        India, Contact : 0422 - 4960128, <br />
                         Email : info@cloudin.email
                       </p>
                       <p>
-                        Sri Ekadantha Building, <br /> #10 2nd Cross,
-                        <br /> Old Madiwala, BTM 1st Stag
-                        <br /> Bangalore-68. , India <br />
-                        Contact : +91 90436 86520, <br />
+                        Cloudin, <br />
+                        Sri Ekadantha Building, <br /> 
+                        #10 2nd Cross, Old Madiwala, <br />
+                        BTM 1st Stag, Bangalore-68, <br />
+                        India, Contact : +91 90436 86520, <br />
                         Email : info@cloudin.email
                       </p>
                     </div>
@@ -129,7 +130,8 @@ const Footer = () => {
                   )}
                   <div className="countries">
                     <div className="display_inlineblock">
-                      <img className="cursor_hand"
+                      <img
+                        className="cursor_hand"
                         src="https://www.countryflags.io/in/flat/64.png"
                         width="40"
                         onClick={() => {
@@ -141,7 +143,8 @@ const Footer = () => {
                       )}
                     </div>
                     <div className="display_inlineblock">
-                      <img className="cursor_hand"
+                      <img
+                        className="cursor_hand"
                         src="https://www.countryflags.io/us/flat/64.png"
                         width="40"
                         onClick={() => {
@@ -153,7 +156,8 @@ const Footer = () => {
                       )}
                     </div>
                     <div className="display_inlineblock">
-                      <img className="cursor_hand"
+                      <img
+                        className="cursor_hand"
                         src="https://www.countryflags.io/nz/flat/64.png"
                         width="40"
                         onClick={() => {
