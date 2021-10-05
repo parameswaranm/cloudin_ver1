@@ -309,7 +309,7 @@ const Slider = () => {
                     Incepted in 2015, at Coimbatore, we are advancing every year
                     by keeping up with the growing technologies and trends such
                     as Artificial Intelligence, Deep Learning &Machine Learning
-                    algorithm along with Engineering IOT solutions
+                    algorithm along with Engineering IoT solutions
                   </p>
                 </div>
               </div>
@@ -391,7 +391,7 @@ const Slider = () => {
                     <div className="flipbox_desc">
                       <p>
                         Combining machine learning & natural language processing
-                        boost accuracy and understand human utterances
+                        boost accuracy and understand of human utterances
                       </p>
                     </div>
                   </div>
@@ -404,7 +404,7 @@ const Slider = () => {
                     <div className="flipbox_desc">
                       <p>
                         Combining machine learning & natural language processing
-                        boost accuracy and understand human utterances
+                        boost accuracy and understand of human utterances
                       </p>
                     </div>
                     <div className="flipbox_button">
@@ -431,7 +431,7 @@ const Slider = () => {
                     <div className="flipbox_desc">
                       <p>
                         Improve traceability, transparency and tradability that
-                        brings trust and accountability in businesses
+                        brings trust and accountability to businesses
                       </p>
                     </div>
                   </div>
@@ -444,7 +444,7 @@ const Slider = () => {
                     <div className="flipbox_desc">
                       <p>
                         Improve traceability, transparency and tradability that
-                        brings trust and accountability in businesses
+                        brings trust and accountability to businesses
                       </p>
                     </div>
                     <div className="flipbox_button">
