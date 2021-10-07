@@ -168,6 +168,9 @@ element.style {
 .ai_box_minheight {
     min-height: 505px!important;
 }
+.dmkg_box_minheight {
+    min-height: 540px!important;
+}
 
 .ai_box_minheight2 {
     min-height: 270px!important;

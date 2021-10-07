@@ -82,59 +82,194 @@ const DigitalMarket = () => {
                       benefit from efficient digital marketing services all year
                       round.
                     </p>
-                     
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="process_area bg_color2 pt-90 pb-70">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div
+                className="section_title text-center mb-50 wow fadeInDown"
+                data-wow-delay="0.3s"
+              >
+                <div className="section_sub_title uppercase mb-3">
+                  <h6>Our Working Process</h6>
+                </div>
+                <div className="section_main_title">
+                  <h1>
+                    Our advanced and easily-integrable capabilities addresses
+                    various business needs
+                  </h1>
+                </div>
+                <div className="em_bar">
+                  <div className="em_bar_bg"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-md-center">
+            <div className="col-lg-4 col-md-6 col-sm-12 dmkg_box_minheight">
+              <div
+                className="dmkg_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                data-wow-delay="0.3s"
+              >
+                <div className="process_style_two_thumb">
+                  <img src="assets/images/new/seo.svg" alt="" />
+                </div>
+                <div className="process_style_two_content">
+                  <div className="process_style_two_content_title pt-3 pb-2">
+                    <h5>SEO</h5>
+                  </div>
+                  <div className="process_style_two_content_text">
                     <p>
-                      <b>SEO</b>
-                      <br />
                       Attract the traffic that matters with our SEO services,
                       which include local, ecommerce, and national SEO.
                     </p>
-
+                  </div>
+                  {/* <div className="process_style_two_content_button">
+                    <a href="#">Read More</a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="dmkg_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                data-wow-delay="0.3s"
+              >
+                <div className="process_style_two_thumb">
+                  <img
+                    src="assets/images/new/socialMediaMarketing.svg"
+                    alt=""
+                  />
+                </div>
+                <div className="process_style_two_content">
+                  <div className="process_style_two_content_title pt-3 pb-2">
+                    <h5>Social Media Marketing</h5>
+                  </div>
+                  <div className="process_style_two_content_text">
                     <p>
-                      <b>Social Media Marketing</b>
-                      <br />
                       We engage in strategized and well-planned social media
                       marketing to give your brand the advantage of increased
                       traffic online. This includes Brand Management, Social
                       Tone and Nature, and focusing on Social PPC and Monitoring
                       as well.
                     </p>
-
+                  </div>
+                  {/* <div className="process_style_two_content_button">
+                    <a href="#">Read More</a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="dmkg_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                data-wow-delay="0.3s"
+              >
+                <div className="process_style_two_thumb">
+                  <img src="assets/images/new/smo.svg" alt="" />
+                </div>
+                <div className="process_style_two_content">
+                  <div className="process_style_two_content_title pt-3 pb-2">
+                    <h5>Social Media Optimization </h5>
+                  </div>
+                  <div className="process_style_two_content_text">
                     <p>
-                      <b>Social Media Optimization</b>
-                      <br />
                       Through social media optimization tools and platforms, we
                       ensure that all of your marketing efforts are channelized
                       in the right direction. This involves Social Profile
                       Management, Social Content Strategy, and increasing
                       organic engagement.
                     </p>
-
+                  </div>
+                  {/* <div className="process_style_two_content_button">
+                    <a href="#">Read More</a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row mt-25 justify-content-md-center">
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="dmkg_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                data-wow-delay="0.3s"
+              >
+                <div className="process_style_two_thumb">
+                  <img src="assets/images/new/eml.svg" alt="" />
+                </div>
+                <div className="process_style_two_content">
+                  <div className="process_style_two_content_title pt-3 pb-2">
+                    <h5> Email Marketing</h5>
+                  </div>
+                  <div className="process_style_two_content_text">
                     <p>
-                      <b>Email Marketing</b>
-                      <br />
                       Nurture valuable leads into customers, and turn one-time
                       shoppers into repeat customers with email.
                     </p>
-
+                  </div>
+                  {/* <div className="process_style_two_content_button">
+                    <a href="#">Read More</a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="dmkg_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                data-wow-delay="0.3s"
+              >
+                <div className="process_style_two_thumb">
+                  <img src="assets/images/new/cnt.svg" alt="" />
+                </div>
+                <div className="process_style_two_content">
+                  <div className="process_style_two_content_title pt-3 pb-2">
+                    <h5>Content Marketing</h5>
+                  </div>
+                  <div className="process_style_two_content_text">
                     <p>
-                      <b>Content Marketing</b>
-                      <br />
                       The right content marketing strategy can do wonders for
                       your brand, and we’re here to ensure that! We take care of
                       Content Strategy, Content Writing, Outreach Campaigns, and
                       effective Social Promotion.
                     </p>
-
+                  </div>
+                  {/* <div className="process_style_two_content_button">
+                    <a href="#">Read More</a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="dmkg_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                data-wow-delay="0.3s"
+              >
+                <div className="process_style_two_thumb">
+                  <img src="assets/images/new/ppc.svg" alt="" />
+                </div>
+                <div className="process_style_two_content">
+                  <div className="process_style_two_content_title pt-3 pb-2">
+                    <h5> Pay Per Click Management</h5>
+                  </div>
+                  <div className="process_style_two_content_text">
                     <p>
-                      <b>Pay Per Click Management</b>
-                      <br />
                       Pay per click is an effective way of promotion and
                       visibility on the internet. We offer expert PPC
                       Management, PPC Strategy Implementation, ad copywriting,
                       and also complete Campaign Optimization.
                     </p>
                   </div>
+                  {/* <div className="process_style_two_content_button">
+                    <a href="#">Read More</a>
+                  </div> */}
                 </div>
               </div>
             </div>
