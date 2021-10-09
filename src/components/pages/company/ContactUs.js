@@ -267,11 +267,11 @@ const ContactUs = (props) => {
                 </div>
                 <div className="contact_address_text">
                   <p>
-                    201, Vanjiamman Building,
-                    <br />
-                    Esso Bunk, Peelamedu,
-                    <br />
-                    Coimbatore-641004. Tamilnadu,
+                  10th street, Sri sai Towers,<br />
+                  Axis Bank Building,<br />
+                  from 10th street, Sri Kumaran Cut,<br />
+                  from 100 feet Malabar Cut,<br />
+                  Coimbatore, Tamilnadu.
                   </p>
                 </div>
               </div>
