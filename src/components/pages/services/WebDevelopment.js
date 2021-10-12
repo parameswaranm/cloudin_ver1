@@ -117,7 +117,7 @@ const WebDevelopment = () => {
                 <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                    <img src="/assets/images/cloudinIcons/webApp/webApplication.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -134,7 +134,7 @@ const WebDevelopment = () => {
                 <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                    <img src="/assets/images/cloudinIcons/webApp/TechConsulting.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -150,7 +150,7 @@ const WebDevelopment = () => {
                 <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                    <img src="/assets/images/cloudinIcons/webApp/dedication.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -168,7 +168,7 @@ const WebDevelopment = () => {
                 <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                    <img src="/assets/images/cloudinIcons/webApp/full-stack.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -185,11 +185,11 @@ const WebDevelopment = () => {
                 <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                    <img src="/assets/images/cloudinIcons/webApp/third-party.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
-                    <h5> Third Part Integration</h5>
+                    <h5> Third Party Integration</h5>
                     <p>
                       Creates APIs custom data connectors, web services, and
                       middleware for secure integration with third-party

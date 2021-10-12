@@ -2,8 +2,8 @@ import React, { Fragment, useEffect } from 'react';
 
 const ReactDev = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
       <div className="breatcome_react d-flex align-items-center">
@@ -17,10 +17,10 @@ const ReactDev = () => {
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="#">Home</a>{' '}
-                      <i className="fa fa-angle-right"></i>{' '}
+                      <a href="#">Home</a> <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
-                      <i className="fa fa-angle-right"></i> <span>React native</span>
+                      <i className="fa fa-angle-right"></i>{' '}
+                      <span>React native</span>
                     </li>
                   </ul>
                 </div>
@@ -119,7 +119,7 @@ const ReactDev = () => {
                 <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                      <img src="/assets/images/cloudinIcons/react/cycle.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -136,13 +136,13 @@ const ReactDev = () => {
                 <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-code"></i>
+                      <img src="/assets/images/cloudinIcons/react/mvp.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
                     <h4> MVP Development </h4>
                     <p>
-                     Build your product in iterations while keeping your
+                      Build your product in iterations while keeping your
                       overheads low, ensuring you to generate maximum user
                       feedback and iterate into a superior product.
                     </p>
@@ -153,7 +153,7 @@ const ReactDev = () => {
                 <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-analysis"></i>
+                      <img src="/assets/images/cloudinIcons/react/maintenance.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -172,7 +172,7 @@ const ReactDev = () => {
                 <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-global"></i>
+                      <img src="/assets/images/cloudinIcons/react/StaffAugmentation.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
