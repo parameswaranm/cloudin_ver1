@@ -2,8 +2,8 @@ import React, { Fragment, useEffect } from 'react';
 
 const UxUi = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
       <div className="breatcome_uxui d-flex align-items-center">
@@ -17,8 +17,7 @@ const UxUi = () => {
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="#">Home</a>{' '}
-                      <i className="fa fa-angle-right"></i>{' '}
+                      <a href="#">Home</a> <i className="fa fa-angle-right"></i>{' '}
                       <a href="#"> Pages</a>{' '}
                       <i className="fa fa-angle-right"></i> <span>UI & UX</span>
                     </li>
@@ -46,7 +45,8 @@ const UxUi = () => {
                 <div className="section_main_title">
                   <h1>
                     Users with our elegant UI/UX designs
-                    <br /><span> our graceful UI/UX </span>
+                    <br />
+                    <span> our graceful UI/UX </span>
                   </h1>
                 </div>
                 <div className="em_bar">
@@ -121,7 +121,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                      <img src="/assets/images/cloudinIcons/uxui/interactionDesign.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -138,7 +138,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                      <img src="/assets/images/cloudinIcons/uxui/informationArch.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -156,7 +156,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                      <img src="/assets/images/cloudinIcons/uxui/mobileUX.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -173,7 +173,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                      <img src="/assets/images/cloudinIcons/uxui/uxtesting.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -191,7 +191,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                      <img src="/assets/images/cloudinIcons/uxui/uxResearch.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -207,7 +207,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <i className="flaticon-data"></i>
+                      <img src="/assets/images/cloudinIcons/uxui/wireframe.svg" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -272,7 +272,7 @@ const UxUi = () => {
                   >
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i> 
+                        <i className="fa fa-check-square-o"></i>
                         Touch-friendly navigation options for enhanced user
                         experience
                       </span>

@@ -121,7 +121,7 @@ const Blockchain = () => {
               <div className="blockChain_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/blockchain/blockchain.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -138,7 +138,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/blockchain/choose.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -157,7 +157,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/blockchain/Financial.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -173,7 +173,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/blockchain/Token.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -189,7 +189,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/blockchain/Smart.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -205,7 +205,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/blockchain/wallet.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -224,7 +224,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/blockchain/Supplychain.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -241,7 +241,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/blockchain/ledger.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">

@@ -128,7 +128,7 @@ const AWSnAzure = () => {
               <div className="aws_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/aws/Cloudstrategy.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -145,7 +145,7 @@ const AWSnAzure = () => {
               <div className="aws_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/aws/cloudMigrating.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -163,7 +163,7 @@ const AWSnAzure = () => {
               <div className="aws_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/aws/CloudManagedServices.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -183,7 +183,7 @@ const AWSnAzure = () => {
               <div className="aws_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/aws/Infrastructure.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -201,7 +201,7 @@ const AWSnAzure = () => {
               <div className="aws_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                    <i className="flaticon-data"></i>
+                  <img src="/assets/images/cloudinIcons/aws/Monitoring.svg" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
