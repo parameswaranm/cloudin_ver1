@@ -135,7 +135,7 @@ const Inventory = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-laptop"></i>
+                  <span className="invenOrderMgtImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -164,7 +164,7 @@ const Inventory = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-bullseye "></i>
+                  <span className="invenwareHouseImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -196,7 +196,7 @@ const Inventory = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-life-ring"></i>
+                  <span className="invenbarcodeImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -228,7 +228,7 @@ const Inventory = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-laptop"></i>
+                  <span className="inventoryTrack1Img"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -257,7 +257,7 @@ const Inventory = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-bullseye "></i>
+                  <span className="invenReportImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>

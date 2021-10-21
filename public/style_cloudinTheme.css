@@ -665,12 +665,89 @@ element.style {
     background-repeat: no-repeat;
     background-position:0 0;
 }
+
+
+.feature_style_eight_content .invenOrderMgtImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/orderMgt.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .invenOrderMgtImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/orderMgtHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+
+.feature_style_eight_content .invenwareHouseImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/warehouse.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .invenwareHouseImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/warehouseHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+
+.feature_style_eight_content .invenbarcodeImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/barcode.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .invenbarcodeImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/barcodeHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+
+.feature_style_eight_content .inventoryTrack1Img {
+    background-image: url(/assets/images/cloudinIcons/inventory/inventoryTrack1.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .inventoryTrack1Img {
+    background-image: url(/assets/images/cloudinIcons/inventory/inventoryTrack1Hover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+
+.feature_style_eight_content .invenReportImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/report.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .invenReportImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/reportHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
 .alterClass {
     float: left;
     margin-left: 8px!important;
     margin-right: 16px!important;
     margin-top: -10px!important;
 }
+
 /* products pages css */
 
 .width_hundred {
