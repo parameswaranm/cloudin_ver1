@@ -83,7 +83,7 @@ const MrBusiness = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-laptop"></i>
+                    <span className="mrBusAdminImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -113,7 +113,7 @@ const MrBusiness = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-bullseye "></i>
+                  <span className="mrBusEmpImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -143,7 +143,7 @@ const MrBusiness = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-life-ring"></i>
+                  <span className="mrBusMapImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -173,7 +173,7 @@ const MrBusiness = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-life-ring"></i>
+                  <span className="mrBusNotiImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -203,7 +203,7 @@ const MrBusiness = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-life-ring"></i>
+                  <span className="mrBusTaskImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -233,7 +233,7 @@ const MrBusiness = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-life-ring"></i>
+                  <span className="mrBusPrdImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -289,8 +289,8 @@ const MrBusiness = () => {
             <div className="col-lg-6 col-sm-6">
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-dribbble"></i>
+                  <div className="single_service_icon alterClass">
+                    <span className="realTimeImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>Real-time status on task assigned</h4>
@@ -299,8 +299,8 @@ const MrBusiness = () => {
               </div>
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-phone"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="prioritizeImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>Prioritise high-value work</h4>
@@ -310,8 +310,8 @@ const MrBusiness = () => {
 
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-desktop"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="measureImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>Measure the turn-around and average handling time</h4>
@@ -320,8 +320,8 @@ const MrBusiness = () => {
               </div>
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-dashcube"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="enableImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>Enable better capacity planning</h4>
@@ -330,8 +330,8 @@ const MrBusiness = () => {
               </div>
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-forward"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="balanceImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>Balance workload between teams</h4>
@@ -341,8 +341,8 @@ const MrBusiness = () => {
 
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-forward"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="transformImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>Transform processes based on work patterns</h4>

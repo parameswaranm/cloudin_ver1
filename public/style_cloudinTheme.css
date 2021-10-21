@@ -479,6 +479,200 @@ element.style {
     background-position: 15px 17px;
 }
 
+/* products pages css */
+.feature_style_eight_content .mrBusAdminImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/admin.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .mrBusAdminImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/adminHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+
+.feature_style_eight_content .mrBusEmpImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/employee.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 41px 36px;
+}
+.feature_style_eight_content:hover .mrBusEmpImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/employeeHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:41px 36px;
+}
+
+.feature_style_eight_content .mrBusMapImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/mapping.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 33px 36px;
+}
+.feature_style_eight_content:hover .mrBusMapImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/mappingHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:33px 36px;
+}
+.feature_style_eight_content .mrBusNotiImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/noti.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .mrBusNotiImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/notiHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+.feature_style_eight_content .mrBusTaskImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/taskView.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .mrBusTaskImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/taskViewHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+
+.feature_style_eight_content .mrBusPrdImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/prd.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:31px 33px;
+}
+.feature_style_eight_content:hover .mrBusPrdImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/prdHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:31px 33px;
+}
+ .single_service_inner .realTimeImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/realTimeHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .realTimeImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/realTime.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .prioritizeImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/prioritizeHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .prioritizeImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/prioritize.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+
+.single_service_inner .measureImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/measureHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .measureImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/measure.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+
+.single_service_inner .enableImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/enableHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .enableImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/enable.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .balanceImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/balanceHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .balanceImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/balance.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .transformImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/transformHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .transformImg {
+    background-image: url(/assets/images/cloudinIcons/mrBusiness/transform.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.alterClass {
+    float: left;
+    margin-left: 8px!important;
+    margin-right: 16px!important;
+    margin-top: -10px!important;
+}
+/* products pages css */
+
 .width_hundred {
     width: 100%;
 }
