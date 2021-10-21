@@ -92,7 +92,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="managed-service.html"> Admin Module</a>
+                      <a href="#"> Admin Module</a>
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -122,7 +122,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="industries.html">Employee Module</a>
+                      <a href="#">Employee Module</a>
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -152,7 +152,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Mapping</a>
+                      <a href="#"> Mapping</a>
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -182,7 +182,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Notifications</a>
+                      <a href="#"> Notifications</a>
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -212,7 +212,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Task View</a>
+                      <a href="#"> Task View</a>
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -242,7 +242,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Product View</a>
+                      <a href="#"> Product View</a>
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
