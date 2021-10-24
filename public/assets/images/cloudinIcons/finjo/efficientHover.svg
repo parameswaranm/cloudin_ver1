@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+  <g id="Group_350" data-name="Group 350" transform="translate(-543 -767)">
+    <rect id="Rectangle_156" data-name="Rectangle 156" width="43" height="43" transform="translate(543 767)" fill="none"/>
+    <g id="Group_349" data-name="Group 349" transform="translate(288 541.5)">
+      <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(266.74 236.74)" fill="none" stroke="#fff" stroke-width="1.55">
+        <circle cx="9.723" cy="9.723" r="9.723" stroke="none"/>
+        <circle cx="9.723" cy="9.723" r="8.948" fill="none"/>
+      </g>
+      <path id="Path_24" data-name="Path 24" d="M0,3.822,1.065,0l4.2,1.88L3.291,5.343Z" transform="translate(278.807 234.92) rotate(17)" fill="#0042a5"/>
+      <path id="Path_26" data-name="Path 26" d="M0,1.254,4.435,0,5.07,4.413H.453Z" transform="translate(282.502 243.68) rotate(-17)" fill="#0042a5"/>
+      <line id="Line_23" data-name="Line 23" x2="4.75" transform="translate(290.75 246.5)" fill="none" stroke="#fff" stroke-width="1.55"/>
+      <line id="Line_24" data-name="Line 24" x2="4.75" transform="translate(257.5 246.5)" fill="none" stroke="#fff" stroke-width="1.55"/>
+      <line id="Line_25" data-name="Line 25" y2="4.527" transform="translate(276.5 227.5)" fill="none" stroke="#fff" stroke-width="1.55"/>
+      <line id="Line_26" data-name="Line 26" y2="4.75" transform="translate(276.5 260.75)" fill="none" stroke="#fff" stroke-width="1.55"/>
+      <line id="Line_27" data-name="Line 27" y1="3.266" x2="3.637" transform="translate(260.914 256.223)" fill="none" stroke="#fff" stroke-width="1.55"/>
+      <line id="Line_28" data-name="Line 28" x2="3.637" y2="3.266" transform="translate(288.375 256.223)" fill="none" stroke="#fff" stroke-width="1.55"/>
+      <line id="Line_29" data-name="Line 29" y1="3.34" x2="3.637" transform="translate(288.375 233.438)" fill="none" stroke="#fff" stroke-width="1.55"/>
+      <line id="Line_30" data-name="Line 30" x2="3.637" y2="3.34" transform="translate(260.914 233.438)" fill="none" stroke="#fff" stroke-width="1.55"/>
+    </g>
+  </g>
+</svg>

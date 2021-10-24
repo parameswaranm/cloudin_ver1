@@ -81,7 +81,7 @@ const Finjo = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-laptop"></i>
+                  <span className="partyImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -110,7 +110,7 @@ const Finjo = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-bullseye "></i>
+                  <span className="debtImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -139,7 +139,7 @@ const Finjo = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-life-ring"></i>
+                  <span className="ledgerImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -169,7 +169,7 @@ const Finjo = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-life-ring"></i>
+                  <span className="daybookImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -199,7 +199,7 @@ const Finjo = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-life-ring"></i>
+                  <span className="loanImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -229,7 +229,7 @@ const Finjo = () => {
               >
                 <div className="feature_style_eight_content">
                   <div className="feature_style_eight_icon">
-                    <i className="fa fa-life-ring"></i>
+                  <span className="loanSummaryImg"></span>
                     <div className="anim-icon">
                       <span className="icon icon-1"></span>
                       <span className="icon icon-2"></span>
@@ -285,8 +285,8 @@ const Finjo = () => {
             <div className="col-lg-6 col-sm-6">
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-dribbble"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="visibilityImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4> Better visibility and control</h4>
@@ -295,8 +295,8 @@ const Finjo = () => {
               </div>
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-phone"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="agileImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4> Agile financial management</h4>
@@ -306,8 +306,8 @@ const Finjo = () => {
 
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-desktop"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="paperlessImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4> Paperless operations</h4>
@@ -316,8 +316,8 @@ const Finjo = () => {
               </div>
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-dashcube"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="acctingImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4> Accounting on the go</h4>
@@ -326,8 +326,8 @@ const Finjo = () => {
               </div>
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-forward"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="improvedImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4> Improved productivity</h4>
@@ -337,8 +337,8 @@ const Finjo = () => {
 
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-forward"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="simplyfyImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4> Simplified workflows</h4>
@@ -376,8 +376,8 @@ const Finjo = () => {
             <div className="col-lg-6 col-sm-6">
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-forward"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="reducedImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>
@@ -390,8 +390,8 @@ const Finjo = () => {
 
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-forward"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="efficientImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4> Increased efficiency with transparency of payments</h4>
@@ -401,8 +401,8 @@ const Finjo = () => {
 
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-forward"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="rcptImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4> Instant receipt notification and faster recoveries</h4>
@@ -412,8 +412,8 @@ const Finjo = () => {
 
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-forward"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="reducedCostImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>

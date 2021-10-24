@@ -741,6 +741,333 @@ element.style {
     background-repeat: no-repeat;
     background-position:36px 36px;
 }
+
+.single_service_inner:hover .autoManageImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/autoManage.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .autoManageImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/autoManageHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .centerInventoryImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/centerInventory.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .centerInventoryImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/centerInventoryHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .trackPrdImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/trackPrdt.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .trackPrdImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/trackPrdtHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .dCustomersImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/delightCustomers.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .dCustomersImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/delightCustomersHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .simplyfyImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/simplify.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .simplyfyImg {
+    background-image: url(/assets/images/cloudinIcons/inventory/simplifyHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+
+.feature_style_eight_content .partyImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/party.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .partyImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/partyHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+.feature_style_eight_content .debtImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/debt.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .debtImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/debtHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+.feature_style_eight_content .ledgerImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/ledger.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .ledgerImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/ledgerHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+.feature_style_eight_content .daybookImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/daybook.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .daybookImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/daybookHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+.feature_style_eight_content .loanImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/loan.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .loanImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/loanHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+.feature_style_eight_content .loanSummaryImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/loanSummary.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 36px 36px;
+}
+.feature_style_eight_content:hover .loanSummaryImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/loanSummaryHover.svg);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:36px 36px;
+}
+
+.single_service_inner:hover .visibilityImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/visibilityHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .visibilityImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/visibility.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .agileImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/agile.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .agileImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/agileHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .paperlessImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/paperless.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .paperlessImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/paperlessHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .acctingImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/accting.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .acctingImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/acctingHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .improvedImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/improved.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .improvedImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/improvedHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .simplyfyImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/simplify.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .simplyfyImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/simplifyHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .reducedImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/reduced.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .reducedImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/reducedHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .efficientImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/efficient.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .efficientImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/efficientHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .rcptImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/rcpt.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .rcptImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/rcptHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner:hover .reducedCostImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/reducedCost.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+.single_service_inner .reducedCostImg {
+    background-image: url(/assets/images/cloudinIcons/finjo/reducedCostHover.svg);
+    height: 43px;
+    width: 43px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
 .alterClass {
     float: left;
     margin-left: 8px!important;

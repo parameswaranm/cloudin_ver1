@@ -341,8 +341,8 @@ const Inventory = () => {
             <div className="col-lg-6 col-sm-6">
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-dribbble"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="autoManageImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>
@@ -355,8 +355,8 @@ const Inventory = () => {
               </div>
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-phone"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="centerInventoryImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>
@@ -369,8 +369,8 @@ const Inventory = () => {
 
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-desktop"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="trackPrdImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>
@@ -383,8 +383,8 @@ const Inventory = () => {
               </div>
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-dashcube"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="dCustomersImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>
@@ -397,8 +397,8 @@ const Inventory = () => {
               </div>
               <div className="single_service">
                 <div className="single_service_inner">
-                  <div className="single_service_icon">
-                    <i className="fa fa-forward"></i>
+                <div className="single_service_icon alterClass">
+                    <span className="simplyfyImg"></span>
                   </div>
                   <div className="single_service_content">
                     <h4>
