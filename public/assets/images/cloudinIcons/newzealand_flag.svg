@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg1"
+    viewBox="0 0 1000 500"
+    sodipodi:version="0.29win"
+    sodipodi:docname="C:\My Documents\Dans\NZ_flag.svg"
+  >
+  <sodipodi:namedview
+      id="base"
+  />
+  <g
+      id="g147"
+      transform="scale(8.3333)"
+    >
+    <rect
+        id="rect124"
+        style="fill:#000066"
+        height="60"
+        width="120"
+        y="0"
+        x="0"
+    />
+    <path
+        id="path146"
+        style="fill:#ffffff"
+        d="m0 0v3.3541l53.292 26.646h6.708v-3.354l-53.292-26.646h-6.708zm60 0v3.354l-53.292 26.646h-6.708v-3.354l53.292-26.646h6.708z"
+    />
+    <path
+        id="path136"
+        style="stroke-width:1pt;fill:#ffffff"
+        d="m25 0v30h10v-30h-10zm-25 10v10h60v-10h-60z"
+    />
+    <path
+        id="path141"
+        style="stroke-width:1pt;fill:#cc0000"
+        d="m0 12v6h60v-6h-60zm27-12v30h6v-30h-6z"
+    />
+    <g
+        id="g141"
+      >
+      <path
+          id="path133"
+          style="fill:#ffffff"
+          d="m90 7.995l0.899 2.767h2.91l-2.354 1.711 0.899 2.767-2.354-1.71-2.354 1.71 0.899-2.767-2.354-1.711h2.91z"
+      />
+      <path
+          id="path132"
+          style="fill:#cc0000"
+          d="m90 8.8456l0.708 2.1794h2.292l-1.854 1.347 0.708 2.18-1.854-1.347-1.854 1.347 0.708-2.18-1.854-1.347h2.292z"
+      />
+    </g
+    >
+    <path
+        id="path150"
+        style="fill:#cc0000"
+        d="m0 30l20-10h4.472l-20 10h-4.472zm0-30l20 10h-4.472l-15.528-7.7639v-2.2361zm35.528 10l20-10h4.472l-20 10h-4.472zm24.472 20l-20-10h4.472l15.528 7.764v2.236z"
+    />
+    <g
+        id="g132"
+        transform="translate(-13.864 13.948)"
+      >
+      <path
+          id="path134"
+          style="fill:#ffffff"
+          d="m90 7.995l0.899 2.767h2.91l-2.354 1.711 0.899 2.767-2.354-1.71-2.354 1.71 0.899-2.767-2.354-1.711h2.91z"
+      />
+      <path
+          id="path135"
+          style="fill:#cc0000"
+          d="m90 8.8456l0.708 2.1794h2.292l-1.854 1.347 0.708 2.18-1.854-1.347-1.854 1.347 0.708-2.18-1.854-1.347h2.292z"
+      />
+    </g
+    >
+    <g
+        id="g139"
+        transform="translate(11.883 -1.6701)"
+      >
+      <path
+          id="path138"
+          style="fill:#ffffff"
+          d="m90 20.648l0.753 2.316h2.435l-1.97 1.432 0.752 2.316-1.97-1.432-1.97 1.432 0.752-2.316-1.97-1.432h2.435z"
+      />
+      <path
+          id="path137"
+          style="fill:#cc0000"
+          d="m90 21.371l0.59 1.817h1.91l-1.545 1.122 0.59 1.817-1.545-1.123-1.545 1.123 0.59-1.817-1.545-1.122h1.91z"
+      />
+    </g
+    >
+    <path
+        id="path142"
+        style="fill-rule:evenodd;fill:#ffffff"
+        d="m90 43.596l0.989 3.043h3.199l-2.588 1.881 0.988 3.043-2.588-1.881-2.588 1.881 0.988-3.043-2.588-1.881h3.199z"
+    />
+    <path
+        id="path143"
+        style="fill-rule:evenodd;fill:#cc0000"
+        d="m90 44.32l0.826 2.543h2.674l-2.163 1.571 0.826 2.543-2.163-1.571-2.163 1.571 0.826-2.543-2.163-1.571h2.674z"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >newzealand</dc:title
+        >
+        <dc:date
+          >2011-02-16T23:25:29</dc:date
+        >
+        <dc:description
+          >Originally uploaded by Caleb Moore for OCAL. 0.18</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/119965/newzealand-by-anonymous</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >Anonymous</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >country</rdf:li
+            >
+            <rdf:li
+              >flag</rdf:li
+            >
+            <rdf:li
+              >national</rdf:li
+            >
+            <rdf:li
+              >new_zealand</rdf:li
+            >
+            <rdf:li
+              >sign</rdf:li
+            >
+            <rdf:li
+              >symbol</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

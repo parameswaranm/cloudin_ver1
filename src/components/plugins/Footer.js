@@ -132,7 +132,7 @@ const Footer = () => {
                     <div className="display_inlineblock">
                       <img
                         className="cursor_hand"
-                        src="https://www.countryflags.io/in/flat/64.png"
+                        src="assets/images/cloudinIcons/india_flag.svg"
                         width="40"
                         onClick={() => {
                           countryClick('ind');
@@ -145,7 +145,7 @@ const Footer = () => {
                     <div className="display_inlineblock">
                       <img
                         className="cursor_hand"
-                        src="https://www.countryflags.io/us/flat/64.png"
+                        src="assets/images/cloudinIcons/usa_flag.svg"
                         width="40"
                         onClick={() => {
                           countryClick('us');
@@ -158,7 +158,7 @@ const Footer = () => {
                     <div className="display_inlineblock">
                       <img
                         className="cursor_hand"
-                        src="https://www.countryflags.io/nz/flat/64.png"
+                        src="assets/images/cloudinIcons/newzealand_flag.svg"
                         width="40"
                         onClick={() => {
                           countryClick('nz');

@@ -28,7 +28,8 @@
 }
 
 .countries .active {
-    border-bottom: #fff 2px solid;
+    border-bottom: #18ced7 2px solid;
+    margin-top: 10px !important;
 }
 
 .border_bottom_dotted {
@@ -58,8 +59,9 @@
 .bgOrange {
     background: #E07400 !important;
 }
-.dark_purple{
-    background: #5D1D7D !important;    
+
+.dark_purple {
+    background: #5D1D7D !important;
 }
 
 .bgSharPink {
@@ -168,6 +170,7 @@ element.style {
 .ai_box_minheight {
     min-height: 505px!important;
 }
+
 .dmkg_box_minheight {
     min-height: 540px!important;
 }
@@ -289,7 +292,7 @@ element.style {
 
 #scrollUp {
     bottom: 25px;
-    right:50px;
+    right: 50px;
 }
 
 .label-block label {
@@ -439,6 +442,7 @@ element.style {
     background-repeat: no-repeat;
     background-position: 14px 16px;
 }
+
 .digitalMarketing {
     background-image: url(/assets/images/cloudinIcons/digital_marketing.svg);
     height: 100%;
@@ -480,6 +484,7 @@ element.style {
 }
 
 /* products pages css */
+
 .feature_style_eight_content .mrBusAdminImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/admin.svg);
     height: 100%;
@@ -487,12 +492,13 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .mrBusAdminImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/adminHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
 
 .feature_style_eight_content .mrBusEmpImg {
@@ -502,12 +508,13 @@ element.style {
     background-repeat: no-repeat;
     background-position: 41px 36px;
 }
+
 .feature_style_eight_content:hover .mrBusEmpImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/employeeHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:41px 36px;
+    background-position: 41px 36px;
 }
 
 .feature_style_eight_content .mrBusMapImg {
@@ -517,13 +524,15 @@ element.style {
     background-repeat: no-repeat;
     background-position: 33px 36px;
 }
+
 .feature_style_eight_content:hover .mrBusMapImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/mappingHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:33px 36px;
+    background-position: 33px 36px;
 }
+
 .feature_style_eight_content .mrBusNotiImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/noti.svg);
     height: 100%;
@@ -531,13 +540,15 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .mrBusNotiImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/notiHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
+
 .feature_style_eight_content .mrBusTaskImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/taskView.svg);
     height: 100%;
@@ -545,12 +556,13 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .mrBusTaskImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/taskViewHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
 
 .feature_style_eight_content .mrBusPrdImg {
@@ -558,46 +570,51 @@ element.style {
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:31px 33px;
+    background-position: 31px 33px;
 }
+
 .feature_style_eight_content:hover .mrBusPrdImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/prdHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:31px 33px;
+    background-position: 31px 33px;
 }
- .single_service_inner .realTimeImg {
+
+.single_service_inner .realTimeImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/realTimeHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .realTimeImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/realTime.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .prioritizeImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/prioritizeHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .prioritizeImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/prioritize.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
 
 .single_service_inner .measureImg {
@@ -606,15 +623,16 @@ element.style {
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .measureImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/measure.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
 
 .single_service_inner .enableImg {
@@ -623,49 +641,53 @@ element.style {
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .enableImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/enable.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .balanceImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/balanceHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .balanceImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/balance.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .transformImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/transformHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .transformImg {
     background-image: url(/assets/images/cloudinIcons/mrBusiness/transform.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
-
 
 .feature_style_eight_content .invenOrderMgtImg {
     background-image: url(/assets/images/cloudinIcons/inventory/orderMgt.svg);
@@ -674,12 +696,13 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .invenOrderMgtImg {
     background-image: url(/assets/images/cloudinIcons/inventory/orderMgtHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
 
 .feature_style_eight_content .invenwareHouseImg {
@@ -689,12 +712,13 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .invenwareHouseImg {
     background-image: url(/assets/images/cloudinIcons/inventory/warehouseHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
 
 .feature_style_eight_content .invenbarcodeImg {
@@ -704,12 +728,13 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .invenbarcodeImg {
     background-image: url(/assets/images/cloudinIcons/inventory/barcodeHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
 
 .feature_style_eight_content .inventoryTrack1Img {
@@ -719,12 +744,13 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .inventoryTrack1Img {
     background-image: url(/assets/images/cloudinIcons/inventory/inventoryTrack1Hover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
 
 .feature_style_eight_content .invenReportImg {
@@ -734,12 +760,13 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .invenReportImg {
     background-image: url(/assets/images/cloudinIcons/inventory/reportHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
 
 .single_service_inner:hover .autoManageImg {
@@ -748,79 +775,88 @@ element.style {
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .autoManageImg {
     background-image: url(/assets/images/cloudinIcons/inventory/autoManageHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .centerInventoryImg {
     background-image: url(/assets/images/cloudinIcons/inventory/centerInventory.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .centerInventoryImg {
     background-image: url(/assets/images/cloudinIcons/inventory/centerInventoryHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .trackPrdImg {
     background-image: url(/assets/images/cloudinIcons/inventory/trackPrdt.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .trackPrdImg {
     background-image: url(/assets/images/cloudinIcons/inventory/trackPrdtHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .dCustomersImg {
     background-image: url(/assets/images/cloudinIcons/inventory/delightCustomers.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .dCustomersImg {
     background-image: url(/assets/images/cloudinIcons/inventory/delightCustomersHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .simplyfyImg {
     background-image: url(/assets/images/cloudinIcons/inventory/simplify.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .simplyfyImg {
     background-image: url(/assets/images/cloudinIcons/inventory/simplifyHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
 
 .feature_style_eight_content .partyImg {
@@ -830,13 +866,15 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .partyImg {
     background-image: url(/assets/images/cloudinIcons/finjo/partyHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
+
 .feature_style_eight_content .debtImg {
     background-image: url(/assets/images/cloudinIcons/finjo/debt.svg);
     height: 100%;
@@ -844,13 +882,15 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .debtImg {
     background-image: url(/assets/images/cloudinIcons/finjo/debtHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
+
 .feature_style_eight_content .ledgerImg {
     background-image: url(/assets/images/cloudinIcons/finjo/ledger.svg);
     height: 100%;
@@ -858,13 +898,15 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .ledgerImg {
     background-image: url(/assets/images/cloudinIcons/finjo/ledgerHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
+
 .feature_style_eight_content .daybookImg {
     background-image: url(/assets/images/cloudinIcons/finjo/daybook.svg);
     height: 100%;
@@ -872,13 +914,15 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .daybookImg {
     background-image: url(/assets/images/cloudinIcons/finjo/daybookHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
+
 .feature_style_eight_content .loanImg {
     background-image: url(/assets/images/cloudinIcons/finjo/loan.svg);
     height: 100%;
@@ -886,13 +930,15 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .loanImg {
     background-image: url(/assets/images/cloudinIcons/finjo/loanHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
+
 .feature_style_eight_content .loanSummaryImg {
     background-image: url(/assets/images/cloudinIcons/finjo/loanSummary.svg);
     height: 100%;
@@ -900,12 +946,13 @@ element.style {
     background-repeat: no-repeat;
     background-position: 36px 36px;
 }
+
 .feature_style_eight_content:hover .loanSummaryImg {
     background-image: url(/assets/images/cloudinIcons/finjo/loanSummaryHover.svg);
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-    background-position:36px 36px;
+    background-position: 36px 36px;
 }
 
 .single_service_inner:hover .visibilityImg {
@@ -914,160 +961,180 @@ element.style {
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .visibilityImg {
     background-image: url(/assets/images/cloudinIcons/finjo/visibility.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .agileImg {
     background-image: url(/assets/images/cloudinIcons/finjo/agile.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .agileImg {
     background-image: url(/assets/images/cloudinIcons/finjo/agileHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .paperlessImg {
     background-image: url(/assets/images/cloudinIcons/finjo/paperless.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .paperlessImg {
     background-image: url(/assets/images/cloudinIcons/finjo/paperlessHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .acctingImg {
     background-image: url(/assets/images/cloudinIcons/finjo/accting.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .acctingImg {
     background-image: url(/assets/images/cloudinIcons/finjo/acctingHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .improvedImg {
     background-image: url(/assets/images/cloudinIcons/finjo/improved.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .improvedImg {
     background-image: url(/assets/images/cloudinIcons/finjo/improvedHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .simplyfyImg {
     background-image: url(/assets/images/cloudinIcons/finjo/simplify.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .simplyfyImg {
     background-image: url(/assets/images/cloudinIcons/finjo/simplifyHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .reducedImg {
     background-image: url(/assets/images/cloudinIcons/finjo/reduced.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .reducedImg {
     background-image: url(/assets/images/cloudinIcons/finjo/reducedHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .efficientImg {
     background-image: url(/assets/images/cloudinIcons/finjo/efficient.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .efficientImg {
     background-image: url(/assets/images/cloudinIcons/finjo/efficientHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .rcptImg {
     background-image: url(/assets/images/cloudinIcons/finjo/rcpt.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .rcptImg {
     background-image: url(/assets/images/cloudinIcons/finjo/rcptHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner:hover .reducedCostImg {
     background-image: url(/assets/images/cloudinIcons/finjo/reducedCost.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .single_service_inner .reducedCostImg {
     background-image: url(/assets/images/cloudinIcons/finjo/reducedCostHover.svg);
     height: 43px;
     width: 43px;
     display: block;
     background-repeat: no-repeat;
-    background-position:0 0;
+    background-position: 0 0;
 }
+
 .alterClass {
     float: left;
     margin-left: 8px!important;
@@ -1119,28 +1186,34 @@ ul.joblist2 li {
     font-size: 20px;
     color: #000 !important;
 }
- 
-img.mainbannerAlignImg{
+
+img.mainbannerAlignImg {
     width: 100%;
     display: inline-block !important;
     margin: 50px 0 50px 0;
 }
-img.mainbannerAlignImg2{
-    width:90%;
+
+img.mainbannerAlignImg2 {
+    width: 90%;
     display: inline-block !important;
     margin: 0px 0 0px 0;
 }
-.display_block{
+
+.display_block {
     display: block;
 }
-.display_inlineblock{
+
+.display_inlineblock {
     display: inline-block;
 }
-.flag_width{width:40px;}
-.cursor_hand{
+
+.flag_width {
+    width: 40px;
+}
+
+.cursor_hand {
     cursor: pointer;
 }
- 
 
 /*icons block ends here*/
 
@@ -1154,7 +1227,6 @@ img.mainbannerAlignImg2{
     .slider_text_inner {
         margin-top: 75px;
     }
-     
     .no-js .owl-carousel, .owl-carousel.owl-loaded, .banner_area {
         display: block!important;
         clear: both;
