@@ -94,14 +94,7 @@ const Footer = () => {
                         India, Contact : 0422 - 4960128, <br />
                         Email : info@cloudin.email
                       </p>
-                      <p>
-                        Cloudin, <br />
-                        Sri Ekadantha Building, <br /> 
-                        #10 2nd Cross, Old Madiwala, <br />
-                        BTM 1st Stag, Bangalore-68, <br />
-                        India, Contact : +91 90436 86520, <br />
-                        Email : info@cloudin.email
-                      </p>
+                      
                     </div>
                   )}
                   {us && (

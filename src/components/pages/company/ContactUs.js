@@ -2,6 +2,7 @@ import axios from 'axios';
 import emailjs, { init, send } from 'emailjs-com';
 import { Form, Formik } from 'formik';
 import React, { Fragment, useContext, useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { matchPath, Prompt } from 'react-router-dom';
 
 import cloudinConfig from '../../../store/config';
@@ -226,8 +227,8 @@ const ContactUs = (props) => {
                   {/* <h1>{context2.initialState}</h1> */}
                   <ul>
                     <li>
-                      <a href="#">Home</a> <i className="fa fa-angle-right"></i>{' '}
-                      <a href="#"> Pages</a>{' '}
+                      <NavLink activeClassName="active" to="/home">Home</NavLink> <i className="fa fa-angle-right"></i>{' '}
+                      <NavLink activeClassName="active" to="/aboutus">Company</NavLink>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <span>Contact us</span>
                     </li>

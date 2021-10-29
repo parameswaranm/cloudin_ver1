@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const ECamp = () => {
   useEffect(() => {
@@ -17,9 +18,9 @@ const ECamp = () => {
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="#">Home</a>{' '}
+                      <NavLink activeClassName="active" to="/home">Home</NavLink>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
-                      <a href="#"> Pages</a>{' '}
+                      <NavLink activeClassName="active" to="/inventory">Products</NavLink>{' '}
                       <i className="fa fa-angle-right"></i> <span>E-Camp</span>
                     </li>
                   </ul>

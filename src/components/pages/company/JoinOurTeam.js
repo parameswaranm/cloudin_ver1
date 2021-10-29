@@ -18,8 +18,8 @@ const JoinOurTeam = () => {
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="#">Home</a> <i className="fa fa-angle-right"></i>{' '}
-                      <a href="#"> Pages</a>{' '}
+                      <NavLink activeClassName="active" to="/home">Home</NavLink> <i className="fa fa-angle-right"></i>{' '}
+                      <NavLink activeClassName="active" to="/aboutus">Company</NavLink>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <span>Join our team</span>
                     </li>

@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const AboutUs = () => {
   useEffect(() => {
@@ -17,9 +18,9 @@ const AboutUs = () => {
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <a href="#">Home</a>{' '}
+                      <NavLink activeClassName="active" to="/home">Home</NavLink>{' '}                      
                       <i className="fa fa-angle-right"></i>{' '}
-                      <a href="#"> Pages</a>{' '}
+                      <NavLink activeClassName="active" to="/aboutus">Company</NavLink>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <span>About us</span>
                     </li>

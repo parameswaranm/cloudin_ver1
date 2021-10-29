@@ -1,14 +1,11 @@
-import DigitalMarket from './components/pages/services/DigitalMarket';
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
 import Container from './components/Container';
 import AboutUs from './components/pages/company/AboutUs';
 import ContactUs from './components/pages/company/ContactUs';
-import Investor from './components/pages/company/Investor';
 import JoinOurTeam from './components/pages/company/JoinOurTeam';
 import OurTeam from './components/pages/company/OurTeam';
-import Portfolio from './components/pages/company/Portfolio';
 import NotFound from './components/pages/PageNotFound';
 import Pricing from './components/pages/policies/Pricing';
 import Privacy from './components/pages/policies/Privacy';
@@ -22,11 +19,11 @@ import ArtificialIntelligence from './components/pages/services/ArtificialIntell
 import AWSnAzure from './components/pages/services/AWSnAzure';
 import Blockchain from './components/pages/services/Blockchain';
 import ChatBot from './components/pages/services/ChatBot';
+import DigitalMarket from './components/pages/services/DigitalMarket';
 import ITConsulting from './components/pages/services/ITConsulting';
 import MLnNLP from './components/pages/services/MLnNLP';
 import MobileApp from './components/pages/services/MobileApp';
 import ReactDev from './components/pages/services/React';
-import Services from './components/pages/services/Services';
 import UxUi from './components/pages/services/UxUi';
 import VirtualAssistant from './components/pages/services/VirtualAssistant';
 import WebDevelopment from './components/pages/services/WebDevelopment';
@@ -56,15 +53,9 @@ function App() {
         <Route path="/ourteam" exact>
           <OurTeam />
         </Route>
-        <Route path="/investor" exact>
-          <Investor />
-        </Route>
-        <Route path="/portfolio" exact>
-          <Portfolio />
-        </Route>
-        <Route path="/services" exact>
-          <Services />
-        </Route>
+         
+         
+         
         <Route path="/ai" exact>
           <ArtificialIntelligence />
         </Route>

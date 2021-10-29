@@ -164,16 +164,7 @@ const Navbar = () => {
                                 Our team
                               </NavLink>
                             </li>
-                            {/* <li>
-                              <NavLink activeClassName="active" to="/investor">
-                                Investor
-                              </NavLink>
-                            </li> */}
-                            {/* <li>
-                          <NavLink activeClassName="active" to="/portfolio">
-                            Portfolio
-                          </NavLink>
-                        </li> */}
+                             
                         <li>
                           <NavLink activeClassName="active" to="/joinourteam">
                             Join our team
