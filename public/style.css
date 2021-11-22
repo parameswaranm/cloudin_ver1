@@ -1582,11 +1582,19 @@ a.em-active-button:hover {
     height: 500px;
     position: relative;
 }
+.breatcome_prdts {
+    background: url(assets/images/slider/products_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    position: relative;
+}
 
-.breatcome_area:before, .breatcome_blockchain:before, .breatcome_chatbot:before, .breatcome_azure:before, .breatcome_react:before, .breatcome_itconsulting:before, .breatcome_mobileapp:before, .breatcome_webapp:before, .breatcome_uxui:before, .breatcome_virtualassist:before {
+.breatcome_area:before, .breatcome_blockchain:before, .breatcome_chatbot:before, .breatcome_azure:before, .breatcome_react:before, .breatcome_itconsulting:before, .breatcome_mobileapp:before, .breatcome_webapp:before, .breatcome_uxui:before, .breatcome_virtualassist:before, .breatcome_dm:before, .breatcome_prdts:before {
     position: absolute;
     content: '';
-    background-image: linear-gradient(to right, rgba(12, 90, 219, 0.85), rgba(12, 90, 219, 0.80), rgba(18, 85, 194, 0.70), rgba(34, 86, 172, 0.75), rgba(38, 85, 163, 0.75));
+    background-image: linear-gradient(to right, rgba(0, 69, 180, 0.55), rgba(0, 69, 180, 0.5), rgba(18, 85, 194, 0.10), rgba(34, 86, 172, 0.15), rgba(38, 85, 163, 0.15));
     width: 100%;
     height: 100%;
     top: 0;
@@ -1599,8 +1607,14 @@ a.em-active-button:hover {
 
 .breatcome_title_inner h2 {
     color: #fff;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
+}
+.breadcrumb_align_lft{
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+    width: initial;
 }
 
 .breatcome_content ul li {

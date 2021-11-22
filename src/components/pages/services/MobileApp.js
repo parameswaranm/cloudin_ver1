@@ -8,10 +8,10 @@ const MobileApp = () => {
   return (
     <Fragment>
       <div className="breatcome_mobileapp d-flex align-items-center">
-        <div className="container">
+        <div className="container breadcrumb_align_lft">
           <div className="row">
             <div className="col-lg-12">
-              <div className="breatcome_title">
+              <div className=" ">
                 <div className="breatcome_title_inner pb-2">
                   <h2>Mobile app development</h2>
                 </div>

@@ -7,11 +7,11 @@ const ECamp = () => {
   }, [])
   return (
     <Fragment>
-      <div className="breatcome_area d-flex align-items-center">
-        <div className="container">
+      <div className="breatcome_prdts d-flex align-items-center">
+        <div className="container breadcrumb_align_lft">
           <div className="row">
             <div className="col-lg-12">
-              <div className="breatcome_title">
+              <div className=" ">
                 <div className="breatcome_title_inner pb-2">
                   <h2>E-Camp</h2>
                 </div>
