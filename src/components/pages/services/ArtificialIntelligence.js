@@ -334,7 +334,7 @@ const ArtificialIntelligence = () => {
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
-                       Cloudin Technologies also develops ultra-modern visual
+                      Cloudin Technologies also develops ultra-modern visual
                       apps that obtain, analyse, and synthesize images and
                       recognize patterns in them.
                     </p>
