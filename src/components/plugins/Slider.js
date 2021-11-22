@@ -276,14 +276,14 @@ const Slider = () => {
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
               <div className="single_about_thumb mb-3">
                 <div className="single_about_thumb_inner">
-                  <img src="assets/images/about-img.png" alt="" />
+                  <img src="assets/images/home_side.svg" alt="" />
                 </div>
               </div>
-              <div className="single_about_shape">
+              {/* <div className="single_about_shape">
                 <div className="single_about_shape_thumb bounce-animate">
                   <img src="assets/images/about-circle.png" alt="" />
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
               <div className="section_title text_left mb-40 mt-3">
