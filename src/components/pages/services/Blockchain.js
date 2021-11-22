@@ -37,7 +37,7 @@ const Blockchain = () => {
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
               <div className="about_thumb">
-                <img src="assets/images/about-2.jpg" alt="" />
+                <img src="assets/images/blockchain_side.jpg" alt="" />
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
