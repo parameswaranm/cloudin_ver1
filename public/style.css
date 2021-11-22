@@ -1566,6 +1566,15 @@ a.em-active-button:hover {
 }
 
 .breatcome_virtualassist {
+    background: url(assets/images/slider/virtualassist.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+
+.breatcome_dm {
     background: url(assets/images/slider/dm_banner.svg);
     background-repeat: no-repeat;
     background-size: cover;
