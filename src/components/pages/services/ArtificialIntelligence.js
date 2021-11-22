@@ -2,8 +2,8 @@ import React, { Fragment, useEffect } from 'react';
 
 const ArtificialIntelligence = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
       <div className="banner_area banner3 d-flex align-items-center">
@@ -214,15 +214,12 @@ const ArtificialIntelligence = () => {
           <div className="row justify-content-md-center">
             <div className="col-lg-4 col-md-6 col-sm-12 ai_box_minheight">
               <div
-                className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
+                className="ai_box_minheight process_style_two text-center  wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
-                <div className="process_style_two_thumb">
-                  <img src="assets/images/new/pr1.png" alt="" />
-                </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5>Data Management</h5>
+                    <h3>Data Management</h3>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
@@ -242,12 +239,9 @@ const ArtificialIntelligence = () => {
                 className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
-                <div className="process_style_two_thumb">
-                  <img src="assets/images/new/pr2.png" alt="" />
-                </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5> Machine Learning</h5>
+                    <h3> Machine Learning</h3>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
@@ -267,12 +261,9 @@ const ArtificialIntelligence = () => {
                 className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
-                <div className="process_style_two_thumb">
-                  <img src="assets/images/new/pr3.png" alt="" />
-                </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5>Model Operations </h5>
+                    <h3>Model Operations </h3>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
@@ -294,12 +285,9 @@ const ArtificialIntelligence = () => {
                 className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
-                <div className="process_style_two_thumb">
-                  <img src="assets/images/new/pr3.png" alt="" />
-                </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5> Virtual Assistants </h5>
+                    <h3> Virtual Assistants </h3>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
@@ -319,12 +307,9 @@ const ArtificialIntelligence = () => {
                 className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
-                <div className="process_style_two_thumb">
-                  <img src="assets/images/new/pr3.png" alt="" />
-                </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5> Natural Language Processing </h5>
+                    <h3> Natural Language Processing </h3>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
@@ -343,12 +328,9 @@ const ArtificialIntelligence = () => {
                 className="ai_box_minheight process_style_two text-center mb-30 wow fadeInUp blue_border p-3"
                 data-wow-delay="0.3s"
               >
-                <div className="process_style_two_thumb">
-                  <img src="assets/images/new/pr3.png" alt="" />
-                </div>
                 <div className="process_style_two_content">
                   <div className="process_style_two_content_title pt-3 pb-2">
-                    <h5> Visual technology </h5>
+                    <h3> Visual technology </h3>
                   </div>
                   <div className="process_style_two_content_text">
                     <p>
@@ -401,7 +383,6 @@ const ArtificialIntelligence = () => {
                   data-wow-delay="0.3s"
                 >
                   <h1>the AI adoption with unleashing benefits</h1>
-                   
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
@@ -415,39 +396,39 @@ const ArtificialIntelligence = () => {
                   >
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i> Integrates with existing AI infrastructure
+                        <i className="fa fa-check-square-o"></i> Integrates with
+                        existing AI infrastructure
                       </span>
-                      
                     </div>
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i> Build complex use-cases easily
+                        <i className="fa fa-check-square-o"></i> Build complex
+                        use-cases easily
                       </span>
-                      
                     </div>
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i> Deliver intelligent and automated solutions
+                        <i className="fa fa-check-square-o"></i> Deliver
+                        intelligent and automated solutions
                       </span>
-                      
                     </div>
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i>  Boost business productivity 
+                        <i className="fa fa-check-square-o"></i> Boost business
+                        productivity
                       </span>
-                      
                     </div>
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i> Unlock doors to new possibilities
+                        <i className="fa fa-check-square-o"></i> Unlock doors to
+                        new possibilities
                       </span>
-                      
                     </div>
                     <div className="about_icon_box_inner mb-20">
                       <span>
-                        <i className="fa fa-check-square-o"></i> Enhances and accelerates AI journey
+                        <i className="fa fa-check-square-o"></i> Enhances and
+                        accelerates AI journey
                       </span>
-                      
                     </div>
                   </div>
                 </div>
