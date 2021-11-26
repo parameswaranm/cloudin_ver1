@@ -1778,6 +1778,10 @@ a.em-active-button:hover {
     color: #fff;
 }
 
+.section_main_title h3{
+    color:#232323;
+}
+
 .section_title.white .section_sub_title h6 {
     color: #fff;
 }
