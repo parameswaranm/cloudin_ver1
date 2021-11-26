@@ -325,7 +325,7 @@ const ContactUs = (props) => {
                   <h6>Contact</h6>
                 </div>
                 <div className="section_main_title">
-                  <h1>Your information...</h1>
+                  <h3>Your information...</h3>
                 </div>
               </div>
 
