@@ -1,20 +1,153 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="518" height="338" viewBox="0 0 518 338">
-  <g id="Group_359" data-name="Group 359" transform="translate(-11732 -3159)">
-    <text id="Solutions" transform="translate(11832 3248)" fill="#70a300" font-size="69" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">SOLUTIONS</tspan></text>
-    <text id="Digital_Marketing" data-name="Digital Marketing" transform="translate(11850 3290)" font-size="33" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">DIGITAL MARKETING</tspan></text>
-    <text id="ML_NLP" data-name="ML &amp; NLP" transform="translate(12128 3327)" fill="#707070" font-size="27" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ML &amp; NLP</tspan></text>
-    <text id="Artificial_Intelligence" data-name="Artificial Intelligence" transform="translate(12037 3352)" fill="#ffb300" font-size="17" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">ARTIFICIAL INTELLIGENCE</tspan></text>
-    <text id="Consulting_Services" data-name="Consulting Services" transform="translate(11732 3187)" fill="#707070" font-size="26" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">CONSULTING SERVICES</tspan></text>
-    <text id="Chatbot" transform="translate(12073 3463)" fill="#70a300" font-size="26" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">CHATBOT</tspan></text>
-    <text id="Web_App" data-name="Web App" transform="translate(11915 3492)" fill="#e07400" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">WEB APP</tspan></text>
-    <text id="Virtual_Assistant" data-name="Virtual Assistant" transform="translate(11803 3202) rotate(90)" fill="#707070" font-size="32" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">VIRTUAL ASSISTANT</tspan></text>
-    <text id="Blockchain_" data-name="Blockchain " transform="translate(11772 3211) rotate(90)" fill="#b20768" font-size="21" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">BLOCKCHAIN </tspan></text>
-    <text id="React_Native" data-name="React Native" transform="translate(12073 3429)" fill="#01a5a7" font-size="25" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">REACT NATIVE</tspan></text>
-    <text id="UI_UX_Design" data-name="UI / UX Design" transform="translate(12026 3186)" fill="#f30b52" font-size="23" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">UI / UX DESIGN</tspan></text>
-    <g id="Group_358" data-name="Group 358" transform="translate(-57 -3)">
-      <text id="Cloud_" data-name="Cloud " transform="translate(11958 3398)" fill="#01a5a7" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">CLOUD </tspan></text>
-      <text id="Services" transform="translate(11952 3466)" fill="#707070" font-size="29" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">SERVICES</tspan></text>
-      <path id="Path_248" data-name="Path 248" d="M35.209,126.076H64.243a3.707,3.707,0,1,0,0-7.414H35.209a27.8,27.8,0,0,1-2.933-55.437,3.7,3.7,0,0,0,3.041-5.1A25.918,25.918,0,0,1,78.444,30.78a3.612,3.612,0,0,0,3.113,1.186,3.693,3.693,0,0,0,2.808-1.792A46.3,46.3,0,0,1,170.493,53.8a46.49,46.49,0,0,1-.32,5.251,3.791,3.791,0,0,0,1.152,2.973,4.057,4.057,0,0,0,3.084,1.122c.545-.038,1.088-.081,1.644-.081a27.8,27.8,0,0,1,0,55.594H133.43a3.707,3.707,0,1,0,0,7.414h42.622A35.21,35.21,0,0,0,177.867,55.7c.025-.645.038-1.277.038-1.9a53.7,53.7,0,0,0-97.391-31.26,33.337,33.337,0,0,0-53.5,34.075,35.214,35.214,0,0,0,8.2,69.46Zm0,0" transform="translate(11907 3308.941)" fill="#333" stroke="#fff" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="497.811" height="351.732" viewBox="0 0 497.811 351.732">
+  <defs>
+    <filter id="Path_80" x="183.467" y="122.513" width="44.128" height="44.298" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_88" x="238.284" y="89.847" width="44.243" height="44.496" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_81" x="209.223" y="145.864" width="43.896" height="43.896" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_82" x="229.286" y="151.809" width="43.896" height="43.896" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_89" x="276.859" y="156.565" width="43.896" height="43.896" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_79" x="182.79" y="167.65" width="24.948" height="24.948" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_83" x="207.855" y="180.132" width="21.567" height="21.568" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-7"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_84" x="223.042" y="191.998" width="28.737" height="28.737" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-8"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_85" x="230.532" y="132.257" width="28.737" height="28.737" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-9"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_86" x="218.227" y="113.178" width="25.357" height="25.357" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-10"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_87" x="251.672" y="134.603" width="24.948" height="24.948" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_77" x="254.632" y="197.269" width="28.737" height="28.737" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-12"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_381" data-name="Group 381" transform="translate(-9397.281 -235.736)">
+    <path id="Path_251" data-name="Path 251" d="M9496.939,484.864l52.152,42.342-52.152,39.244V549.41h-99.658l27.367-22.2-27.367-25.3h99.658Z" transform="translate(0 -5)" fill="#ffb300"/>
+    <path id="Path_252" data-name="Path 252" d="M9496.939,484.864l52.152,42.342-52.152,39.244V549.41H9370.174s23.679-11.7,39.414-23.575,23.526-23.93,23.526-23.93h63.825Z" transform="translate(346 -5)" fill="#030065"/>
+    <path id="Path_253" data-name="Path 253" d="M9536.82,497.9h133.8s72.679-10.486,81.889-91.169c3.445-76.245-68.126-101.048-68.126-101.048v16.007l-54.734-41.825,54.734-44.133v18.589s111.111,17.848,118.339,143.836a215.694,215.694,0,0,1-1.392,21.556c-20.3,117.093-130.372,129.693-130.372,129.693l-134.135-4,30.465-22.2Z" fill="#f30b52"/>
+    <path id="Path_254" data-name="Path 254" d="M9638.424,301.556l-27.884-22.2,35.124-28.1s-84.854-1.175-129.71,88.416c-36.335,85.739,19.2,149.848,19.2,149.848h75.5s-66.72-25.818-54.844-107.92C9569.519,312.591,9638.424,301.556,9638.424,301.556Z" fill="#030065"/>
+    <g id="Group_379" data-name="Group 379" transform="translate(8948.48 464.368) rotate(-30)">
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_80)">
+        <path id="Path_80-2" data-name="Path 80" d="M13.871,0h.464a13.871,13.871,0,0,1,0,27.742h-.464A13.871,13.871,0,0,1,13.871,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 210.49, 125.51)" fill="#70a300"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_88)">
+        <path id="Path_88-2" data-name="Path 88" d="M13.871,0h.694a13.871,13.871,0,0,1,0,27.742h-.694A13.871,13.871,0,0,1,13.871,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 265.31, 92.85)" fill="#ff3900"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_81)">
+        <path id="Path_81-2" data-name="Path 81" d="M13.871,0A13.871,13.871,0,0,1,27.742,13.871h0A13.871,13.871,0,1,1,0,13.871H0A13.871,13.871,0,0,1,13.871,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 236.25, 148.86)" fill="#009ad6"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_82)">
+        <path id="Path_82-2" data-name="Path 82" d="M13.871,0A13.871,13.871,0,0,1,27.742,13.871h0A13.871,13.871,0,1,1,0,13.871H0A13.871,13.871,0,0,1,13.871,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 256.31, 154.81)" fill="#00a650"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_89)">
+        <path id="Path_89-2" data-name="Path 89" d="M13.871,0A13.871,13.871,0,0,1,27.742,13.871h0A13.871,13.871,0,1,1,0,13.871H0A13.871,13.871,0,0,1,13.871,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 303.88, 159.56)" fill="#030065"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_79)">
+        <path id="Path_79-2" data-name="Path 79" d="M6.935,0a6.935,6.935,0,0,1,6.935,6.935h0A6.935,6.935,0,1,1,0,6.935H0A6.935,6.935,0,0,1,6.935,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 197.8, 170.65)" fill="#e07400"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_83)">
+        <path id="Path_83-2" data-name="Path 83" d="M5.7,0a5.7,5.7,0,0,1,5.7,5.7h0A5.7,5.7,0,1,1,0,5.7H0A5.7,5.7,0,0,1,5.7,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 220.72, 183.13)" fill="#f30b52"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_84)">
+        <path id="Path_84-2" data-name="Path 84" d="M8.322,0a8.322,8.322,0,0,1,8.322,8.322h0A8.322,8.322,0,1,1,0,8.323H0A8.322,8.322,0,0,1,8.322,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 240.46, 195)" fill="#5d1d7d"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_85)">
+        <path id="Path_85-2" data-name="Path 85" d="M8.322,0a8.322,8.322,0,0,1,8.322,8.322h0A8.322,8.322,0,1,1,0,8.323H0A8.322,8.322,0,0,1,8.322,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 247.95, 135.26)" fill="#11267a"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_86)">
+        <path id="Path_86-2" data-name="Path 86" d="M7.085,0A7.085,7.085,0,0,1,14.17,7.085h0A7.085,7.085,0,1,1,0,7.085H0A7.085,7.085,0,0,1,7.085,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 233.5, 116.18)" fill="#01a5a7"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_87)">
+        <path id="Path_87-2" data-name="Path 87" d="M6.935,0a6.935,6.935,0,0,1,6.935,6.935h0A6.935,6.935,0,1,1,0,6.935H0A6.935,6.935,0,0,1,6.935,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 266.68, 137.6)" fill="#ffb300"/>
+      </g>
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 502.99, 26.4)" filter="url(#Path_77)">
+        <path id="Path_77-2" data-name="Path 77" d="M8.322,0a8.322,8.322,0,0,1,8.322,8.322h0A8.322,8.322,0,1,1,0,8.323H0A8.322,8.322,0,0,1,8.322,0Z" transform="matrix(0.5, 0.87, -0.87, 0.5, 272.05, 200.27)" fill="#70a300"/>
+      </g>
+    </g>
+    <text id="Plan" transform="translate(9447 526)" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Plan</tspan></text>
+    <text id="Design" transform="translate(9610 529)" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Design</tspan></text>
+    <text id="Launch" transform="translate(9779 529)" fill="#fff" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Launch</tspan></text>
+    <text id="Dev" transform="translate(9783.85 430.453) rotate(-90)" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Dev</tspan></text>
+    <text id="Review" transform="translate(9548.086 462.216) rotate(-101)" fill="#fff" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Review</tspan></text>
+    <text id="Test" transform="translate(9687.996 287.483) rotate(26)" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Test</tspan></text>
+    <text id="Deploy" transform="translate(9543.46 353.398) rotate(-53)" fill="#fff" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Deploy</tspan></text>
+    <g id="Group_380" data-name="Group 380" transform="translate(8813.904 256.539)">
+      <path id="Path_90" data-name="Path 90" d="M25.434,31.783H15.891A15.891,15.891,0,0,1,15.891,0h9.543V4.085h-9.8a11.63,11.63,0,0,0,0,23.26h9.8v4.438Z" transform="translate(722.419 299.146)"/>
+      <path id="Path_91" data-name="Path 91" d="M15.416,31.9A15.434,15.434,0,0,1,0,16.484V15.416a15.416,15.416,0,0,1,30.833,0v1.067A15.434,15.434,0,0,1,15.416,31.9ZM15.3,3.924a11.409,11.409,0,0,0-11.4,11.4v1.033a11.4,11.4,0,1,0,22.793,0V15.32A11.409,11.409,0,0,0,15.3,3.924Z" transform="translate(765.82 298.755)" fill="#b20768"/>
+      <g id="Group_230" data-name="Group 230" transform="translate(752.257 298.823)">
+        <rect id="Rectangle_67" data-name="Rectangle 67" width="4.069" height="32.076"/>
+        <rect id="Rectangle_96" data-name="Rectangle 96" width="4.069" height="10.511" transform="translate(11.359 28.007) rotate(90)"/>
+      </g>
+      <g id="Group_229" data-name="Group 229" transform="translate(866.057 298.687)">
+        <rect id="Rectangle_101" data-name="Rectangle 101" width="4.069" height="32.211" fill="#b20768"/>
+      </g>
+      <path id="Path_92" data-name="Path 92" d="M31.712,30.7H15.348a15.348,15.348,0,0,1,0-30.7H31.712V4.179H15.279a11.233,11.233,0,0,0,0,22.465H31.712V30.7Z" transform="translate(801.062 330.711) rotate(-90)"/>
+      <path id="Path_93" data-name="Path 93" d="M31.712,30.7H15.348a15.348,15.348,0,0,1,0-30.7H31.712V4.052H15.279a11.233,11.233,0,1,0,0,22.465H31.712V30.7Z" transform="translate(905.25 299.053) rotate(90)"/>
+      <path id="Path_94" data-name="Path 94" d="M25.434,31.956H15.977A15.978,15.978,0,0,1,15.977,0h9.456V4.462H15.695a11.693,11.693,0,1,0,0,23.386h9.739v4.108Z" transform="translate(861.568 330.711) rotate(180)"/>
     </g>
   </g>
 </svg>
