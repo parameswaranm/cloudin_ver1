@@ -1492,6 +1492,14 @@ a.em-active-button:hover {
     height: 500px;
     position: relative;
 }
+.breatcome_policies {
+    background: url(assets/images/slider/policies_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    position: relative;
+}
 
 .breatcome_blockchain {
     background: url(assets/images/slider/blockchain.jpg);
