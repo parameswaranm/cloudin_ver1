@@ -279,7 +279,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-3 col-sm-6 col-xs-12">
+            <div className="col-lg-4 col-sm-6 col-xs-12">
               <div className="single_process">
                 <div className="single_process_thumb">
                   <h1 className="year">2015</h1>
@@ -300,7 +300,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 col-xs-12">
+            <div className="col-lg-4 col-sm-6 col-xs-12">
               <div className="single_process">
                 <div className="single_process_thumb">
                   <h1 className="year">2016</h1>
@@ -319,7 +319,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 col-xs-12">
+            <div className="col-lg-4 col-sm-6 col-xs-12">
               <div className="single_process">
                 <div className="single_process_thumb">
                   <h1 className="year">2017</h1>
@@ -339,7 +339,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 col-xs-12">
+            <div className="col-lg-4 col-sm-6 col-xs-12">
               <div className="single_process">
                 <div className="single_process_thumb">
                   <h1 className="year">2018</h1>
@@ -355,6 +355,42 @@ const AboutUs = () => {
                     Stepped into the Artificial Intelligence, Deep Learning &
                     Machine learning algorithm along with Engineering IoT
                     solution.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 col-xs-12">
+              <div className="single_process">
+                <div className="single_process_thumb">
+                  <h1 className="year">2019</h1>
+                </div>
+                <div className="single_process_number">
+                  <div className="single_process_number_inner">
+                    <span>5</span>
+                  </div>
+                </div>
+                <div className="single_process_content">
+                  <h2> Education Product </h2>
+                  <p>
+                  Associate with leading online education Medical NEET PG Name called ACCELTOP.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 col-xs-12">
+              <div className="single_process">
+                <div className="single_process_thumb">
+                  <h1 className="year">2020</h1>
+                </div>
+                <div className="single_process_number">
+                  <div className="single_process_number_inner">
+                    <span>6</span>
+                  </div>
+                </div>
+                <div className="single_process_content">
+                  <h2> Blockchain </h2>
+                  <p>
+                  Kickstarted the Blockchain Services and listed for best startup company in startup city.
                   </p>
                 </div>
               </div>
