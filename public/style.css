@@ -1599,7 +1599,7 @@ a.em-active-button:hover {
     position: relative;
 }
 
-.breatcome_area:before, .breatcome_blockchain:before, .breatcome_chatbot:before, .breatcome_azure:before, .breatcome_react:before, .breatcome_itconsulting:before, .breatcome_mobileapp:before, .breatcome_webapp:before, .breatcome_uxui:before, .breatcome_virtualassist:before, .breatcome_dm:before, .breatcome_prdts:before {
+.breatcome_area:before, .breatcome_blockchain:before, .breatcome_chatbot:before, .breatcome_azure:before, .breatcome_react:before, .breatcome_itconsulting:before, .breatcome_mobileapp:before, .breatcome_webapp:before, .breatcome_uxui:before, .breatcome_virtualassist:before, .breatcome_dm:before, .breatcome_prdts:before, .breatcome_policies:before {
     position: absolute;
     content: '';
     background-image: linear-gradient(to right, rgba(0, 69, 180, 0.55), rgba(0, 69, 180, 0.5), rgba(18, 85, 194, 0.10), rgba(34, 86, 172, 0.15), rgba(38, 85, 163, 0.15));
