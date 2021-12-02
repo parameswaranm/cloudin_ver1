@@ -110,7 +110,7 @@ element.style {
 }
 
 .slider_text_inner h1 {
-    font-size: 33px!important;
+    font-size: 33px !important;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
@@ -160,71 +160,71 @@ element.style {
 }
 
 .about_box_minheight {
-    min-height: 185px!important;
+    min-height: 185px !important;
 }
 
 .about_box_minheight2 {
-    min-height: 165px!important;
+    min-height: 165px !important;
 }
 
 .ai_box_minheight {
-    min-height: 235px!important;
+    min-height: 235px !important;
 }
 
 .dmkg_box_minheight {
-    min-height: 540px!important;
+    min-height: 540px !important;
 }
 
 .ai_box_minheight2 {
-    min-height: 270px!important;
+    min-height: 270px !important;
 }
 
 .blockChain_Box_minHeight {
-    min-height: 405px!important;
+    min-height: 405px !important;
 }
 
 .blockChain_Box_minHeight2 {
-    min-height: 305px!important;
+    min-height: 305px !important;
 }
 
 .aws_Box_minHeight {
-    min-height: 385px!important;
+    min-height: 385px !important;
 }
 
 .react_Box_minHeight {
-    min-height: 385px!important;
+    min-height: 385px !important;
 }
 
 .itCons_Box_minHeight {
-    min-height: 335px!important;
+    min-height: 335px !important;
 }
 
 .mobiApp_Box_minHeight {
-    min-height: 335px!important;
+    min-height: 335px !important;
 }
 
 .webApp_Box_minHeight {
-    min-height: 335px!important;
+    min-height: 335px !important;
 }
 
 .uxui_Box_minHeight {
-    min-height: 335px!important;
+    min-height: 335px !important;
 }
 
 .inventory_Box_minHeight {
-    min-height: 450px!important;
+    min-height: 450px !important;
 }
 
 .mrBusiness_Box_minHeight {
-    min-height: 450px!important;
+    min-height: 450px !important;
 }
 
 .eCamp_Box_minHeight {
-    min-height: 490px!important;
+    min-height: 490px !important;
 }
 
 .contactBox {
-    min-height: 305px!important;
+    min-height: 305px !important;
 }
 
 .invent .single_service_inner::before {
@@ -296,7 +296,7 @@ element.style {
 }
 
 .label-block label {
-    font-size: 18px!important;
+    font-size: 18px !important;
 }
 
 .text-secondary {
@@ -1137,9 +1137,9 @@ element.style {
 
 .alterClass {
     float: left;
-    margin-left: 8px!important;
-    margin-right: 16px!important;
-    margin-top: -10px!important;
+    margin-left: 8px !important;
+    margin-right: 16px !important;
+    margin-top: -10px !important;
 }
 
 /* products pages css */
@@ -1179,7 +1179,7 @@ ul.joblist2 li {
 
 .banner_text_bg1 {
     padding: 0px 0 10px 10px;
-    margin-top: 60px!important;
+    margin-top: 60px !important;
 }
 
 .banner_text_bg1 span {
@@ -1215,6 +1215,10 @@ img.mainbannerAlignImg2 {
     cursor: pointer;
 }
 
+form label {
+    color: #232323 !important;
+}
+
 /*icons block ends here*/
 
 @media only screen and (min-width: 1024px) {
@@ -1227,13 +1231,16 @@ img.mainbannerAlignImg2 {
     .slider_text_inner {
         margin-top: 75px;
     }
+
     .no-js .owl-carousel, .owl-carousel.owl-loaded, .banner_area {
-        display: block!important;
+        display: block !important;
         clear: both;
     }
+
     .breatcome_area {
         display: none !important;
     }
+
     .mean-container .mean-bar::before {
         color: #fff;
         content: url('assets/images/logo2x.png');
@@ -1244,6 +1251,7 @@ img.mainbannerAlignImg2 {
         top: 0px;
         height: 60%;
     }
+
     .mean-container .mean-bar {
         background: #00247e !important;
         float: left;
@@ -1253,6 +1261,7 @@ img.mainbannerAlignImg2 {
         width: 100%;
         z-index: 999999;
     }
+
     /*Mobile menu bar */
     .line {
         width: 35px;
@@ -1260,21 +1269,26 @@ img.mainbannerAlignImg2 {
         margin: 7px 15px;
         background-color: #00247e;
     }
+
     .sticky .line {
         background-color: #fff;
     }
+
     .menu-toggle:hover {
         cursor: pointer;
     }
+
     .mobile-nav {
         margin: 39px 0 0 0;
     }
+
     .mobile-nav ul {
         padding: 0;
         margin: 0;
         list-style-type: none;
         width: 100%;
     }
+
     /* MOBILE ONE */
     .mobile-wrapper {
         width: 100%;
@@ -1284,6 +1298,7 @@ img.mainbannerAlignImg2 {
         left: -15px;
         top: 20px;
     }
+
     .mobile {
         max-width: 100%;
         width: 80%;
@@ -1292,6 +1307,7 @@ img.mainbannerAlignImg2 {
         position: relative;
         display: inline-block;
     }
+
     .mobile-one {
         /* background: #44cba0;
         background: -webkit-linear-gradient(#44cba0, #44bfc6);
@@ -1299,6 +1315,7 @@ img.mainbannerAlignImg2 {
         background: -moz-linear-gradient(#44cba0, #44bfc6);
         background: linear-gradient(#44cba0, #44bfc6); */
     }
+
     .mobile-one .mobile-nav {
         background-color: #FFB300;
         max-width: 100%;
@@ -1309,24 +1326,29 @@ img.mainbannerAlignImg2 {
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
     }
+
     .mobile-nav h2 {
         padding: 25px 20px;
     }
+
     .mobile-one .mobile-nav li {
         color: #989AA4;
         display: block;
         padding: 1px 0px;
         position: relative;
     }
+
     .mobile-one .mobile-nav li ul, .mobile-one .mobile-nav li ul li {
         width: 100%;
     }
+
     .mobile-one .mobile-nav li a:hover {
         /* background-color: #23252B; */
         color: #fff;
         /* border-left: 3px solid #44bfc6; */
         text-align: left;
     }
+
     .menuAlign {
         position: absolute;
         left: 0;
@@ -1335,15 +1357,19 @@ img.mainbannerAlignImg2 {
         flex: 0 0 100%;
         max-width: 100%;
     }
+
     .logoAlign {
         margin: 0 0 0 0px;
     }
+
     .sticky {
         z-index: 999;
     }
+
     .techno_menu ul {
         overflow: auto !important;
     }
+
     .logo {
         margin: 0 auto;
         width: 50%;
