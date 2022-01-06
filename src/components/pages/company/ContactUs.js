@@ -418,6 +418,7 @@ const ContactUs = (props) => {
                                 onChange={async (e, value) => {
                                   await setFieldValue('region', value);
                                   getValuesRegion(value);
+                                  await setFieldValue('country', '');
                                 }}
                                 onBlur={setFieldTouched}
                                 options={
