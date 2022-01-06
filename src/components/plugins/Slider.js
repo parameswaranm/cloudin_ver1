@@ -1077,7 +1077,7 @@ const Slider = () => {
                   <div className="container-info">
                     <div className="pp"></div>
                     <div className="name">MD</div>
-                    <div className="job">USERs of marketer</div>
+                    <div className="job">Users of marketer</div>
                   </div>
                 </div>
 
@@ -1108,7 +1108,7 @@ const Slider = () => {
                   <div className="container-info">
                     <div className="pp"></div>
                     <div className="name">Siva</div>
-                    <div className="job">CEO At WRAPUP</div>
+                    <div className="job">CEO at WRAPUP</div>
                   </div>
                 </div>
 
@@ -1154,7 +1154,7 @@ const Slider = () => {
                   <div className="container-info">
                     <div className="pp"></div>
                     <div className="name">Vijay</div>
-                    <div className="job">CEO At Truserve</div>
+                    <div className="job">CEO at Truserve</div>
                   </div>
                 </div>
 
@@ -1169,7 +1169,7 @@ const Slider = () => {
                   <div className="container-info">
                     <div className="pp"></div>
                     <div className="name">Santhosh</div>
-                    <div className="job">CEO At Bharatha Varshayam</div>
+                    <div className="job">CEO at Bharatha Varshayam</div>
                   </div>
                 </div>
               </div>
