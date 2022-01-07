@@ -94,7 +94,7 @@ const ECamp = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="managed-service.html"> Admin Module</a>
+                       Admin Module 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -124,7 +124,7 @@ const ECamp = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="industries.html"> Staff Module</a>
+                       Staff Module 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -154,7 +154,7 @@ const ECamp = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Parent Module</a>
+                        Parent Module 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -185,7 +185,7 @@ const ECamp = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Student Module</a>
+                       Student Module 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -217,7 +217,7 @@ const ECamp = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> FTS Module</a>
+                        FTS Module 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -248,7 +248,7 @@ const ECamp = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Fee Collection</a>
+                        Fee Collection 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">

@@ -145,7 +145,7 @@ const Inventory = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="managed-service.html"> Order management</a>
+                        Order management 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -174,10 +174,10 @@ const Inventory = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="industries.html">
+                       
                         {' '}
                         Warehouse/stockroom management
-                      </a>
+                       
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -206,7 +206,7 @@ const Inventory = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Barcode scanning</a>
+                       Barcode scanning 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -238,7 +238,7 @@ const Inventory = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="managed-service.html">Inventory tracking</a>
+                      Inventory tracking 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -267,7 +267,7 @@ const Inventory = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="industries.html">Reports</a>
+                      Reports 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">

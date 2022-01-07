@@ -91,7 +91,7 @@ const Finjo = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="managed-service.html"> Party Allocation</a>
+                       Party Allocation 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -120,7 +120,7 @@ const Finjo = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="industries.html"> Debt Collection</a>
+                        Debt Collection 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -149,7 +149,7 @@ const Finjo = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Ledger</a>
+                       Ledger 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -179,7 +179,7 @@ const Finjo = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Day Book</a>
+                       Day Book 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -209,7 +209,7 @@ const Finjo = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Loan Approval</a>
+                       Loan Approval 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -239,7 +239,7 @@ const Finjo = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="business-solution.html"> Loan Summary</a>
+                       Loan Summary 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
