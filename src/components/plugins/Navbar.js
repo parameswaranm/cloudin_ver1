@@ -3,14 +3,14 @@ import React, { Fragment, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-  const handleScroll = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: 'smooth',
-      /* you can also use 'auto' behaviour 
-         in place of 'smooth' */
-    });
-  };
+  // const handleScroll = () => {
+  //   window.scrollTo({
+  //     top: document.documentElement.scrollHeight,
+  //     behavior: 'smooth',
+  //     /* you can also use 'auto' behaviour 
+  //        in place of 'smooth' */
+  //   });
+  // };
 
   useEffect(() => {
     $(window).on('scroll', function () {
@@ -93,7 +93,7 @@ const Navbar = () => {
                       <li>
                         <a
                           href="https://www.facebook.com/cloudintechnologies/"
-                          target="_blank"
+                          target="_blank" rel="noreferrer"
                         >
                           <i className="fa fa-facebook"></i>
                         </a>
@@ -101,7 +101,7 @@ const Navbar = () => {
                       <li>
                         <a
                           href="https://twitter.com/cloudintech?s=21"
-                          target="_blank"
+                          target="_blank" rel="noreferrer"
                         >
                           <i className="fa fa-twitter"></i>
                         </a>
@@ -110,7 +110,7 @@ const Navbar = () => {
                       <li>
                         <a
                           href="https://www.linkedin.com/company/cloudin-tech"
-                          target="_blank"
+                          target="_blank" rel="noreferrer"
                         >
                           <i className="fa fa-linkedin"></i>
                         </a>
@@ -310,7 +310,7 @@ const Navbar = () => {
                         </li>
                         <li
                           className="cursor_pointer"
-                          // onClick={handleScroll}
+                           
                         >
                           <NavLink activeClassName="active" to="/contactus">
                             Contact us
@@ -321,7 +321,7 @@ const Navbar = () => {
                         <a
                           className="dtbtn"
                           href="https://t.me/cloudinQ"
-                          target="_blank"
+                          target="_blank" rel="noreferrer"
                         >
                           Get a quote
                         </a>

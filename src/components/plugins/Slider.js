@@ -61,7 +61,7 @@ const Slider = () => {
                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
                       <img
                         src="../assets/images/slider/banner1_icon.png"
-                        className="mainbannerAlignImg"
+                        className="mainbannerAlignImg" alt=""
                       />
                     </div>
                   </div>
@@ -115,7 +115,7 @@ const Slider = () => {
                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
                       <img
                         src="../assets/images/slider/banner2_icon.png"
-                        className="mainbannerAlignImg2"
+                        className="mainbannerAlignImg2" alt=""
                       />
                     </div>
                   </div>

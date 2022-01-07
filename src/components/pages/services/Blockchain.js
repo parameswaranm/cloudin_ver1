@@ -122,7 +122,7 @@ const Blockchain = () => {
               <div className="blockChain_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/blockchain/blockchain.svg" />
+                  <img src="/assets/images/cloudinIcons/blockchain/blockchain.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -139,7 +139,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/blockchain/choose.svg" />
+                  <img src="/assets/images/cloudinIcons/blockchain/choose.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -158,7 +158,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/blockchain/Financial.svg" />
+                  <img src="/assets/images/cloudinIcons/blockchain/Financial.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -174,7 +174,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/blockchain/Token.svg" />
+                  <img src="/assets/images/cloudinIcons/blockchain/Token.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -190,7 +190,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/blockchain/Smart.svg" />
+                  <img src="/assets/images/cloudinIcons/blockchain/Smart.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -206,7 +206,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/blockchain/wallet.svg" />
+                  <img src="/assets/images/cloudinIcons/blockchain/wallet.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -225,7 +225,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/blockchain/Supplychain.svg" />
+                  <img src="/assets/images/cloudinIcons/blockchain/Supplychain.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -242,7 +242,7 @@ const Blockchain = () => {
             <div className="blockChain_Box_minHeight2 service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/blockchain/ledger.svg" />
+                  <img src="/assets/images/cloudinIcons/blockchain/ledger.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">

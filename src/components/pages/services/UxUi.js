@@ -122,7 +122,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <img src="/assets/images/cloudinIcons/uxui/interactionDesign.svg" />
+                      <img src="/assets/images/cloudinIcons/uxui/interactionDesign.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -139,7 +139,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <img src="/assets/images/cloudinIcons/uxui/informationArch.svg" />
+                      <img src="/assets/images/cloudinIcons/uxui/informationArch.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -157,7 +157,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <img src="/assets/images/cloudinIcons/uxui/mobileUX.svg" />
+                      <img src="/assets/images/cloudinIcons/uxui/mobileUX.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -174,7 +174,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <img src="/assets/images/cloudinIcons/uxui/uxtesting.svg" />
+                      <img src="/assets/images/cloudinIcons/uxui/uxtesting.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -192,7 +192,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <img src="/assets/images/cloudinIcons/uxui/uxResearch.svg" />
+                      <img src="/assets/images/cloudinIcons/uxui/uxResearch.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -208,7 +208,7 @@ const UxUi = () => {
                 <div className="uxui_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <img src="/assets/images/cloudinIcons/uxui/wireframe.svg" />
+                      <img src="/assets/images/cloudinIcons/uxui/wireframe.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">

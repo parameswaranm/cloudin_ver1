@@ -93,7 +93,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="#"> Admin Module</a>
+                       Admin Module 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -123,7 +123,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="#">Employee Module</a>
+                       Employee Module 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -153,7 +153,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="#"> Mapping</a>
+                       Mapping 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -183,7 +183,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="#"> Notifications</a>
+                       Notifications 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -213,7 +213,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="#"> Task View</a>
+                       Task View 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">
@@ -243,7 +243,7 @@ const MrBusiness = () => {
                   </div>
                   <div className="feature_style_eight_title pt-4">
                     <h4>
-                      <a href="#"> Product View</a>
+                       Product View 
                     </h4>
                   </div>
                   <div className="feature_style_eight_text pt-15">

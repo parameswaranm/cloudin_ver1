@@ -122,7 +122,7 @@ const ITConsulting = () => {
                 <div className="itCons_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/ITconsulting/strategicAssessment.svg" />
+                    <img src="/assets/images/cloudinIcons/ITconsulting/strategicAssessment.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -139,7 +139,7 @@ const ITConsulting = () => {
                 <div className="itCons_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/ITconsulting/governanceFrameWork.svg" />
+                    <img src="/assets/images/cloudinIcons/ITconsulting/governanceFrameWork.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -156,7 +156,7 @@ const ITConsulting = () => {
                 <div className="itCons_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/ITconsulting/blueprint.svg" />
+                    <img src="/assets/images/cloudinIcons/ITconsulting/blueprint.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -174,7 +174,7 @@ const ITConsulting = () => {
                 <div className="itCons_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/ITconsulting/maturity.svg" />
+                    <img src="/assets/images/cloudinIcons/ITconsulting/maturity.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -192,7 +192,7 @@ const ITConsulting = () => {
                 <div className="itCons_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/ITconsulting/domain.svg" />
+                    <img src="/assets/images/cloudinIcons/ITconsulting/domain.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -209,7 +209,7 @@ const ITConsulting = () => {
                 <div className="itCons_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/ITconsulting/performance.svg" />
+                    <img src="/assets/images/cloudinIcons/ITconsulting/performance.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -229,7 +229,7 @@ const ITConsulting = () => {
                 <div className="itCons_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/ITconsulting/Improvements.svg" />
+                    <img src="/assets/images/cloudinIcons/ITconsulting/Improvements.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">

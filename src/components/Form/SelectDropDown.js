@@ -1,6 +1,5 @@
-import { DriveEtaTwoTone } from '@material-ui/icons';
-import React, { useState } from 'react';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import React from 'react';
+// import { Tooltip } from 'react-bootstrap';
 import Select from 'react-select';
 
 import ErrorMessageDisplay from './ErrorMessage';
@@ -26,11 +25,11 @@ const SelectDropDown = (props) => {
     ...rest
   } = props;
 
-  const tooltipText = dataTip;
+  //const tooltipText = dataTip;
   const selectError = true;
 
   const isIndemnifier = isIndemnifierDdl;
-  const [selectedOptions, setSelectedOptions] = useState(options);
+  
 
   let error;
   if (errors[name] && touched[name]) {
@@ -42,31 +41,31 @@ const SelectDropDown = (props) => {
     return;
   };
 
-  const handleSelectFn = (e) => {
-    let value = e;
-    let takeItem = options.filter((item) => {
-      return item.value == value;
-    });
-    value = takeItem[0];
-    handleChange(value);
-    //e.preventDefault();
-  };
+  // const handleSelectFn = (e) => {
+  //   let value = e;
+  //   let takeItem = options.filter((item) => {
+  //     return item.value == value;
+  //   });
+  //   value = takeItem[0];
+  //   handleChange(value);
+  //   //e.preventDefault();
+  // };
 
   const handleBlur = () => {
     props.onBlur(name, true);
   };
 
-  const renderTooltip = (props) => {
-    if (tooltipText) {
-      return (
-        <Tooltip id="button-tooltip" {...props}>
-          <span className="text-left"> {tooltipText} </span>
-        </Tooltip>
-      );
-    } else {
-      return <div></div>;
-    }
-  };
+  // const renderTooltip = (props) => {
+  //   if (tooltipText) {
+  //     return (
+  //       <Tooltip id="button-tooltip" {...props}>
+  //         <span className="text-left"> {tooltipText} </span>
+  //       </Tooltip>
+  //     );
+  //   } else {
+  //     return <div></div>;
+  //   }
+  // };
 
   return (
     <React.Fragment>

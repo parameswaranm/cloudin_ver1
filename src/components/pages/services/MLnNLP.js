@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const MLnNLP = () => {
   useEffect(() => {
@@ -262,10 +263,10 @@ const MLnNLP = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <NavLink activeClassName="active" to="/joinourteam">
                         Read More
                         <i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>

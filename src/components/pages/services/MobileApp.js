@@ -118,7 +118,7 @@ const MobileApp = () => {
                 <div className="mobiApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/mobileApp/AppIntegration.svg" />
+                    <img src="/assets/images/cloudinIcons/mobileApp/AppIntegration.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -134,7 +134,7 @@ const MobileApp = () => {
                 <div className="mobiApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/mobileApp/techConsulting.svg" />
+                    <img src="/assets/images/cloudinIcons/mobileApp/techConsulting.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -150,7 +150,7 @@ const MobileApp = () => {
                 <div className="mobiApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/mobileApp/Digitaltransformation.svg" />
+                    <img src="/assets/images/cloudinIcons/mobileApp/Digitaltransformation.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -167,7 +167,7 @@ const MobileApp = () => {
                 <div className="mobiApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/mobileApp/AppIntegration.svg" />
+                    <img src="/assets/images/cloudinIcons/mobileApp/AppIntegration.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -185,7 +185,7 @@ const MobileApp = () => {
                 <div className="mobiApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/mobileApp/AppMigrating.svg" />
+                    <img src="/assets/images/cloudinIcons/mobileApp/AppMigrating.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -203,7 +203,7 @@ const MobileApp = () => {
                 <div className="mobiApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/mobileApp/test-results.svg" />
+                    <img src="/assets/images/cloudinIcons/mobileApp/test-results.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">

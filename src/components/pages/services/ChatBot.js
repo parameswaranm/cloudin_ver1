@@ -118,7 +118,7 @@ const ChatBot = () => {
                   <div className="service_style_eight bgDrkGrey">
                     <div className="service_style_eight_icon">
                       <div className="icon">
-                      <img src="/assets/images/cloudinIcons/chatBot/Scripted.svg" />
+                      <img src="/assets/images/cloudinIcons/chatBot/Scripted.svg" alt="" />
                       </div>
                     </div>
                     <div className="service_style_eight_content white pt-4">
@@ -134,7 +134,7 @@ const ChatBot = () => {
                   <div className="service_style_eight bgDrkGrey">
                     <div className="service_style_eight_icon">
                       <div className="icon">
-                      <img src="/assets/images/cloudinIcons/chatBot/CustomerSupport.svg" />
+                      <img src="/assets/images/cloudinIcons/chatBot/CustomerSupport.svg" alt="" />
                       </div>
                     </div>
                     <div className="service_style_eight_content white pt-4">
@@ -150,7 +150,7 @@ const ChatBot = () => {
                   <div className="service_style_eight bgDrkGrey">
                     <div className="service_style_eight_icon">
                       <div className="icon">
-                      <img src="/assets/images/cloudinIcons/chatBot/Assistant.svg" />
+                      <img src="/assets/images/cloudinIcons/chatBot/Assistant.svg" alt="" />
                       </div>
                     </div>
                     <div className="service_style_eight_content white pt-4">
@@ -167,7 +167,7 @@ const ChatBot = () => {
                   <div className="service_style_eight bgDrkGrey">
                     <div className="service_style_eight_icon">
                       <div className="icon">
-                      <img src="/assets/images/cloudinIcons/chatBot/artificial-intelligence.svg" />
+                      <img src="/assets/images/cloudinIcons/chatBot/artificial-intelligence.svg" alt="" />
                       </div>
                     </div>
                     <div className="service_style_eight_content white pt-4">
@@ -184,7 +184,7 @@ const ChatBot = () => {
                   <div className="service_style_eight bgDrkGrey">
                     <div className="service_style_eight_icon">
                       <div className="icon">
-                      <img src="/assets/images/cloudinIcons/chatBot/Transactional.svg" />
+                      <img src="/assets/images/cloudinIcons/chatBot/Transactional.svg" alt="" />
                       </div>
                     </div>
                     <div className="service_style_eight_content white pt-4">
@@ -201,7 +201,7 @@ const ChatBot = () => {
                   <div className="service_style_eight bgDrkGrey">
                     <div className="service_style_eight_icon">
                       <div className="icon">
-                      <img src="/assets/images/cloudinIcons/chatBot/Contextual.svg" />
+                      <img src="/assets/images/cloudinIcons/chatBot/Contextual.svg" alt="" />
                       </div>
                     </div>
                     <div className="service_style_eight_content white pt-4">
@@ -219,7 +219,7 @@ const ChatBot = () => {
                   <div className="service_style_eight bgDrkGrey">
                     <div className="service_style_eight_icon">
                       <div className="icon">
-                      <img src="/assets/images/cloudinIcons/chatBot/VoiceEnabled.svg" width="25" />
+                      <img src="/assets/images/cloudinIcons/chatBot/VoiceEnabled.svg" width="25" alt="" />
                       </div>
                     </div>
                     <div className="service_style_eight_content white pt-4">

@@ -149,7 +149,7 @@ const Privacy = () => {
                     credit card information by our store and its service
                     providers. For more insight, you may also want to read terms
                     and conditions of razorpay on{' '}
-                    <a href="https://razorpay.com" target="_blank">
+                    <a href="https://razorpay.com" target="_blank" rel="noreferrer">
                       https://razorpay.com
                     </a>
                   </p>

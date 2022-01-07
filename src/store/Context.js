@@ -10,7 +10,7 @@ const initialState = {
 export const Context = React.createContext(initialState);
 export const Store = ({ children }) => {
   const [state, dispatch] = useReducer(Reducer, initialState);
-  console.log('Shared context state--->', state);
+  
   return (
     <Context.Provider value={[state, dispatch]}>{children}</Context.Provider>
   );

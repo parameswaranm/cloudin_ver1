@@ -116,7 +116,7 @@ const AWSnAzure = () => {
             </div>
             <div className="col-lg-6">
               <div className="acction_thumb">
-                <img src="assets/images/shape2.png" alt="" />
+                <img src="assets/images/shape2.png"  alt="" />
               </div>
             </div>
           </div>
@@ -129,7 +129,7 @@ const AWSnAzure = () => {
               <div className="aws_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/aws/Cloudstrategy.svg" />
+                  <img src="/assets/images/cloudinIcons/aws/Cloudstrategy.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -146,7 +146,7 @@ const AWSnAzure = () => {
               <div className="aws_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/aws/cloudMigrating.svg" />
+                  <img src="/assets/images/cloudinIcons/aws/cloudMigrating.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -164,7 +164,7 @@ const AWSnAzure = () => {
               <div className="aws_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/aws/CloudManagedServices.svg" />
+                  <img src="/assets/images/cloudinIcons/aws/CloudManagedServices.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -184,7 +184,7 @@ const AWSnAzure = () => {
               <div className="aws_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/aws/Infrastructure.svg" />
+                  <img src="/assets/images/cloudinIcons/aws/Infrastructure.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">
@@ -202,7 +202,7 @@ const AWSnAzure = () => {
               <div className="aws_Box_minHeight service_style_eight bgDrkGrey">
                 <div className="service_style_eight_icon">
                   <div className="icon">
-                  <img src="/assets/images/cloudinIcons/aws/Monitoring.svg" />
+                  <img src="/assets/images/cloudinIcons/aws/Monitoring.svg" alt="" />
                   </div>
                 </div>
                 <div className="service_style_eight_content white pt-4">

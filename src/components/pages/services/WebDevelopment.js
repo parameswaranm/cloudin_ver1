@@ -118,7 +118,7 @@ const WebDevelopment = () => {
                 <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/webApp/webApplication.svg" />
+                    <img src="/assets/images/cloudinIcons/webApp/webApplication.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -135,7 +135,7 @@ const WebDevelopment = () => {
                 <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/webApp/TechConsulting.svg" />
+                    <img src="/assets/images/cloudinIcons/webApp/TechConsulting.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -151,7 +151,7 @@ const WebDevelopment = () => {
                 <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/webApp/dedication.svg" />
+                    <img src="/assets/images/cloudinIcons/webApp/dedication.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -169,7 +169,7 @@ const WebDevelopment = () => {
                 <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/webApp/full-stack.svg" />
+                    <img src="/assets/images/cloudinIcons/webApp/full-stack.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -186,7 +186,7 @@ const WebDevelopment = () => {
                 <div className="webApp_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                    <img src="/assets/images/cloudinIcons/webApp/third-party.svg" />
+                    <img src="/assets/images/cloudinIcons/webApp/third-party.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">

@@ -120,7 +120,7 @@ const ReactDev = () => {
                 <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <img src="/assets/images/cloudinIcons/react/cycle.svg" />
+                      <img src="/assets/images/cloudinIcons/react/cycle.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -137,7 +137,7 @@ const ReactDev = () => {
                 <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <img src="/assets/images/cloudinIcons/react/mvp.svg" />
+                      <img src="/assets/images/cloudinIcons/react/mvp.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -154,7 +154,7 @@ const ReactDev = () => {
                 <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <img src="/assets/images/cloudinIcons/react/maintenance.svg" />
+                      <img src="/assets/images/cloudinIcons/react/maintenance.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">
@@ -173,7 +173,7 @@ const ReactDev = () => {
                 <div className="react_Box_minHeight service_style_eight bgDrkGrey">
                   <div className="service_style_eight_icon">
                     <div className="icon">
-                      <img src="/assets/images/cloudinIcons/react/StaffAugmentation.svg" />
+                      <img src="/assets/images/cloudinIcons/react/StaffAugmentation.svg" alt="" />
                     </div>
                   </div>
                   <div className="service_style_eight_content white pt-4">

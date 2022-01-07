@@ -50,26 +50,26 @@ const Footer = () => {
                 </div>
                 <div className="follow-company-info pt-3">
                   <div className="follow-company-text mr-3">
-                    <a href="#">
-                      <p>Follow Us</p>
-                    </a>
+                     
+                      <p className="color_white">Follow Us</p>
+                    
                   </div>
                   <div className="follow-company-icon">
                     <a
                       href="https://www.facebook.com/cloudintechnologies/"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       <i className="fa fa-facebook"></i>
                     </a>
                     <a
                       href="https://twitter.com/cloudintech?s=21"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       <i className="fa fa-twitter"></i>
                     </a>
                     <a
                       href="https://www.linkedin.com/company/cloudin-tech"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       <i className="fa fa-linkedin"></i>
                     </a>
@@ -129,7 +129,7 @@ const Footer = () => {
                         width="40"
                         onClick={() => {
                           countryClick('ind');
-                        }}
+                        }}  alt=""
                       />
                       {ind && (
                         <span className="active display_block flag_width"></span>
@@ -142,7 +142,7 @@ const Footer = () => {
                         width="40"
                         onClick={() => {
                           countryClick('us');
-                        }}
+                        }} alt=""
                       />
                       {us && (
                         <span className="active display_block flag_width"></span>
@@ -155,7 +155,7 @@ const Footer = () => {
                         width="40"
                         onClick={() => {
                           countryClick('nz');
-                        }}
+                        }} alt=""
                       />
                       {nz && (
                         <span className="active display_block flag_width"></span>
@@ -171,20 +171,20 @@ const Footer = () => {
                   <h4 className="widget-title pb-0">Recent post</h4>
                   <div className=" active pb-3">
                     <div className="recent-post-image mr-3  pb-4">
-                      <a href="#">
+                       
                         <img
                           width="200"
                           height="200"
                           src="../assets/images/recent_posts.svg"
                           alt=""
                         />
-                      </a>
+                       
                     </div>
                     <div className="recent-post-text">
                       <h5>
                         <a
                           href="https://www.linkedin.com/feed/update/urn:li:activity:6848295836535934976"
-                          target="_blank"
+                          target="_blank" rel="noreferrer"
                         >
                           Virtual Assistant
                         </a>

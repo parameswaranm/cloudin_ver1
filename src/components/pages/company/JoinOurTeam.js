@@ -195,19 +195,19 @@ const JoinOurTeam = () => {
                   <div className="widget_about_icon">
                     <a
                       href="https://www.facebook.com/cloudintechnologies/"
-                      target="_blank"
+                      target="_blank"  rel="noreferrer"
                     >
                       <i className="fa fa-facebook"></i>
                     </a>
                     <a
                       href="https://twitter.com/cloudintech?s=21"
-                      target="_blank"
+                      target="_blank"  rel="noreferrer"
                     >
                       <i className="fa fa-twitter"></i>
                     </a>
                     <a
                       href="https://www.linkedin.com/company/cloudin-tech"
-                      target="_blank"
+                      target="_blank"  rel="noreferrer"
                     >
                       <i className="fa fa-linkedin"></i>
                     </a>
@@ -239,14 +239,14 @@ const JoinOurTeam = () => {
                     <h2 className="widget-title">Popular Post</h2>
                     <div className="recent-post-item">
                       <div className="recent-post-image">
-                        <a href="#">
+                        
                           <img
                             width="100"
                             height="80"
                             src="assets/images/recent1.jpg"
                             alt=""
                           />
-                        </a>
+                         
                       </div>
                       <div className="recent-post-text">
                         <h4>
@@ -257,14 +257,14 @@ const JoinOurTeam = () => {
                     </div>
                     <div className="recent-post-item">
                       <div className="recent-post-image">
-                        <a href="#">
+                         
                           <img
                             width="100"
                             height="80"
                             src="assets/images/recent2.jpg"
                             alt=""
                           />
-                        </a>
+                        
                       </div>
                       <div className="recent-post-text">
                         <h4>
@@ -275,14 +275,14 @@ const JoinOurTeam = () => {
                     </div>
                     <div className="recent-post-item">
                       <div className="recent-post-image">
-                        <a href="#">
+                         
                           <img
                             width="100"
                             height="80"
                             src="assets/images/recent3.jpg"
                             alt=""
                           />
-                        </a>
+                        
                       </div>
                       <div className="recent-post-text">
                         <h4>

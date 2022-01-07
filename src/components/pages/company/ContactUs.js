@@ -1,36 +1,35 @@
 import axios from 'axios';
-import emailjs, { init, send } from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import { Form, Formik } from 'formik';
-import React, { Fragment, useContext, useEffect, useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { matchPath, Prompt } from 'react-router-dom';
 
 import cloudinConfig from '../../../store/config';
-import { Context } from '../../../store/Context';
+// import { Context } from '../../../store/Context';
 import FormikControl from '../../Form/FormikControl';
 import { ContactValidation } from '../../validation/validation';
 
-export const handleChange = (event) => {
-  const keyCode = event.keyCode || event.which;
-  const keyValue = String.fromCharCode(keyCode);
-  if (
-    /^[0-9!@":<>?;,/#~\$%\^\&*\)\(+=._\[(.*?)\]\{(.*?)\}/`/\\|]|[^'][^-]+$/g.test(
-      keyValue
-    )
-  )
-    event.preventDefault();
-};
+// export const handleChange = (event) => {
+//   const keyCode = event.keyCode || event.which;
+//   const keyValue = String.fromCharCode(keyCode);
+//   if (
+//     /^[0-9!@":<>?;,/#~\$%\^\&*\)\(+=._\[(.*?)\]\{(.*?)\}/`/\\|]|[^'][^-]+$/g.test(
+//       keyValue
+//     )
+//   )
+//     event.preventDefault();
+// };
 
 const ContactUs = (props) => {
   const [isValueChanged, setisValueChanged] = useState(false);
-  const [state, dispatch] = useContext(Context);
+  //const [state, dispatch] = useContext(Context);
   const [country, setCountry] = useState(false);
   const [postsData, setpostsData] = useState([]);
   const [submitConfirm, setSubmitConfirm] = useState(false);
 
-  const [testProp, settestProp] = React.useState(null);
-  const context2 = useContext(Context);
-  console.log(context2);
+  // const [testProp, settestProp] = React.useState(null);
+  //const context2 = useContext(Context);
 
   const services = [
     {
@@ -127,37 +126,37 @@ const ContactUs = (props) => {
       label: 'Automotive',
       value: 'Automotive',
     },
-    ,
+
     {
       id: '3',
       label: 'Chemicals',
       value: 'Chemicals',
     },
-    ,
+
     {
       id: '4',
       label: 'Civic/Social Organization',
       value: 'Civic/Social Organization',
     },
-    ,
+
     {
       id: '5',
       label: 'Computer Software/Engineering',
       value: 'Computer Software/Engineering',
     },
-    ,
+
     {
       id: '6',
       label: 'Consumer Services',
       value: 'Consumer Services',
     },
-    ,
+
     {
       id: '7',
       label: 'Design',
       value: 'Design',
     },
-    ,
+
     {
       id: '8',
       label: 'Farming',
@@ -181,12 +180,13 @@ const ContactUs = (props) => {
           .then((response) => {
             const postsData = response.data;
             console.log(postsData);
-            dispatch({ type: 'SET_POSTS', payload: postsData });
+            //dispatch({ type: 'SET_POSTS', payload: postsData });
             setCountry(true);
             setpostsData(postsData);
           })
           .catch((error) => {
-            dispatch({ type: 'SET_ERROR', payload: error });
+            console.log(error);
+            //dispatch({ type: 'SET_ERROR', payload: error });
           });
       }
     }
@@ -227,8 +227,13 @@ const ContactUs = (props) => {
                   {/* <h1>{context2.initialState}</h1> */}
                   <ul>
                     <li>
-                      <NavLink activeClassName="active" to="/home">Home</NavLink> <i className="fa fa-angle-right"></i>{' '}
-                      <NavLink activeClassName="active" to="/aboutus">Company</NavLink>{' '}
+                      <NavLink activeClassName="active" to="/home">
+                        Home
+                      </NavLink>{' '}
+                      <i className="fa fa-angle-right"></i>{' '}
+                      <NavLink activeClassName="active" to="/aboutus">
+                        Company
+                      </NavLink>{' '}
                       <i className="fa fa-angle-right"></i>{' '}
                       <span>Contact us</span>
                     </li>
@@ -268,11 +273,15 @@ const ContactUs = (props) => {
                 </div>
                 <div className="contact_address_text">
                   <p>
-                  10th street, Sri sai Towers,<br />
-                  Axis Bank Building,<br />
-                  from 10th street, Sri Kumaran Cut,<br />
-                  from 100 feet Malabar Cut,<br />
-                  Coimbatore, Tamilnadu.
+                    10th street, Sri sai Towers,
+                    <br />
+                    Axis Bank Building,
+                    <br />
+                    from 10th street, Sri Kumaran Cut,
+                    <br />
+                    from 100 feet Malabar Cut,
+                    <br />
+                    Coimbatore, Tamilnadu.
                   </p>
                 </div>
               </div>
@@ -367,7 +376,7 @@ const ContactUs = (props) => {
                 {(formik) => {
                   const {
                     values,
-                    errors,
+                    //errors,
                     setFieldValue,
                     setFieldTouched,
                     handleSubmit,
@@ -444,7 +453,6 @@ const ContactUs = (props) => {
                                   options={
                                     postsData &&
                                     postsData.map((item) => ({
-                                       
                                       label: item.name.common,
                                       value: item.languages,
                                     }))
